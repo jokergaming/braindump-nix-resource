@@ -16,14 +16,16 @@ git clone https://github.com/GTrunSec/braindump-nix-resource.git
 :END:
 
 打开本地去加载nix-resource
+
 #+NAME:
 #+CAPTION:
 #+ATTR_HTML: :width 500
-[[file:attach/Jan 20th, 2021 2021-01-20 13-11-31.png]]
+[[file:attach/2021-01-20-13-11-31.png]]
 
 
 添加本地文件后刷新文件
+
 #+NAME:
 #+CAPTION:
 #+ATTR_HTML: :width 500
-[[file:attach/guangtao's nix 2021-01-20 13-14-47.png]]
+[[file:attach/2021-01-20-13-14-47.png]]
