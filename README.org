@@ -10,12 +10,12 @@ git clone https://github.com/GTrunSec/braindump-nix-resource.git
 #+end_src
 
 
-* 登录[[https://logseq.com/][Logseq: A local-first knowledge base]] :ATTACH:
+* open the [[https://logseq.com/][Logseq: A local-first knowledge base]] :ATTACH:
 :PROPERTIES:
 :ID:       9dd6e2f9-fa40-41fc-a63d-7bb5179f3a91
 :END:
 
-打开本地去加载nix-resource
+- to load the nix-resource in local
 
 #+NAME:
 #+CAPTION:
@@ -23,9 +23,15 @@ git clone https://github.com/GTrunSec/braindump-nix-resource.git
 [[file:attach/2021-01-20-13-11-31.png]]
 
 
-添加本地文件后刷新文件
+- refresh the logseq page
 
 #+NAME:
 #+CAPTION:
 #+ATTR_HTML: :width 500
 [[file:attach/2021-01-20-13-14-47.png]]
+* How to use
+
+press ~shift~ key then click the one type of link
+
+
+* cleaning the cookies to delete the database(for fixing logseq bug if you got some errors here)
