@@ -1,0 +1,12 @@
+#+TITLE: Nix Tools
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-15 Fri 14:49
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+- tags :: [[file:GuangTao-nix.org][GuangTao's Nix]]
+
+* [[https://github.com/msteen/nix-prefetch][msteen/nix-prefetch: Prefetch any fetcher function call, e.g. a package source]]
