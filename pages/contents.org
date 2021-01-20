@@ -11,20 +11,25 @@
 
 * [[file:../nix-configuraiton-collect.org][Nix Configuration Collect]]
 
+* [[file:../nix-overlays.org][Nix Overlays]]
+
+* [[file:../nix-builder.org][Nix Builder]]
 
 * [[file:../nix-shell.org][Nix Shell]]
 
 
-* Nix feeds
+* Nix Feeds
 ** [[file:../nixos-weekly.org][NixOS Weekly]]
+** [[file:../nixos-discourse.org][NixOS Discourse]]
 
-* Nix Media
+* [[file:../nix-media.org][Nix Media]]
 ** [[file:../nix-con.org][Nix Con]]
 
 ** [[file:../nix-friday.org][Nix Friday]]
 
-* Nix Deployment
+* [[file:../nix-deploy.org][Nix Deploy]]
 ** [[file:../disnix.org][disnix]]
+
 
 * Nix Testing
 

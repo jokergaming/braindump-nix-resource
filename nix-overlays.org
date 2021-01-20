@@ -44,6 +44,10 @@
 :END:
 - [2021-01-20 Wed 15:28] <- [[id:e8bc57dc-9326-4504-bafe-fc935921cd85][Nix mkShell]]
 *** [[https://discourse.nixos.org/t/how-to-override-stdenv-for-all-packages-in-mkshell/10368][How to override stdenv for all packages in mkShell - Learn - NixOS Discourse]]
+:PROPERTIES:
+:ID:       28ae149d-f3eb-4e93-a8fb-ca8dbb7652fd
+:END:
+- [2021-01-20 Wed 15:37] <- [[id:4ef5be46-35c1-4b8d-836d-f791c8eb45c2][NixOS Discourse Soultions]]
 ** Home Manager Overlay
 :PROPERTIES:
 :id: a7ec1635-5502-4b02-922f-fc4489c4d352

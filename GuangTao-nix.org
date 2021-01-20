@@ -25,8 +25,8 @@
 :PROPERTIES:
 :ID:       f125fef0-d7b8-4145-ba15-5a4b3e92abaa
 :END:
-- [2020-12-05 Sat 14:19] <- [[id:a02049b7-89fa-41d0-99f0-b171957245a8][Burke Libbey - YouTube]]
 - [2021-01-20 Wed 15:23] -> [[id:c9d18b9c-bf36-41ce-9659-d02cdb5d6b3e][Functional programming and Nix for reproducible, immutable infrastructure - YouTube]]
+ - [2021-01-20 Wed 15:51] -> [[id:d0f44c69-95f5-47ec-95c4-39e1ded68cc6][Burke Libbey - YouTube]]
 ** [[https://www.youtube.com/watch?v=2mG0zM_wtYs][Everything You Always Wanted To Know About Nix (But Were Afraid To Ask) - YouTube]]
 :PROPERTIES:
 :ID:       69d4adbf-d5cb-4cbb-90ea-5ea3f1bd5999
@@ -164,79 +164,6 @@ security.lockKernelModules = false
 
 Disable kernel module loading once the system is fully initialised.
 Module loading is disabled until the next reboot.  Problems caused by delayed module loading can be fixed by adding the module(s) in question to <option>boot.kernelModule
-
-
-
-* Cachix
-** push binary cache with nix-shell
-#+begin_src sh :async t :exports both :results output
-nix-store --query --references $(nix-instantiate my-default.nix) | xargs nix-store --realise | xargs nix-store --query --requisites | cachix push nsm-data-analysis
-#+end_src
-** Pushing Flake inputs to Cachix
-:PROPERTIES:
-:ID:       0ba37b42-f3e7-453a-b021-3f817b9264e8
-:END:
-- [2020-11-06 Fri 19:22] -> [[id:09df2341-7aa3-4f56-a823-04b4e591988d][Nix Flakes edition | $ zimbatm]]
-- [2020-11-20 Fri 02:31] -> [[id:0fbe152b-bad6-4054-a201-c51ab509ed73][flakes]]
-
-
-- [[id:09df2341-7aa3-4f56-a823-04b4e591988d][Nix Flakes edition | $ zimbatm]]
-
-  #+begin_src sh :async t :exports both :results output
-  nix flake archive --json \
-      | jq -r '.path,(.inputs|to_entries[].value.path)' \
-      | cachix push $cache_name
-  #+end_src
-
-- nix build -> soultion
-
-  #+begin_src sh :async t :exports both :results output
-  nix path-info --json | jq -r '.[].path' | cachix push $cache_name
-  #+end_src
-
-
-- nix develop
-
-  #+begin_src sh :async t :exports both :results output
-  nix develop --profile dev-profiile && cachix push mycache dev-profile
-  #+end_src
-
-
-
-** [[https://discourse.nixos.org/t/how-to-push-the-derivations-from-a-shell-nix-to-cachix/3172][How to push the derivations from a shell.nix to cachix? - Learn - NixOS Discourse]]
-
-#+begin_src sh :async t :exports both :results output
-nix-store --query --references $(nix-instantiate default.nix) | \xargs nix-store --realise | xargs nix-store --query --requisites | cachix push $NAME
-#+end_src
-
-
-* nix expressions
-:PROPERTIES:
-:id: 0dcb0b08-5d66-4cf9-8b14-fafaccb739b0
-:END:
-- [2020-11-09 Mon 19:12] ->   [[id:3ab69c8f-30f5-4eb6-9d40-8430aaf8203f][GTrunSec/nix-expressions-jupyter-repl-test]]
-
-
-** Nix language
-*** [[https://www.youtube.com/watch?v=X2GJv0vrLo0][Nix Expression Language in under 5 Minutes - YouTube]]
-
-- [[https://gist.github.com/jD91mZM2/ccc42f1068780a52ed20c212120ebdac][presentation.org]]
-*** [[https://www.youtube.com/watch?v=m4sv2M9jRLg][“Nix Fundamentals - YouTube”🔊]] :nix:expression:
-
-*** [[https://nix.dev/anti-patterns/language.html][Nix language — nix.dev documentation]]
-** [[https://github.com/zimbatm/nix-experiments][zimbatm/nix-experiments]]
-** parser
-*** [[https://github.com/orivej/go-nix][orivej/go-nix: Nix language parser and Nix-compatible file hasher in Go]]
-:PROPERTIES:
-:id: d1d661f8-178c-4bd9-b848-0a2b768066f5
-:END:
-
-- [2020-11-20 Fri 01:18] <- [[id:33107453-baf3-4e27-871b-833b93f5ad76][Nix Golang]]
-*** [[https://github.com/nprindle/nix-parsec][nprindle/nix-parsec]]
-** ✰ IMPORTANT [[https://nixos.wiki/wiki/Nix_Expression_Language][Nix Expression Language - NixOS Wiki]]
-** nix-path
-*** [[https://stackoverflow.com/questions/43850371/when-does-a-nix-path-type-make-it-into-the-nix-store-and-when-not/43850372#43850372][nixos - When does a nix path type make it into the nix store and when not? - Stack Overflow]]
-
 
 * Nix Hash
 ** [[https://github.com/jwiegley/nix-update-el][jwiegley/nix-update-el: An Emacs command for updating fetch declarations in place]]
@@ -379,21 +306,7 @@ nix develop \
 
 ** [[https://github.com/nix-community/impermanence][nix-community/impermanence: Modules to help you handle persistent state on systems with ephemeral root storage [maintainer=@talyz]​]] :storage:
 
-* Nix Darwin
-:PROPERTIES:
-:id: 5c5f33c3-c217-4693-b5f6-e5fdf0c744a9
-:END:
- - [[file:nix-macos.org][Nix on MacOS]]
 
- - [2020-12-05 Sat 14:21] -> [[id:a02049b7-89fa-41d0-99f0-b171957245a8][Burke Libbey - YouTube]]
-* Nix Video
 
-** [[https://www.youtube.com/channel/UCSW5DqTyfOI9sUvnFoCjBlQ/videos][Burke Libbey - YouTube]]
-:PROPERTIES:
-:ID:       a02049b7-89fa-41d0-99f0-b171957245a8
-:END:
-
-- [2020-12-05 Sat 14:21] <- [[id:5c5f33c3-c217-4693-b5f6-e5fdf0c744a9][Nix Darwin]]
-- [2020-12-05 Sat 14:20] <- [[id:f125fef0-d7b8-4145-ba15-5a4b3e92abaa][Nix Learn materials]]
 * Nix to Npm
 ** [[https://github.com/serokell/nix-npm-buildpackage][serokell/nix-npm-buildpackage: Build nix packages that use npm/yarn]]

@@ -1,0 +1,57 @@
+#+TITLE: Cachix
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-20 Wed 15:40
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
+
+
+* Cachix
+** push binary cache with nix-shell
+#+begin_src sh :async t :exports both :results output
+nix-store --query --references $(nix-instantiate my-default.nix) | xargs nix-store --realise | xargs nix-store --query --requisites | cachix push nsm-data-analysis
+#+end_src
+** Pushing Flake inputs to Cachix
+:PROPERTIES:
+:ID:       0ba37b42-f3e7-453a-b021-3f817b9264e8
+:END:
+- [2020-11-06 Fri 19:22] -> [[id:09df2341-7aa3-4f56-a823-04b4e591988d][Nix Flakes edition | $ zimbatm]]
+- [2020-11-20 Fri 02:31] -> [[id:0fbe152b-bad6-4054-a201-c51ab509ed73][flakes]]
+
+
+- [[id:09df2341-7aa3-4f56-a823-04b4e591988d][Nix Flakes edition | $ zimbatm]]
+
+  #+begin_src sh :async t :exports both :results output
+  nix flake archive --json \
+      | jq -r '.path,(.inputs|to_entries[].value.path)' \
+      | cachix push $cache_name
+  #+end_src
+
+- nix build -> soultion
+
+  #+begin_src sh :async t :exports both :results output
+  nix path-info --json | jq -r '.[].path' | cachix push $cache_name
+  #+end_src
+
+
+- nix develop
+
+  #+begin_src sh :async t :exports both :results output
+  nix develop --profile dev-profiile && cachix push mycache dev-profile
+  #+end_src
+
+
+
+** [[https://discourse.nixos.org/t/how-to-push-the-derivations-from-a-shell-nix-to-cachix/3172][How to push the derivations from a shell.nix to cachix? - Learn - NixOS Discourse]]
+:PROPERTIES:
+:ID:       1dd49a18-7c19-4cdf-950c-410c499ae7f1
+:END:
+
+- [2021-01-20 Wed 15:41] <- [[id:4ef5be46-35c1-4b8d-836d-f791c8eb45c2][NixOS Discourse Soultions]]
+#+begin_src sh :async t :exports both :results output
+nix-store --query --references $(nix-instantiate default.nix) | \xargs nix-store --realise | xargs nix-store --query --requisites | cachix push $NAME
+#+end_src

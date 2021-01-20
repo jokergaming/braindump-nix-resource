@@ -1,0 +1,21 @@
+#+TITLE: NixOS Discourse
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-20 Wed 15:35
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+- tags :: [[file:nixos.org][NixOS]]
+
+* [[https://discourse.nixos.org/][NixOS Discourse - NixOS community forum]]
+
+
+
+* NixOS Discourse Soultions
+:PROPERTIES:
+:ID:       4ef5be46-35c1-4b8d-836d-f791c8eb45c2
+:END:
+ - [2021-01-20 Wed 15:41] -> [[id:1dd49a18-7c19-4cdf-950c-410c499ae7f1][How to push the derivations from a shell.nix to cachix? - Learn - NixOS Discourse]]
+ - [2021-01-20 Wed 15:37] -> [[id:28ae149d-f3eb-4e93-a8fb-ca8dbb7652fd][How to override stdenv for all packages in mkShell - Learn - NixOS Discourse]]

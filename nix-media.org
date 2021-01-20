@@ -1,0 +1,21 @@
+#+TITLE: Nix Media
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-20 Wed 15:49
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
+
+* Nix Videos
+
+** [[https://www.youtube.com/channel/UCSW5DqTyfOI9sUvnFoCjBlQ/videos][Burke Libbey - YouTube]]
+:PROPERTIES:
+:ID:       d0f44c69-95f5-47ec-95c4-39e1ded68cc6
+:END:
+
+
+ - [2021-01-20 Wed 15:51] <- [[id:f125fef0-d7b8-4145-ba15-5a4b3e92abaa][Learning Nix Materials]]
+ - [2021-01-20 Wed 15:51] <- [[id:5c5f33c3-c217-4693-b5f6-e5fdf0c744a9][Nix On Darwin]]

@@ -8,6 +8,13 @@
 
 - tags :: [[file:GuangTao-nix.org][GuangTao's Nix]]
 
+* Nix On Darwin
+:PROPERTIES:
+:id: 5c5f33c3-c217-4693-b5f6-e5fdf0c744a9
+:END:
+
+- [2021-01-20 Wed 15:51] -> [[id:d0f44c69-95f5-47ec-95c4-39e1ded68cc6][Burke Libbey - YouTube]]
+
 * [[https://hardselius.github.io/2020/nix-please/][Nix Please! | MartinHardselius]]
 
 - Big Sur [2020-12-07 Mon 15:54]

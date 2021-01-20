@@ -12,17 +12,45 @@
 - tags :: [[file:GuangTao-nix.org][GuangTao's Nix]]
 
 
-*  Advent of Code with Nix
-:PROPERTIES:
-:id: 7726d48c-5ff3-45e0-9ba9-53bc9af2f186
-:END:
+* ✰ IMPORTANT [[https://nixos.wiki/wiki/Nix_Expression_Language][Nix Expression Language - NixOS Wiki]]
+** Nix Path
+*** [[https://stackoverflow.com/questions/43850371/when-does-a-nix-path-type-make-it-into-the-nix-store-and-when-not/43850372#43850372][nixos - When does a nix path type make it into the nix store and when not? - Stack Overflow]]
 
-- [2020-12-11 Fri 21:29] <- [[id:40cfb238-83d9-4697-a3ab-20c22e392ad4][Advent of Code 2020]]
-- [2020-12-01 Tue 14:57] <- [[id:879e7b4a-dbd1-41c1-a2ec-f826d438379b][Advent of Code 2019]]
+
+
 * Learning Nix Lang
+** [[https://www.youtube.com/watch?v=X2GJv0vrLo0][Nix Expression Language in under 5 Minutes - YouTube]]
 ** [[https://www.youtube.com/watch?v=mKXLAbrKrno][Functional programming and Nix for reproducible, immutable infrastructure - YouTube]]
 :PROPERTIES:
 :ID:       c9d18b9c-bf36-41ce-9659-d02cdb5d6b3e
 :END:
 - [2021-01-20 Wed 15:23] <- [[id:f125fef0-d7b8-4145-ba15-5a4b3e92abaa][Learning Nix  materials]]
 - [2021-01-20 Wed 15:23] -> [[id:f419049c-2f2e-4b5f-93a3-ded0b44b1450][Welcome to nix.dev — nix.dev documentation]]
+
+** [[https://gist.github.com/jD91mZM2/ccc42f1068780a52ed20c212120ebdac][presentation.org]]
+** [[https://www.youtube.com/watch?v=m4sv2M9jRLg][“Nix Fundamentals - YouTube”🔊]] :nix:expression:
+** [[https://nix.dev/anti-patterns/language.html][Nix language — nix.dev documentation]]
+** [[https://github.com/zimbatm/nix-experiments][zimbatm/nix-experiments]]
+
+* Nix Expressions Repl
+:PROPERTIES:
+:id: 0dcb0b08-5d66-4cf9-8b14-fafaccb739b0
+:END:
+- [2020-11-09 Mon 19:12] ->   [[id:3ab69c8f-30f5-4eb6-9d40-8430aaf8203f][GTrunSec/nix-expressions-jupyter-repl-test]]
+
+
+* Nix Lang Parser
+** [[https://github.com/orivej/go-nix][orivej/go-nix: Nix language parser and Nix-compatible file hasher in Go]]
+:PROPERTIES:
+:id: d1d661f8-178c-4bd9-b848-0a2b768066f5
+:END:
+
+- [2020-11-20 Fri 01:18] <- [[id:33107453-baf3-4e27-871b-833b93f5ad76][Nix Golang]]
+** [[https://github.com/nprindle/nix-parsec][nprindle/nix-parsec]]
+* Advent of Code with Nix
+:PROPERTIES:
+:id: 7726d48c-5ff3-45e0-9ba9-53bc9af2f186
+:END:
+
+- [2020-12-11 Fri 21:29] <- [[id:40cfb238-83d9-4697-a3ab-20c22e392ad4][Advent of Code 2020]]
+- [2020-12-01 Tue 14:57] <- [[id:879e7b4a-dbd1-41c1-a2ec-f826d438379b][Advent of Code 2019]]
