@@ -7,15 +7,34 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 
-- tags :: [[file:GuangTao-nix.org][GuangTao's Nix]]
+- tags :: [[file:GuangTao-nix.org][GuangTao's Nix]], [[file:nixos.org][NixOS]]
 
 * Nix Con
+
+- [[https://github.com/nixcon][NixCon - the conference about Nix & NixOS]]
+
 ** Nix Con 2020
 
 - [[https://2020.nixcon.org/][NixCon 2020 - A conference about Nix and NixOS]]
 
 *** [[https://www.youtube.com/watch?v=7sQa04olUA0][(1) NixCon 2020 Live Stream - Day 1 - YouTube]]
 
+*** [[https://www.youtube.com/watch?v=bEUiXDJbwW8][“(1) Ingolf Wagner: Why nixos (rC3 2020) - YouTube”🔊]]
+:PROPERTIES:
+:ID:       2294bf3b-cd1b-49c7-a807-505e2556b833
+:END:
+
+- [2021-01-20 Wed 14:36] <- [[id:4008c43c-f382-4d45-98d1-891d92c5ef60][Why NixOS]]
+** Nix Con 2019
+
+- [[https://github.com/grahamc/talks/tree/master/talks-nixcon-2019][talks/talks-nixcon-2019 at master · grahamc/talks]]
+
+*** [[https://www.youtube.com/watch?v=lxtHH838yko][(1) Nix: How and Why it Works (NixCon 2019) - YouTube]]
+:PROPERTIES:
+:ID:       fd0e2248-bce9-42ac-9c38-27f0931926d0
+:END:
+
+- [2021-01-20 Wed 14:37] <- [[id:4008c43c-f382-4d45-98d1-891d92c5ef60][Why NixOS]]
 ** [[https://www.youtube.com/watch?v=6a2NOvod_MY][Sander van der Burg: Deploying microservices with Disnix (NixCon 2015) - YouTube]]
 :PROPERTIES:
 :ID:       e6a28a23-b149-4145-82ae-e157c0597d82

@@ -16,48 +16,22 @@
 :END:
  - [2020-12-19 Sat 14:35] -> [[id:0196e56d-f4d4-451d-8848-3f37119e7856][Flakes wiki]]
 ** [[https://nix.dev/][Welcome to nix.dev — nix.dev documentation]]
+:PROPERTIES:
+:ID:       f419049c-2f2e-4b5f-93a3-ded0b44b1450
+:END:
 
-* Nix Learn materials
+- [2021-01-20 Wed 15:23] <- [[id:c9d18b9c-bf36-41ce-9659-d02cdb5d6b3e][Functional programming and Nix for reproducible, immutable infrastructure - YouTube]]
+* Learning Nix Materials
 :PROPERTIES:
 :ID:       f125fef0-d7b8-4145-ba15-5a4b3e92abaa
 :END:
 - [2020-12-05 Sat 14:19] <- [[id:a02049b7-89fa-41d0-99f0-b171957245a8][Burke Libbey - YouTube]]
+- [2021-01-20 Wed 15:23] -> [[id:c9d18b9c-bf36-41ce-9659-d02cdb5d6b3e][Functional programming and Nix for reproducible, immutable infrastructure - YouTube]]
 ** [[https://www.youtube.com/watch?v=2mG0zM_wtYs][Everything You Always Wanted To Know About Nix (But Were Afraid To Ask) - YouTube]]
 :PROPERTIES:
 :ID:       69d4adbf-d5cb-4cbb-90ea-5ea3f1bd5999
 :END:
-** [[https://www.youtube.com/watch?v=mKXLAbrKrno][Functional programming and Nix for reproducible, immutable infrastructure - YouTube]]
-* Nix Overlays
-:PROPERTIES:
-:ID:       72dd4354-5092-433e-aade-6df04bf6c96d
-:END:
-- [[id:a7ec1635-5502-4b02-922f-fc4489c4d352][home-manager overlay]]
-** ROS on Nix
-:PROPERTIES:
-:ID:       2e14b38e-081e-4de8-9466-4db3e2e3291a
-:END:
-- [[id:f97dc1ae-97a8-44ca-8f94-1212d8905c12][lopsided98/nix-ros-overlay: ROS overlay for the Nix package manager]]
-** Haskell Overlay
-:PROPERTIES:
-:id: 0f7615af-e259-43e3-99b3-e0b69ba1d61b
-:END:
 
-- [2020-10-26 Mon 21:56] -> [[id:1247ef62-a9d8-4779-a793-97802be399f4][Nix Haskell Development (2020) - Howto - NixOS Discourse]]
-
-*** [[https://discourse.nixos.org/t/override-src-of-an-haskell-package/10770/3][Override src of an Haskell package - Learn - NixOS Discourse]]
-
-** Python Overlay
-:PROPERTIES:
-:id: abf91e96-c75b-4313-8ac7-da713ae86a4f
-:END:
-
--/.config/nixpkgs/nixos/channel/nixpkgs/pkgs/servers/syncserver/
-*** [[https://discourse.nixos.org/t/how-to-override-python-package-anki/8213][How to override Python package (Anki)? - Learn - NixOS Discourse]]
-:PROPERTIES:
-:ID:       2154d26e-213b-4ef4-9081-4960f8facb73
-:END:
-** Overlay in mkShell
-*** [[https://discourse.nixos.org/t/how-to-override-stdenv-for-all-packages-in-mkshell/10368][How to override stdenv for all packages in mkShell - Learn - NixOS Discourse]]
 
 * Programming languages Environment
 ** wiki
@@ -191,46 +165,6 @@ security.lockKernelModules = false
 Disable kernel module loading once the system is fully initialised.
 Module loading is disabled until the next reboot.  Problems caused by delayed module loading can be fixed by adding the module(s) in question to <option>boot.kernelModule
 
-
-* home-manager
-- [[https://rycee.gitlab.io/home-manager/index.html#_how_do_set_up_a_configuration_for_multiple_users_machines][Home Manager Manual]]
-** home-manager overlay
-:PROPERTIES:
-:id: a7ec1635-5502-4b02-922f-fc4489c4d352
-:END:
-
-- [2020-09-30 Wed 20:54] <- [[id:72dd4354-5092-433e-aade-6df04bf6c96d][Nix Overlays]]
-
-- {{{emebed(())}}}
-
-- [[https://discourse.nixos.org/t/using-an-overlay-in-home-manager/6302][Using an overlay in home-manager - Learn - NixOS Discourse]]
-
-
-#+begin_src nix :async t :exports both :results output
-
-
-{ config, pkgs, ... }:
-
-let
-  pkgsUnstable = import <unstable> {};
-in
-
-{
-  nixpkgs.overlays = [
-    (final: previous: {
-      skim = pkgsUnstable.skim;
-    })
-  ];
-
-  programs.home-manager.enable = true;
-  programs.skim.enable = true;
-}
-
-#+end_src
-
-** IsLinux or IsDarwin
-
-- [[https://github.com/nix-community/home-manager/issues/414][Infinite Recursion With stdenv functions · Issue #414 · nix-community/home-manager · GitHub]]
 
 
 * Cachix
@@ -419,11 +353,7 @@ nix develop \
 ** [[https://github.com/symphorien/nix-du][symphorien/nix-du: Visualise which gc-roots to delete to free some space in your nix store]]
 * Nix dependency manager
 ** [[https://github.com/obsidiansystems/nix-thunk][obsidiansystems/nix-thunk]]
-* Useful Nix Bin Scripts
-** [[https://github.com/ryantrinkle/nix-build-inplace/blob/master/nix-build-inplace][nix-build-inplace/nix-build-inplace at master · ryantrinkle/nix-build-inplace]]
-** [[https://github.com/elitak/nixos-infect][elitak/nixos-infect: [GPLv3+] install nixos over the existing OS in a DigitalOcean droplet (and others with minor modifications)]]
-* Nix Docker deployment
-** [[https://github.com/barrucadu/nixfiles/blob/master/hosts/dreamlands/configuration.nix][nixfiles/configuration.nix at master · barrucadu/nixfiles]]
+
 * Nix GUI
 ** [[https://github.com/pmiddend/nixos-manager][pmiddend/nixos-manager: Manage your NixOS packages and configuration via a simple, intuitive UI]]
 
@@ -439,19 +369,8 @@ nix develop \
 
 - [[file:../data-science/Jupyter-data-science.org][Jupyter Data Science]]
 
-* Nix Option
 
-** Nix binary substitutions
 
-*** [[https://github.com/tweag/trustix][tweag/trustix]]
-
-* Advent of Code with Nix
-:PROPERTIES:
-:id: 7726d48c-5ff3-45e0-9ba9-53bc9af2f186
-:END:
-
-- [2020-12-11 Fri 21:29] <- [[id:40cfb238-83d9-4697-a3ab-20c22e392ad4][Advent of Code 2020]]
-- [2020-12-01 Tue 14:57] <- [[id:879e7b4a-dbd1-41c1-a2ec-f826d438379b][Advent of Code 2019]]
 * Nix Modules
 :PROPERTIES:
 :ID:       a931ebeb-015b-49fd-875b-682986cef960
@@ -478,8 +397,3 @@ nix develop \
 - [2020-12-05 Sat 14:20] <- [[id:f125fef0-d7b8-4145-ba15-5a4b3e92abaa][Nix Learn materials]]
 * Nix to Npm
 ** [[https://github.com/serokell/nix-npm-buildpackage][serokell/nix-npm-buildpackage: Build nix packages that use npm/yarn]]
-* Nix secrets
-** [[https://github.com/lopsided98/nixos-secrets][lopsided98/nixos-secrets: A tool for managing secrets within NixOS]]
-** [[https://github.com/Mic92/sops-nix][Mic92/sops-nix: Atomic secret provisioning for NixOS based on sops]]
-** [[https://github.com/ryantm/agenix][ryantm/agenix: age-encrypted secrets for NixOS]]
-** [[https://github.com/tweag/trustix][tweag/trustix]]

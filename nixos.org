@@ -9,6 +9,16 @@
 
 - tags :: [[file:../../../../Documents/org-notes/braindump/system/linux.org][Linux]], [[file:GuangTao-nix.org][GuangTao's Nix]], [[file:../../../../Documents/org-notes/braindump/system/system.org][System]]
 
+* Why NixOS
+:PROPERTIES:
+:ID:       4008c43c-f382-4d45-98d1-891d92c5ef60
+:END:
+
+ - [2021-01-20 Wed 14:36] -> [[id:2294bf3b-cd1b-49c7-a807-505e2556b833][“(1) Ingolf Wagner: Why nixos (rC3 2020) - YouTube”🔊]]
+ - [2021-01-20 Wed 14:37] -> [[id:fd0e2248-bce9-42ac-9c38-27f0931926d0][(1) Nix: How and Why it Works (NixCon 2019) - YouTube]]
+* Install NixOS
+** [[https://github.com/elitak/nixos-infect][elitak/nixos-infect: [GPLv3+] install nixos over the existing OS in a DigitalOcean droplet (and others with minor modifications)]]
+** [[https://github.com/ryantrinkle/nix-build-inplace/blob/master/nix-build-inplace][nix-build-inplace/nix-build-inplace at master · ryantrinkle/nix-build-inplace]]
 * NixOS desktop
 ** XDG
 *** [[https://discourse.nixos.org/t/how-to-set-the-xdg-mime-default/3560/3][How to set the `xdg-mime` default? - Learn - NixOS Discourse]]
@@ -23,8 +33,6 @@
 ** [[https://github.com/babariviere/dotfiles][babariviere/dotfiles: Personal dotfiles]] :flakes:
 ** [[https://github.com/kmein/niveum/tree/master/modules][niveum/modules at master · kmein/niveum]]
 ** [[https://github.com/Xe/nixos-configs][Xe/nixos-configs: My NixOS configs]] :nixops:
-* NixOS config to other plantform
-** [[https://github.com/elitak/nixos-infect][elitak/nixos-infect: [GPLv3+] install nixos over the existing OS in a DigitalOcean droplet (and others with minor modifications)]]
 * NixOS Flakes
 ** [[https://nrdxp.dev/nixos/2020/12/19/NixOS-Flakes-and-KISS.html][NixOS, Flakes and KISS | nrdxp]]
 * NixOS Network

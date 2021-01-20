@@ -1,0 +1,20 @@
+#+TITLE: Nix Checks
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-20 Wed 14:55
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+- tags :: [[file:nixos.org][NixOS]]
+
+* [[https://github.com/grahamc/r13y.com][grahamc/r13y.com: NixOS Reproducibility Checker]]
+
+
+
+* Nix Check
+:PROPERTIES:
+:ID:       a1d122d7-49df-41d8-96ea-7adf99be5754
+:END:
+
+ - [2021-01-20 Wed 14:58] -> [[id:842ee114-eacb-486e-ab6e-bf505fd85015][Nix Flake Check]]

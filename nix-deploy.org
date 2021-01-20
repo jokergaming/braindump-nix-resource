@@ -1,0 +1,19 @@
+#+TITLE: Nix Deploy
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-20 Wed 15:13
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+- tags :: [[file:GuangTao-nix.org][GuangTao's Nix]]
+
+* Nix Deployments
+
+* Nix Deploy Services
+:PROPERTIES:
+:ID:       741e72b2-cd10-4cfc-b4a5-ad6f60b32614
+:END:
+ - [2021-01-20 Wed 15:14] -> [[id:c773e0e9-27ef-470a-8038-87633989e2da][Deploy Nix Binary Server]]
+* Nix Docker Deployment
+** [[https://github.com/barrucadu/nixfiles/blob/master/hosts/dreamlands/configuration.nix][nixfiles/configuration.nix at master · barrucadu/nixfiles]]

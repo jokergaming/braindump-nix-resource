@@ -1,0 +1,19 @@
+#+TITLE: Nix Binary Cache
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-20 Wed 15:12
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+* Deploy Nix Binary Server
+:PROPERTIES:
+:ID:       c773e0e9-27ef-470a-8038-87633989e2da
+:END:
+- [2021-01-20 Wed 15:14] <- [[id:741e72b2-cd10-4cfc-b4a5-ad6f60b32614][Nix Deploy Services]]
+** [[https://github.com/tweag/trustix][tweag/trustix]]
+:PROPERTIES:
+:ID:       1f10f872-3a65-4c72-87b7-ef71008c51d1
+:END:
+- [2021-01-20 Wed 15:21] <- [[id:1f041fa3-7154-47a2-8a86-1677eb8dbf1a][Nix Secrets]]

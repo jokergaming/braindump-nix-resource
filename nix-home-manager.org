@@ -1,0 +1,20 @@
+#+TITLE: Nix Home Manager
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-20 Wed 15:26
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
+
+* Nix Home Manager
+:PROPERTIES:
+:ID:       8a96e836-6f9d-4eb2-810f-d1de50b674f0
+:END:
+- [[https://rycee.gitlab.io/home-manager/index.html#_how_do_set_up_a_configuration_for_multiple_users_machines][Home Manager Manual]]
+- [2021-01-20 Wed 15:26] -> [[id:a7ec1635-5502-4b02-922f-fc4489c4d352][Home Manager Overlay]]
+** IsLinux or IsDarwin on Home Manager
+
+- [[https://github.com/nix-community/home-manager/issues/414][Infinite Recursion With stdenv functions · Issue #414 · nix-community/home-manager · GitHub]]

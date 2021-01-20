@@ -1,0 +1,28 @@
+#+TITLE: Nix Lang
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-20 Wed 15:17
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
+
+- tags :: [[file:GuangTao-nix.org][GuangTao's Nix]]
+
+
+*  Advent of Code with Nix
+:PROPERTIES:
+:id: 7726d48c-5ff3-45e0-9ba9-53bc9af2f186
+:END:
+
+- [2020-12-11 Fri 21:29] <- [[id:40cfb238-83d9-4697-a3ab-20c22e392ad4][Advent of Code 2020]]
+- [2020-12-01 Tue 14:57] <- [[id:879e7b4a-dbd1-41c1-a2ec-f826d438379b][Advent of Code 2019]]
+* Learning Nix Lang
+** [[https://www.youtube.com/watch?v=mKXLAbrKrno][Functional programming and Nix for reproducible, immutable infrastructure - YouTube]]
+:PROPERTIES:
+:ID:       c9d18b9c-bf36-41ce-9659-d02cdb5d6b3e
+:END:
+- [2021-01-20 Wed 15:23] <- [[id:f125fef0-d7b8-4145-ba15-5a4b3e92abaa][Learning Nix  materials]]
+- [2021-01-20 Wed 15:23] -> [[id:f419049c-2f2e-4b5f-93a3-ded0b44b1450][Welcome to nix.dev — nix.dev documentation]]

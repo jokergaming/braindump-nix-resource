@@ -1,0 +1,79 @@
+#+TITLE: Nix Overlays
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-20 Wed 15:24
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
+* Nix Overlays
+:PROPERTIES:
+:ID:       72dd4354-5092-433e-aade-6df04bf6c96d
+:END:
+
+** ROS on Nix
+:PROPERTIES:
+:ID:       2e14b38e-081e-4de8-9466-4db3e2e3291a
+:END:
+- [[id:f97dc1ae-97a8-44ca-8f94-1212d8905c12][lopsided98/nix-ros-overlay: ROS overlay for the Nix package manager]]
+** Haskell Overlay
+:PROPERTIES:
+:id: 0f7615af-e259-43e3-99b3-e0b69ba1d61b
+:END:
+
+- [2020-10-26 Mon 21:56] -> [[id:1247ef62-a9d8-4779-a793-97802be399f4][Nix Haskell Development (2020) - Howto - NixOS Discourse]]
+
+*** [[https://discourse.nixos.org/t/override-src-of-an-haskell-package/10770/3][Override src of an Haskell package - Learn - NixOS Discourse]]
+
+** Python Overlay
+:PROPERTIES:
+:id: abf91e96-c75b-4313-8ac7-da713ae86a4f
+:END:
+
+-/.config/nixpkgs/nixos/channel/nixpkgs/pkgs/servers/syncserver/
+
+*** [[https://discourse.nixos.org/t/how-to-override-python-package-anki/8213][How to override Python package (Anki)? - Learn - NixOS Discourse]]
+:PROPERTIES:
+:ID:       2154d26e-213b-4ef4-9081-4960f8facb73
+:END:
+** Overlay in mkShell
+:PROPERTIES:
+:ID:       1b08368a-265a-4999-b8fd-6aa700407c50
+:END:
+- [2021-01-20 Wed 15:28] <- [[id:e8bc57dc-9326-4504-bafe-fc935921cd85][Nix mkShell]]
+*** [[https://discourse.nixos.org/t/how-to-override-stdenv-for-all-packages-in-mkshell/10368][How to override stdenv for all packages in mkShell - Learn - NixOS Discourse]]
+** Home Manager Overlay
+:PROPERTIES:
+:id: a7ec1635-5502-4b02-922f-fc4489c4d352
+:END:
+
+
+
+ - [2021-01-20 Wed 15:26] <- [[id:8a96e836-6f9d-4eb2-810f-d1de50b674f0][home-manager]]
+
+ - [[https://discourse.nixos.org/t/using-an-overlay-in-home-manager/6302][Using an overlay in home-manager - Learn - NixOS Discourse]]
+
+
+#+begin_src nix :async t :exports both :results output
+
+
+{ config, pkgs, ... }:
+
+let
+  pkgsUnstable = import <unstable> {};
+in
+
+{
+  nixpkgs.overlays = [
+    (final: previous: {
+      skim = pkgsUnstable.skim;
+    })
+  ];
+
+  programs.home-manager.enable = true;
+  programs.skim.enable = true;
+}
+
+#+end_src

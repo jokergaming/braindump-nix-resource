@@ -9,14 +9,14 @@
 
 - tags :: [[file:GuangTao-nix.org][GuangTao's Nix]], [[file:nix-friday.org][Nix Friday]]
 
-* learning flakes
+* Learning Flakes
 
 - [[https://www.youtube.com/watch?v=98EwejpIJzE][Flakes in nix 3.0 - YouTube]]
 - [[https://discourse.nixos.org/t/good-practice-for-nix-flakes/9706/2][Good practice for Nix Flakes - Learn - NixOS Discourse]]
 - [[https://www.tweag.io/blog/2020-05-25-flakes/][Tweag - Nix Flakes, Part 1: An introduction and tutorial]]
 - [[https://www.tweag.io/blog/2020-06-25-eval-cache/][Tweag - Nix Flakes, Part 2: Evaluation caching]]
 - [[https://www.tweag.io/blog/2020-07-31-nixos-flakes/][Tweag - Nix Flakes, Part 3: Managing NixOS systems]]
-* Nix flakes related
+* Nix Flake related
 :PROPERTIES:
 :ID:       0fbe152b-bad6-4054-a201-c51ab509ed73
 :END:
@@ -26,7 +26,7 @@
 - [2020-11-09 Mon 15:40] -> [[id:8a9e45f4-fa22-41b9-9862-d653ea91822c][configuration flakes]]
 - [2021-01-02 Sat 23:15] -> [[id:daf6fac0-3a1c-4b57-8073-90ad315e8a7e][“Jörg Thalheim: Nix flakes 101 (rC3 2020) - YouTube”🔊]]
 
-* Nix Flakes wiki
+* Nix Flake wiki
 :PROPERTIES:
 :id: 0196e56d-f4d4-451d-8848-3f37119e7856
 :END:
@@ -141,7 +141,11 @@ import nixpkgs {
 
 #+end_src
 
-* hydra CI build packages
+* Nix Flake Hydra CI Build Packages
+:PROPERTIES:
+:ID:       2481d060-8e9f-4798-83f1-f05d64ad9951
+:END:
+- [2021-01-20 Wed 14:59] <- [[id:0a70ae5f-0dac-4854-bfa8-ba1e2693bee9][Hydra Builder]]
 - [[https://github.com/edolstra/dhdm/blob/master/flake.nix][dhdm/flake.nix at master · edolstra/dhdm]]
 
 #+begin_src nix :async t :exports both :results output
@@ -168,8 +172,11 @@ import nixpkgs {
 }
 #+end_src
 
-* flake check
-
+* Nix Flake Check
+:PROPERTIES:
+:ID:       842ee114-eacb-486e-ab6e-bf505fd85015
+:END:
+- [2021-01-20 Wed 14:58] <- [[id:a1d122d7-49df-41d8-96ea-7adf99be5754][Nix Check]]
 ** [[https://discourse.nixos.org/t/my-painpoints-with-flakes/9750/5][My painpoints with flakes - NixOS Discourse]]
 * using git submodules with flake ?
 ** FIXME [[https://discourse.nixos.org/t/is-it-possible-to-use-git-submodules-with-flakes/10257][Is it possible to use git submodules with flakes? - Learn - NixOS Discourse]]

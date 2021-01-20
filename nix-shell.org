@@ -9,6 +9,13 @@
 
 - tags :: [[file:GuangTao-nix.org][GuangTao's Nix]]
 
+* Nix mkShell
+:PROPERTIES:
+:ID:       e8bc57dc-9326-4504-bafe-fc935921cd85
+:END:
+
+ - [2021-01-20 Wed 15:28] -> [[id:1b08368a-265a-4999-b8fd-6aa700407c50][Overlay in mkShell]]
+
 * [[https://github.com/numtide/devshell][numtide/devshell: Per project developer environments]]
 * [[https://discourse.nixos.org/t/packaging-a-shell-script-that-has-completions/10290][Packaging a shell script that has completions - Learn - NixOS Discourse]]
 
