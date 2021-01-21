@@ -17,14 +17,24 @@
  - [2021-01-20 Wed 14:36] -> [[id:2294bf3b-cd1b-49c7-a807-505e2556b833][“(1) Ingolf Wagner: Why nixos (rC3 2020) - YouTube”🔊]]
  - [2021-01-20 Wed 14:37] -> [[id:fd0e2248-bce9-42ac-9c38-27f0931926d0][(1) Nix: How and Why it Works (NixCon 2019) - YouTube]]
 * Install NixOS
+:PROPERTIES:
+:ID:       bd532fad-56e8-441c-a4f2-1954ec2ca109
+:END:
+- [2021-01-20 Wed 20:06] <- [[id:c45e2588-b338-4c2f-a39a-1b1cf4a67922][NixOS Install]]
 ** [[https://github.com/elitak/nixos-infect][elitak/nixos-infect: [GPLv3+] install nixos over the existing OS in a DigitalOcean droplet (and others with minor modifications)]]
 ** [[https://github.com/ryantrinkle/nix-build-inplace/blob/master/nix-build-inplace][nix-build-inplace/nix-build-inplace at master · ryantrinkle/nix-build-inplace]]
+** [[https://github.com/jeaye/nixos-in-place][jeaye/nixos-in-place: Install NixOS on top of any existing Linux distribution without rebooting]]
+** [[https://github.com/Trundle/NixOS-WSL][Trundle/NixOS-WSL: NixOS on WSL(2)]] :wsl:
+* [[https://search.nixos.org/options?channel=20.09&show=environment.etc.%3Cname%3E.group&from=0&size=30&sort=relevance&query=etc][NixOS Search - Optios]]
+
 * NixOS desktop
 ** XDG
 *** [[https://discourse.nixos.org/t/how-to-set-the-xdg-mime-default/3560/3][How to set the `xdg-mime` default? - Learn - NixOS Discourse]]
-* [[https://search.nixos.org/options?channel=20.09&show=environment.etc.%3Cname%3E.group&from=0&size=30&sort=relevance&query=etc][NixOS Search - Optios]]
-
 * NixOS Documents
+:PROPERTIES:
+:ID:       d7186c4b-1c7e-4b2f-80d7-c594a201a4ce
+:END:
+- [2021-01-20 Wed 20:15] <- [[id:b3517c38-80fc-490f-b0e9-7fef04fd854f][Nix Documents]]
 ** [[https://nixos.wiki/wiki/Module][Module - NixOS Wiki]]
 ** [[https://github.com/NixOS/hydra][NixOS/hydra: Hydra, the Nix-based continuous build system]]
 ** [[https://planet.nixos.org/][NixOS Planet]]

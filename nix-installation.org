@@ -6,7 +6,7 @@
 #+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-
+- tags :: [[file:nixos.org][NixOS]]
 
 
 
@@ -14,8 +14,11 @@
 
 
 
-* NixOS Install
-
+* NixOS Install Recipes
+:PROPERTIES:
+:ID:       c45e2588-b338-4c2f-a39a-1b1cf4a67922
+:END:
+ - [2021-01-20 Wed 20:06] -> [[id:bd532fad-56e8-441c-a4f2-1954ec2ca109][Install NixOS]]
 ** [[https://github.com/Mic92/nixos-shell][Mic92/nixos-shell: Spawns lightweight nixos vms in a shell - Brave]]
 
 ** [[https://github.com/nix-community/nixos-install-scripts][nix-community/nixos-install-scripts: collection of one-shot scripts to install NixOS on various server hosters and other hardware. [maintainer=@nh2] - Brave]]

@@ -15,6 +15,7 @@
 :id: b3517c38-80fc-490f-b0e9-7fef04fd854f
 :END:
  - [2020-12-19 Sat 14:35] -> [[id:0196e56d-f4d4-451d-8848-3f37119e7856][Flakes wiki]]
+ - [2021-01-20 Wed 20:15] -> [[id:d7186c4b-1c7e-4b2f-80d7-c594a201a4ce][NixOS Documents]]
 ** [[https://nix.dev/][Welcome to nix.dev — nix.dev documentation]]
 :PROPERTIES:
 :ID:       f419049c-2f2e-4b5f-93a3-ded0b44b1450
