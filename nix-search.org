@@ -1,0 +1,18 @@
+#+TITLE: Nix Search
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-22 Fri 12:01
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+- tags :: [[file:nixos.org][NixOS]]
+
+* [[https://search.nixos.org/options?channel=20.09&show=environment.etc.%3Cname%3E.group&from=0&size=30&sort=relevance&query=etc][NixOS Search - Optios]]
+:PROPERTIES:
+:ID:       c86a593e-08cf-4640-a604-00d3f37cf1dc
+:END:
+- [2021-01-22 Fri 12:02] <- [[id:d7186c4b-1c7e-4b2f-80d7-c594a201a4ce][NixOS Documents]]
+
+* [[https://lazamar.co.uk/nix-versions/][Nix Package Versions - Brave]]

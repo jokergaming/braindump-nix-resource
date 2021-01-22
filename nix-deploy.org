@@ -9,7 +9,10 @@
 - tags :: [[file:GuangTao-nix.org][GuangTao's Nix]]
 
 * Nix Deployments
-
+:PROPERTIES:
+:ID:       63902fbf-3333-4a66-bd7a-85aff74cd739
+:END:
+ - [2021-01-22 Fri 00:52] -> [[id:73ffce07-74fb-447e-8472-73d2a96e102a][Nix Use Cases]]
 * Nix Deploy Services
 :PROPERTIES:
 :ID:       741e72b2-cd10-4cfc-b4a5-ad6f60b32614

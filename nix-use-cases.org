@@ -1,0 +1,15 @@
+#+TITLE: Nix Use Cases
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-22 Fri 00:48
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+* Nix Use Cases
+:PROPERTIES:
+:ID:       73ffce07-74fb-447e-8472-73d2a96e102a
+:END:
+- [2021-01-22 Fri 00:52] <- [[id:63902fbf-3333-4a66-bd7a-85aff74cd739][Nix Deployments]]
+** [[https://www.youtube.com/watch?v=KaIRpx11qrc][“(3) Shipit! Presents: How Shopify Uses Nix - YouTube”🔊]]

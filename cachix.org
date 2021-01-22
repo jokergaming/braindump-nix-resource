@@ -9,7 +9,6 @@
 
 
 
-
 * Cachix
 ** push binary cache with nix-shell
 #+begin_src sh :async t :exports both :results output

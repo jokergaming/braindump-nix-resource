@@ -25,7 +25,6 @@
 ** [[https://github.com/ryantrinkle/nix-build-inplace/blob/master/nix-build-inplace][nix-build-inplace/nix-build-inplace at master · ryantrinkle/nix-build-inplace]]
 ** [[https://github.com/jeaye/nixos-in-place][jeaye/nixos-in-place: Install NixOS on top of any existing Linux distribution without rebooting]]
 ** [[https://github.com/Trundle/NixOS-WSL][Trundle/NixOS-WSL: NixOS on WSL(2)]] :wsl:
-* [[https://search.nixos.org/options?channel=20.09&show=environment.etc.%3Cname%3E.group&from=0&size=30&sort=relevance&query=etc][NixOS Search - Optios]]
 
 * NixOS desktop
 ** XDG
@@ -35,6 +34,7 @@
 :ID:       d7186c4b-1c7e-4b2f-80d7-c594a201a4ce
 :END:
 - [2021-01-20 Wed 20:15] <- [[id:b3517c38-80fc-490f-b0e9-7fef04fd854f][Nix Documents]]
+- [2021-01-22 Fri 12:02] -> [[id:c86a593e-08cf-4640-a604-00d3f37cf1dc][NixOS Search - Optios]]
 ** [[https://nixos.wiki/wiki/Module][Module - NixOS Wiki]]
 ** [[https://github.com/NixOS/hydra][NixOS/hydra: Hydra, the Nix-based continuous build system]]
 ** [[https://planet.nixos.org/][NixOS Planet]]
