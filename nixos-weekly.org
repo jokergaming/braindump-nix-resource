@@ -12,3 +12,7 @@
 * [[https://weekly.nixos.org/2020/08-nixos-weekly-2020-08.html][NixOS Weekly]]
 
 ** TODO [[https://weekly.nixos.org/2020/08-nixos-weekly-2020-08.html][NixOS Weekly]] #08 - NixOS Weekly
+:PROPERTIES:
+:ID:       eb07b93b-30cd-4f1a-9375-1fda83604927
+:END:
+- [2021-01-22 Fri 12:11] <- [[id:f061eb50-620a-4e84-a729-603bc7c1eb62][Searching and installing old versions of Nix packages – Marcelo Lazaroni – Developing for the Interwebs - Brave]]

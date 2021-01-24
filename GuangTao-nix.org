@@ -25,6 +25,8 @@
 * Learning Nix Materials
 :PROPERTIES:
 :ID:       f125fef0-d7b8-4145-ba15-5a4b3e92abaa
+:BRAIN_CHILDREN:
+:BRAIN_FRIENDS: 4008c43c-f382-4d45-98d1-891d92c5ef60
 :END:
 - [2021-01-20 Wed 15:23] -> [[id:c9d18b9c-bf36-41ce-9659-d02cdb5d6b3e][Functional programming and Nix for reproducible, immutable infrastructure - YouTube]]
  - [2021-01-20 Wed 15:51] -> [[id:d0f44c69-95f5-47ec-95c4-39e1ded68cc6][Burke Libbey - YouTube]]
@@ -286,7 +288,11 @@ nix develop \
 ** [[https://github.com/pmiddend/nixos-manager][pmiddend/nixos-manager: Manage your NixOS packages and configuration via a simple, intuitive UI]]
 
 * Nix Project
+:PROPERTIES:
+:ID:       7313dc74-f2de-49f9-8f73-87aac798cb00
+:END:
 
+- [2021-01-22 Fri 15:22] <- [[id:3c699375-3ec9-4b71-af3f-a49f88527e0b][nix-community/nix-data: Standard set of packages and overlays for data-scientists [maintainer=@tbenst]​]]
 ** [[https://github.com/tweag/jupyterWith][tweag/jupyterWith: declarative and reproducible Jupyter environments - powered by Nix]]
 :PROPERTIES:
 :ID: d2d3ecc6-4e75-483f-88b3-7a5d3bfbbd81
@@ -302,6 +308,7 @@ nix develop \
 * Nix Modules
 :PROPERTIES:
 :ID:       a931ebeb-015b-49fd-875b-682986cef960
+:BRAIN_FRIENDS:
 :END:
 - [2020-12-20 Sun 19:59] <- [[id:8ce6b2f8-5342-4d49-8518-5ffb551d1ec5][obsidiansystems/obelisk-systemd: Turn your obelisk app into a systemd service]]
 

@@ -7,18 +7,25 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 
-- tags :: [[file:../../../../Documents/org-notes/braindump/system/linux.org][Linux]], [[file:GuangTao-nix.org][GuangTao's Nix]], [[file:../../../../Documents/org-notes/braindump/system/system.org][System]]
+- tags :: [[file:../../../../Documents/org-notes/braindump/system/linux.org][Linux]], [[file:GuangTao-nix.org][GuangTao's Nix]], [[file:../../../../Documents/org-notes/braindump/system/system.org][System]], [[file:nix-search.org][Nix Search]]
 
 * Why NixOS
 :PROPERTIES:
 :ID:       4008c43c-f382-4d45-98d1-891d92c5ef60
+:BRAIN_CHILDREN: bd532fad-56e8-441c-a4f2-1954ec2ca109
+:BRAIN_PARENTS: bd532fad-56e8-441c-a4f2-1954ec2ca109
+:BRAIN_FRIENDS: f125fef0-d7b8-4145-ba15-5a4b3e92abaa
 :END:
 
+ - [2021-01-22 Fri 12:44] -> [[https://www.youtube.com/watch?v=oPymb2-IXbg][“NixOS: How it works and how to install it! - YouTube”🔊]]
  - [2021-01-20 Wed 14:36] -> [[id:2294bf3b-cd1b-49c7-a807-505e2556b833][“(1) Ingolf Wagner: Why nixos (rC3 2020) - YouTube”🔊]]
  - [2021-01-20 Wed 14:37] -> [[id:fd0e2248-bce9-42ac-9c38-27f0931926d0][(1) Nix: How and Why it Works (NixCon 2019) - YouTube]]
 * Install NixOS
 :PROPERTIES:
 :ID:       bd532fad-56e8-441c-a4f2-1954ec2ca109
+:BRAIN_PARENTS: 4008c43c-f382-4d45-98d1-891d92c5ef60
+:BRAIN_CHILDREN: 4008c43c-f382-4d45-98d1-891d92c5ef60
+:BRAIN_FRIENDS:
 :END:
 - [2021-01-20 Wed 20:06] <- [[id:c45e2588-b338-4c2f-a39a-1b1cf4a67922][NixOS Install]]
 ** [[https://github.com/elitak/nixos-infect][elitak/nixos-infect: [GPLv3+] install nixos over the existing OS in a DigitalOcean droplet (and others with minor modifications)]]
@@ -35,6 +42,7 @@
 :END:
 - [2021-01-20 Wed 20:15] <- [[id:b3517c38-80fc-490f-b0e9-7fef04fd854f][Nix Documents]]
 - [2021-01-22 Fri 12:02] -> [[id:c86a593e-08cf-4640-a604-00d3f37cf1dc][NixOS Search - Optios]]
+- [2021-01-22 Fri 15:23] -> [[https://github.com/mlvzk/manix][mlvzk/manix: A fast CLI documentation searcher for Nix.]]
 ** [[https://nixos.wiki/wiki/Module][Module - NixOS Wiki]]
 ** [[https://github.com/NixOS/hydra][NixOS/hydra: Hydra, the Nix-based continuous build system]]
 ** [[https://planet.nixos.org/][NixOS Planet]]
