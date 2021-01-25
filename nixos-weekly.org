@@ -12,9 +12,13 @@
 * [[https://weekly.nixos.org/][NixOS Weekly]]
 
 ** TODO [[https://weekly.nixos.org/2021/01-nixos-weekly-2021-01.html][NixOS Weekly]] #01 - NixOS Weekly
+:PROPERTIES:
+:ID:       c5dd94b0-9ce5-4dda-a456-85c7b2e79660
+:END:
 
 
 
+ - [2021-01-25 Mon 00:02] <- [[id:7504c53e-9bac-4f78-989a-b5ef2f59d061][NixOS in the Cloud, step-by-step: part 1 · Justinas Stankevičius - Brave]]
 ** TODO [[https://weekly.nixos.org/2020/08-nixos-weekly-2020-08.html][NixOS Weekly]] #08 - NixOS Weekly
 :PROPERTIES:
 :ID:       eb07b93b-30cd-4f1a-9375-1fda83604927

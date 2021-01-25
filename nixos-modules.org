@@ -1,0 +1,18 @@
+#+TITLE: NixOS Modules
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-24 Sun 16:35
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+- tags :: [[file:nixos.org][NixOS]]
+
+
+* NixOS Modules Collect
+:PROPERTIES:
+:ID:       a8946fdb-d503-43e3-9400-f833f253901a
+:END:
+- [2021-01-24 Sun 16:37] <- [[id:41256eb0-964c-4745-afca-3edb4b3f58ba][nixos_cfg/autoPull.nix at master · evanjs/nixos_cfg]]
+  + Timers

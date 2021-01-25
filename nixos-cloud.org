@@ -1,0 +1,23 @@
+#+TITLE: NixOS in the Cloud
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-25 Mon 00:01
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+- tags :: [[file:nixos.org][NixOS]], [[file:nixops.org][NixOps]]
+
+
+* [[https://justinas.org/nixos-in-the-cloud-step-by-step-part-1][NixOS in the Cloud, step-by-step: part 1 · Justinas Stankevičius - Brave]]
+:PROPERTIES:
+:ID:       7504c53e-9bac-4f78-989a-b5ef2f59d061
+:END:
+
+ - [2021-01-25 Mon 00:02] <- [[id:c5dd94b0-9ce5-4dda-a456-85c7b2e79660][NixOS Weekly #01 - NixOS Weekly]]
+
+
+* [[https://nixos.cloud/][https://nixos.cloud - Brave]]
+
+* [[https://github.com/DBCDK/morph][DBCDK/morph: NixOS deployment tool - Brave]]

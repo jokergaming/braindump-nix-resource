@@ -1,0 +1,13 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /Users/gtrun/Dropbox/org-notes/braindump/nix/nix-configuraiton-collect.org
+
+
+* [#A] [[https://github.com/evanjs/nixos_cfg/blob/master/modules/home-manager/randr/work.nix][nixos_cfg/work.nix at master · evanjs/nixos_cfg]]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2021-01-24 Sun 16:33
+  :ARCHIVE_FILE: ~/Dropbox/org-notes/braindump/nix/nix-configuraiton-collect.org
+  :ARCHIVE_OLPATH: LTS NixOS configuration
+  :ARCHIVE_CATEGORY: nix-configuraiton-collect
+  :END:

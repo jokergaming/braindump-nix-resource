@@ -11,7 +11,6 @@
 * LTS NixOS configuration
 ** [#A] [[https://github.com/wiedzmin/nixos-config/tree/master/modules][nixos-config/modules at master · wiedzmin/nixos-config]]
 ** [#A] [[https://github.com/maxhbr/myconfig][maxhbr/myconfig: my Linux Configuration]]
-** [#A] [[https://github.com/evanjs/nixos_cfg/blob/master/modules/home-manager/randr/work.nix][nixos_cfg/work.nix at master · evanjs/nixos_cfg]]
 ** [[https://github.com/coreyoconnor/nix_configs/tree/master][coreyoconnor/nix_configs: The NixOS configuration for my desktop.]]
 ** TODO [#A] [[https://github.com/jlesquembre/dotfiles/tree/master][jlesquembre/dotfiles: My dotfiles]] :hound:
 ** [[https://github.com/charvp/nixos-config][charvp/nixos-config: Configuration of my machines]] :hound:
