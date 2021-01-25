@@ -9,7 +9,11 @@
 
 - tags :: [[file:GuangTao-nix.org][GuangTao's Nix]]
 
-* [[https://weekly.nixos.org/2020/08-nixos-weekly-2020-08.html][NixOS Weekly]]
+* [[https://weekly.nixos.org/][NixOS Weekly]]
+
+** TODO [[https://weekly.nixos.org/2021/01-nixos-weekly-2021-01.html][NixOS Weekly]] #01 - NixOS Weekly
+
+
 
 ** TODO [[https://weekly.nixos.org/2020/08-nixos-weekly-2020-08.html][NixOS Weekly]] #08 - NixOS Weekly
 :PROPERTIES:

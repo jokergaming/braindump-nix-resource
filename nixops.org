@@ -18,3 +18,9 @@
 ** [[https://github.com/alasconnect][Ampersand / AlasConnect]]
 * [[https://github.com/tweag/terraform-nixos][tweag/terraform-nixos: A set of Terraform modules that are designed to deploy NixOS]]
 * [[https://github.com/serokell/deploy-rs/][serokell/deploy-rs: A simple multi-profile Nix-flake deploy tool.]]
+* [[https://christine.website/blog/nixops-services-2020-11-09][Nixops Services on Your Home Network - Christine Dodrill]]
+* NixOps Configuration
+:PROPERTIES:
+:ID:       29627e20-4e1e-4747-a96b-90ee0feb9c8e
+:END:
+- [2021-01-24 Sun 16:30] <- [[id:f23dfef4-8e6e-493c-879b-0ec301eb5755][Xe/nixos-configs: My NixOS configs]]

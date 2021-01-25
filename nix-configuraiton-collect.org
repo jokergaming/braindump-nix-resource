@@ -13,8 +13,14 @@
 ** [#A] [[https://github.com/maxhbr/myconfig][maxhbr/myconfig: my Linux Configuration]]
 ** [#A] [[https://github.com/evanjs/nixos_cfg/blob/master/modules/home-manager/randr/work.nix][nixos_cfg/work.nix at master · evanjs/nixos_cfg]]
 ** [[https://github.com/coreyoconnor/nix_configs/tree/master][coreyoconnor/nix_configs: The NixOS configuration for my desktop.]]
-** TODO [#A] [[https://github.com/jlesquembre/dotfiles/tree/master][jlesquembre/dotfiles: My dotfiles]]
-** [[https://github.com/charvp/nixos-config/tree/master/programs][nixos-config/programs at master · charvp/nixos-config]]
+** TODO [#A] [[https://github.com/jlesquembre/dotfiles/tree/master][jlesquembre/dotfiles: My dotfiles]] :hound:
+** [[https://github.com/charvp/nixos-config][charvp/nixos-config: Configuration of my machines]] :hound:
+** [[https://github.com/Xe/nixos-configs][Xe/nixos-configs: My NixOS configs]] :hound:
+:PROPERTIES:
+:ID:       f23dfef4-8e6e-493c-879b-0ec301eb5755
+:END:
+
+ - [2021-01-24 Sun 16:30] <- [[id:29627e20-4e1e-4747-a96b-90ee0feb9c8e][NixOps Configuration]]
 
 ** User
 *** [[https://github.com/zimbatm][zimbatm (zimbatm)]]
@@ -38,3 +44,31 @@
 ** [[https://github.com/qjcg/nix][qjcg/nix: My personal nix configuration]]
 ** [[https://github.com/johnae/tektonix/tree/master][johnae/tektonix: TektonCD pipelines using the NixOS module system.]]
 ** [[https://github.com/nprindle/nixos-configs][nprindle/nixos-configs: My configurations for NixOS]] :haskell:
+* Hound Code Search
+
+#+begin_src json :tangle "~/.config/nixpkgs/nixos-flk/profiles/search/config-hound.json"
+{
+    "dbpath" : "/var/lib/hound/data",
+    "max-concurrent-indexers" : 2,
+    "repos" : {
+        "nixpkgs": {
+            "url" : "https://www.github.com/NixOS/nixpkgs.git"
+        },
+        "zeek": {
+            "url" : "https://www.github.com/zeek/zeek.git"
+        },
+        "Xe": {
+            "url" : "https://github.com/Xe/nixos-configs.git"
+        },
+        "jlesquembre": {
+            "url" : "https://github.com/jlesquembre/dotfiles.git"
+        },
+        "charvp": {
+            "url" : "https://github.com/charvp/nixos-config.git"
+        },
+        "GTrunSec": {
+            "url" : "https://github.com/GTrunSec/my-profile.git"
+        }
+    }
+}
+#+end_src
