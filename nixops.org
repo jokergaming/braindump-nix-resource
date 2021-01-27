@@ -24,3 +24,5 @@
 :ID:       29627e20-4e1e-4747-a96b-90ee0feb9c8e
 :END:
 - [2021-01-24 Sun 16:30] <- [[id:f23dfef4-8e6e-493c-879b-0ec301eb5755][Xe/nixos-configs: My NixOS configs]]
+* NixOps Use Cases
+** [[https://tailscale.com/blog/nixos-minecraft/][Tailscale on NixOS: A New Minecraft Server in Ten Minutes · Tailscale Blog]]

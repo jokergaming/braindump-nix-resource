@@ -1,0 +1,150 @@
+#+TITLE: Manix
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-27 Wed 11:55
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
+* Update
+
+#+begin_src sh :async t :exports both :results output
+manix --update-cache mergeattr
+#+end_src
+
+#+RESULTS:
+#+begin_example
+Here's what I found in nixpkgs: lib.mergeAttrsByFuncDefaults lib.mergeAttrsWithFunc lib.mergeAttrsConcatenateValues lib.trivial.mergeAttrs lib.misc.mergeAttrByFunc lib.misc.mergeAttrBy lib.misc.mergeAttrsByFuncDefaultsClean lib.misc.mergeAttrsByFuncDefaults lib.misc.mergeAttrsConcatenateValues lib.misc.mergeAttrsNoOverride lib.misc.mergeAttrsWithFunc lib.mergeAttrs lib.mergeAttrBy lib.mergeAttrBy.configureFlags lib.mergeAttrBy.meta lib.mergeAttrBy.cfg lib.mergeAttrBy.nativeBuildInputs lib.mergeAttrBy.passthru lib.mergeAttrBy.buildInputs lib.mergeAttrBy.flags lib.mergeAttrBy.patches lib.mergeAttrBy.postAll lib.mergeAttrBy.preConfigure lib.mergeAttrBy.prePhases lib.mergeAttrBy.postInstall lib.mergeAttrBy.propagatedBuildInputs lib.mergeAttrByFunc lib.mergeAttrsNoOverride lib.mergeAttrsByFuncDefaultsClean
+
+Nixpkgs Comments
+────────────────────
+# mergeAttrsWithFunc (lib/deprecated.nix)
+ Using f = a: b = b the result is similar to //
+ merge attributes with custom function handling the case that the attribute
+ exists in both sets
+
+
+Nixpkgs Comments
+────────────────────
+# mergeAttrsNoOverride (lib/deprecated.nix)
+ merges attributes using //, if a name exists in both attributes
+ an error will be triggered unless its listed in mergeLists
+ so you can mergeAttrsNoOverride { buildInputs = [a]; } { buildInputs = [a]; } {} to get
+ { buildInputs = [a b]; }
+ merging buildPhase doesn't really make sense. The cases will be rare where appending /prefixing will fit your needs?
+ in these cases the first buildPhase will override the second one
+ ! deprecated, use mergeAttrByFunc instead
+
+
+Nixpkgs Comments
+────────────────────
+# mergeAttrByFunc (lib/deprecated.nix)
+ example usage:
+ mergeAttrByFunc  {
+   inherit mergeAttrBy; # defined below
+   buildInputs = [ a b ];
+ } {
+  buildInputs = [ c d ];
+ };
+ will result in
+ { mergeAttrsBy = [...]; buildInputs = [ a b c d ]; }
+ is used by defaultOverridableDelayableArgs and can be used when composing using
+ foldArgs, composedArgsAndFun or applyAndFun. Example: composableDerivation in all-packages.nix
+
+
+Nixpkgs Comments
+────────────────────
+# mergeAttrs (lib/trivial.nix)
+ Merge two attribute sets shallowly, right side trumps left
+
+     mergeAttrs :: attrs -> attrs -> attrs
+
+     Example:
+       mergeAttrs { a = 1; b = 2; } { b = 3; c = 4; }
+       => { a = 1; b = 3; c = 4; }
+
+ Left attribute set
+
+
+NixOS Documentation
+────────────────────
+# lib.trivial.mergeAttrs
+Merge two attribute sets shallowly, right side trumps left
+
+Arguments:
+  x: Left attribute set
+  y: Right attribute set (higher precedence for equal keys)
+
+Example:
+
+  mergeAttrs { a = 1; b = 2; } { b = 3; c = 4; }
+  => { a = 1; b = 3; c = 4; }
+
+  mergeAttrs { a = 1; b = 2; } { b = 3; c = 4; }
+  => { a = 1; b = 3; c = 4; }
+
+#+end_example
+
+* manix attrs
+
+** merge
+
+#+begin_src sh :async t :exports both :results output
+manix --strict mergeattr
+#+end_src
+
+#+RESULTS:
+#+begin_example
+Nixpkgs Comments
+────────────────────
+# mergeAttrsWithFunc (lib/deprecated.nix)
+ Using f = a: b = b the result is similar to //
+ merge attributes with custom function handling the case that the attribute
+ exists in both sets
+
+
+Nixpkgs Comments
+────────────────────
+# mergeAttrsNoOverride (lib/deprecated.nix)
+ merges attributes using //, if a name exists in both attributes
+ an error will be triggered unless its listed in mergeLists
+ so you can mergeAttrsNoOverride { buildInputs = [a]; } { buildInputs = [a]; } {} to get
+ { buildInputs = [a b]; }
+ merging buildPhase doesn't really make sense. The cases will be rare where appending /prefixing will fit your needs?
+ in these cases the first buildPhase will override the second one
+ ! deprecated, use mergeAttrByFunc instead
+
+
+Nixpkgs Comments
+────────────────────
+# mergeAttrByFunc (lib/deprecated.nix)
+ example usage:
+ mergeAttrByFunc  {
+   inherit mergeAttrBy; # defined below
+   buildInputs = [ a b ];
+ } {
+  buildInputs = [ c d ];
+ };
+ will result in
+ { mergeAttrsBy = [...]; buildInputs = [ a b c d ]; }
+ is used by defaultOverridableDelayableArgs and can be used when composing using
+ foldArgs, composedArgsAndFun or applyAndFun. Example: composableDerivation in all-packages.nix
+
+
+Nixpkgs Comments
+────────────────────
+# mergeAttrs (lib/trivial.nix)
+ Merge two attribute sets shallowly, right side trumps left
+
+     mergeAttrs :: attrs -> attrs -> attrs
+
+     Example:
+       mergeAttrs { a = 1; b = 2; } { b = 3; c = 4; }
+       => { a = 1; b = 3; c = 4; }
+
+ Left attribute set
+
+
+#+end_example
