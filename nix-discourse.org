@@ -1,0 +1,12 @@
+#+TITLE: Nix Discourse
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-28 Thu 14:28
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
+* Nix discourse soultion
+** [[https://discourse.nixos.org/t/how-to-get-cuda-working-in-blender/5918/2][How to get Cuda working in Blender? - Learn - NixOS Discourse]] :cuda:

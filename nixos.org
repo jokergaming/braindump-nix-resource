@@ -33,6 +33,10 @@
 ** [[https://github.com/jeaye/nixos-in-place][jeaye/nixos-in-place: Install NixOS on top of any existing Linux distribution without rebooting]]
 ** [[https://github.com/Trundle/NixOS-WSL][Trundle/NixOS-WSL: NixOS on WSL(2)]] :wsl:
 
+** NixOS FilesSystem
+
+*** [[https://rycwo.xyz/2018/08/22/nixos-series-swapfiles][Diving Into NixeOS (Part 1.5): Swap Files, And Other Tidbits]]
+
 * NixOS desktop
 ** XDG
 *** [[https://discourse.nixos.org/t/how-to-set-the-xdg-mime-default/3560/3][How to set the `xdg-mime` default? - Learn - NixOS Discourse]]

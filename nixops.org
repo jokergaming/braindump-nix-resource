@@ -12,6 +12,7 @@
 ** [[https://github.com/DBCDK/kubernixos][DBCDK/kubernixos: Simple kubernetes manifest reconciler configured by NixOS modules]]
 ** [[https://github.com/pauldub/convox-nix][pauldub/convox-nix: A convox inspired kubernetes resource builder using nix]]
 * learning NixOps
+** [[https://hydra.nixos.org/build/115931128/download/1/manual/manual.html][NixOps User's Guide]]
 ** [[https://christine.website/blog/nixops-services-2020-11-09][Nixops Services on Your Home Network - Christine Dodrill]]
 ** [[https://github.com/input-output-hk/mantis-ops/blob/master/flake.nix][mantis-ops/flake.nix at master · input-output-hk/mantis-ops]]
 * NixOps organization
@@ -26,3 +27,16 @@
 - [2021-01-24 Sun 16:30] <- [[id:f23dfef4-8e6e-493c-879b-0ec301eb5755][Xe/nixos-configs: My NixOS configs]]
 * NixOps Use Cases
 ** [[https://tailscale.com/blog/nixos-minecraft/][Tailscale on NixOS: A New Minecraft Server in Ten Minutes · Tailscale Blog]]
+** [[https://elvishjerricco.github.io/2018/06/24/secure-declarative-key-management.html][Secure, Declarative Key Management with NixOps, Pass, and nix-plugins]]
+
+* NixOps Related Problems
+
+
+
+** [[https://github.com/NixOS/nixops/issues/1173][NixOps VDIs have the same UUIDs · Issue #1173 · NixOS/nixops]]
+
+NOTE:
+File -> Virtual Media Manager -> Removed existing images (note, I removed them only from the registry).
+
+
+- [[https://stackoverflow.com/questions/44114854/virtualbox-cannot-register-the-hard-disk-already-exists][VirtualBox Cannot register the hard disk already exists - Stack Overflow]]
