@@ -209,3 +209,42 @@ imports = [
 * flakes 3rdParty
 
 ** [[https://github.com/nix-community/flake-nimble][nix-community/flake-nimble: Nimble packages Nix flake [maintainer=@ehmry] - Brave]] :nim:
+
+* Nix Flakes Examples
+
+** [[https://github.com/Kloenk/rusty-nix/blob/master/flake.nix][rusty-nix/flake.nix at master · Kloenk/rusty-nix]]
+
+** [[https://github.com/ngi-nix/dhcpcanon/blob/master/flake.nix][dhcpcanon/flake.nix at master · ngi-nix/dhcpcanon]]
+
+** [[https://github.com/ngi-nix/offen/blob/main/flake.nix][offen/flake.nix at main · ngi-nix/offen]]
+
+** [[https://github.com/techieAgnostic/swatch/blob/master/flake.nix][swatch/flake.nix at master · techieAgnostic/swatch]]
+
+minimal flake's expression for package
+
+** [[https://github.com/nexB/vulnerablecode/blob/main/etc/nix/flake.nix][vulnerablecode/flake.nix at main · nexB/vulnerablecode]]c :python:machix:
+
+** [[https://github.com/NixOS/nixos-search/blob/main/flake.nix][nixos-search/flake.nix at main · NixOS/nixos-search]]
+
+
+#+begin_src nix :async t :exports both :results output
+let
+  systems = [ "x86_64-linux" "i686-linux" "x86_64-darwin" "aarch64-linux" ];
+
+  forAllSystems = f: nixpkgs.lib.genAttrs systems (system: f system);
+
+  mkPackage = path: system:
+    let
+      pkgs = import nixpkgs {
+        inherit system;
+        overlays = [ poetry2nix.overlay ];
+      };
+    in
+      packages = system:
+        {
+          import_scripts = mkPackage ./import-scripts system;
+          frontend = mkPackage ./. system;
+        };
+#+end_src
+
+** [[https://github.com/dguibert/nur-packages][dguibert/nur-packages]]

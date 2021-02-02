@@ -34,7 +34,6 @@
 ** [[https://github.com/Trundle/NixOS-WSL][Trundle/NixOS-WSL: NixOS on WSL(2)]] :wsl:
 
 ** NixOS FilesSystem
-
 *** [[https://rycwo.xyz/2018/08/22/nixos-series-swapfiles][Diving Into NixeOS (Part 1.5): Swap Files, And Other Tidbits]]
 
 * NixOS desktop
