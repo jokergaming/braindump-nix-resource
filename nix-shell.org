@@ -14,9 +14,12 @@
 :ID:       e8bc57dc-9326-4504-bafe-fc935921cd85
 :END:
 
+ - [2021-02-02 Tue 20:33] -> [[https://nixos.wiki/wiki/Development_environment_with_nix-shell][Development environment with nix-shell - NixOS Wiki]]
  - [2021-01-20 Wed 15:28] -> [[id:1b08368a-265a-4999-b8fd-6aa700407c50][Overlay in mkShell]]
 
 * [[https://github.com/numtide/devshell][numtide/devshell: Per project developer environments]]
+
+** [[https://github.com/numtide/devshell/tree/master/tests][devshell/tests at master · numtide/devshell]]
 * [[https://discourse.nixos.org/t/packaging-a-shell-script-that-has-completions/10290][Packaging a shell script that has completions - Learn - NixOS Discourse]]
 
 #+begin_src nix :async t :exports both :results output

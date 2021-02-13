@@ -20,6 +20,8 @@
  - [2021-01-20 Wed 15:41] -> [[id:1dd49a18-7c19-4cdf-950c-410c499ae7f1][How to push the derivations from a shell.nix to cachix? - Learn - NixOS Discourse]]
  - [2021-01-20 Wed 15:37] -> [[id:28ae149d-f3eb-4e93-a8fb-ca8dbb7652fd][How to override stdenv for all packages in mkShell - Learn - NixOS Discourse]]
  - [2021-01-28 Thu 14:31] -> [[https://discourse.nixos.org/t/setting-up-x-in-nixos-with-amd-radeon-6800/11124/5][Setting up X in NixOS with AMD Radeon 6800 - Learn - NixOS Discourse]]
+** [[https://discourse.nixos.org/t/how-to-get-cuda-working-in-blender/5918/2][How to get Cuda working in Blender? - Learn - NixOS Discourse]] :cuda:
+
 * Tracking Quesitons
 ** [[https://discourse.nixos.org/t/virtualgl-server-on-nixos/10212/2][Virtualgl server on NixOS - Development - NixOS Discourse]]
 

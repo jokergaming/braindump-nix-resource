@@ -248,3 +248,7 @@ let
 #+end_src
 
 ** [[https://github.com/dguibert/nur-packages][dguibert/nur-packages]]
+
+** [[file:nixos-discourse.org][NixOS Discourse]]
+
+*** [[https://discourse.nixos.org/t/flake-input-schema-slash-in-branch-name/11396/4][Flake input schema: slash in branch name? - Learn - NixOS Discourse - Brave]]

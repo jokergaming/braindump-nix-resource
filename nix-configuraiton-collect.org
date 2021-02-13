@@ -20,6 +20,7 @@
 :END:
 
  - [2021-01-24 Sun 16:30] <- [[id:29627e20-4e1e-4747-a96b-90ee0feb9c8e][NixOps Configuration]]
+** [[https://github.com/davidtwco/veritas][davidtwco/veritas: @davidtwco's personal mono-repo - containing the declarative configuration of servers, desktops and laptops - including dotfiles; a collection of packages; a static site generator and source of "davidtw.co".]] :flake:
 
 ** User
 *** [[https://github.com/zimbatm][zimbatm (zimbatm)]]

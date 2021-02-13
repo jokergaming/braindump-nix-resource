@@ -58,3 +58,5 @@ brew install --install font-fantasque-sans-mono
 
 
 - tmux
+
+* [[https://github.com/adisbladis/macOS-Simple-KVM][adisbladis/macOS-Simple-KVM: Tools to set up a quick macOS VM in QEMU, accelerated by KVM.]] :qemu:
