@@ -8,7 +8,7 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 #+OPTIONS: prop:t p:t
 
-- tags :: [[file:nixos.org][NixOS]], [[file:nixops.org][NixOps]], [[file:../GuangTao-learning-programming-languages.org][GuangTao's learning Programming languages]], [[file:nix-wiki.org][Nix Wiki]]
+- tags :: [[file:nixos.org][NixOS]], [[file:nixops.org][NixOps]], [[file:../guangtao's_learning_programming_languages.org][GuangTao's learning Programming languages]], [[file:nix_wiki.org][Nix Wiki]]
 
 * Nix Documents
 :PROPERTIES:
@@ -40,7 +40,7 @@
 ** wiki
 - https://nixos.wiki/wiki/Language-specific_package_helpers
 
-** Nix [[file:../programming/GuangTao-rust.org][GuangTao's Rust]]
+** Nix [[file:../programming/guangtao's_rust.org][GuangTao's Rust]]
 :PROPERTIES:
 :id: 8eba3b48-150b-4ca6-a794-79f341d860aa
 :END:
@@ -59,7 +59,7 @@
 - [2020-11-11 Wed 16:19] <- [[id:a3de31d7-f2be-4939-a19f-0bfd4ddba542][rust nix]]
 *** [[https://github.com/Kloenk/rusty-nix][Kloenk/rusty-nix: Nix written in rust (this will take some time if it will ever finish)]]
 *** [[https://github.com/kolloch/crate2nix][kolloch/crate2nix: nix build file generator for rust crates]]
-** Nix [[file:../programming/GuangTao-haskell.org][GuangTao's Haskell]]
+** Nix [[file:../programming/guangtao's_haskell.org][GuangTao's Haskell]]
 :PROPERTIES:
 :ID:       fdd307fb-61eb-4b95-a622-2738c75c4d46
 :END:
@@ -83,7 +83,7 @@
 *** Nix Haskell Documents for beginning
 **** [[https://www.srid.ca/1948201.html][Nix recipes for Haskellers - Sridhar Ratnakumar]]
 **** [[https://github.com/Gabriel439/haskell-nix][Gabriel439/haskell-nix: Nix and Haskell in production]]
-** Nix [[file:../programming/GuangTao-python.org][GuangTao's Python]]
+** Nix [[file:../programming/guangtao's_python.org][GuangTao's Python]]
 :PROPERTIES:
 :ID:       f08fdb79-58f8-4186-b890-06e1486702e9
 :END:
@@ -93,7 +93,7 @@
 nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
 #+end_src
 
-** Nix [[file:../programming/GuangTao-golang.org][GuangTao's Golang]]
+** Nix [[file:../programming/guangtao's_golang.org][GuangTao's Golang]]
 :PROPERTIES:
 :id: 33107453-baf3-4e27-871b-833b93f5ad76
 :END:
@@ -108,7 +108,7 @@ nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
 *** https://andreas.rammhold.de/posts/ranz2nix/
 *** [[https://github.com/nix-community/yarn2nix][nix-community/yarn2nix: Generate nix expressions from a yarn.lock file [maintainer=???]​]]
 
-** Nix [[file:../programming/GuangTao-golang.org][GuangTao's Golang]]
+** Nix [[file:../programming/guangtao's_golang.org][GuangTao's Golang]]
 
 *** C/C++ Nix infrastructure
 :PROPERTIES:
@@ -216,7 +216,7 @@ Nickel is a lightweight configuration language. Its purpose is to automate the g
 
 ** [[https://github.com/haskell-nix/hnix][haskell-nix/hnix: A Haskell re-implementation of the Nix expression language]]
 
-- [[file:guangtao's_haskell.org][GuangTao's Haskell]]
+_ [[file:guangtao's_haskell.org][GuangTao's Haskell]]
 * Nix cross-compiling
 ** [[https://github.com/pololu/nixcrpkgs][pololu/nixcrpkgs: Tools for cross-compiling standalone applications using Nix.]]
 ** [[https://github.com/Mic92/nix-ld][Mic92/nix-ld: Run unpatched dynamic binaries on NixOS]]
@@ -301,7 +301,7 @@ nix develop \
 - [2020-11-23 Mon 20:02] <- [[id:5bad5a83-d6ab-44bd-a40d-ddcefb4928f5][add examples for mach-nix and conda by DavHau · Pull Request #135 · tweag/jupyterWith]]
 
 
-- [[file:../data-science/jupyter_data_science.org][Jupyter Data Science]]
+_ [[file:../data_science/jupyter_data_science.org][Jupyter Data Science]]
 
 
 

@@ -17,4 +17,4 @@
 
 * [[https://github.com/ariutta/nix-bundle-macos][ariutta/nix-bundle-macos]]
 
-- [[file:nix-macos.org][Nix on MacOS]]
+_ [[file:nix_macos.org][Nix on MacOS]]

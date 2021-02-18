@@ -8,7 +8,7 @@
 
 
 
-- tags :: [[file:nix-hydra.org][NixOS hydra Channel]]
+- tags :: [[file:nix_hydra.org][NixOS hydra Channel]]
 
 * [[https://docs.hercules-ci.com/hercules-ci/getting-started/repository/][Repository Setup :: Hercules CI Documentation]]
 * Nix Github Action

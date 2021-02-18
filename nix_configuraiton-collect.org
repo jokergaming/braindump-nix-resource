@@ -6,7 +6,7 @@
 #+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[file:../../../../Documents/org-notes/braindump/nix/GuangTao-nix.org][GuangTao's Nix]]
+- tags :: [[file:../../../../Documents/org_notes/braindump/nix/guangtao's_nix.org][GuangTao's Nix]]
 
 * LTS NixOS configuration
 ** [#A] [[https://github.com/wiedzmin/nixos-config/tree/master/modules][nixos-config/modules at master · wiedzmin/nixos-config]]
