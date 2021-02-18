@@ -1,4 +1,4 @@
-#+TITLE: contents Braindump-nix
+#+TITLE: Contents Braindump-nix
 
 
 * Nix Users

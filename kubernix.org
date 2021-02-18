@@ -9,3 +9,5 @@
 
 
 * [[https://github.com/saschagrunert/kubernix][saschagrunert/kubernix: Single dependency Kubernetes clusters for local testing, experimenting and development - Brave]]
+
+* [[https://discourse.nixos.org/t/kubernetes-the-nixos-module-of-the-future/3922/7][Kubernetes: The NixOS-module of the future - Development - NixOS Discourse]]

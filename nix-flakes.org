@@ -12,6 +12,7 @@
 * Learning Flakes
 
 - [[https://www.youtube.com/watch?v=98EwejpIJzE][Flakes in nix 3.0 - YouTube]]
+- [2021-02-17 Wed 15:53] -> [[https://yuanwang.ca/posts/getting-started-with-flakes.html][Getting started with Nix Flakes and devshell]]
 - [[https://discourse.nixos.org/t/good-practice-for-nix-flakes/9706/2][Good practice for Nix Flakes - Learn - NixOS Discourse]]
 - [[https://www.tweag.io/blog/2020-05-25-flakes/][Tweag - Nix Flakes, Part 1: An introduction and tutorial]]
 - [[https://www.tweag.io/blog/2020-06-25-eval-cache/][Tweag - Nix Flakes, Part 2: Evaluation caching]]

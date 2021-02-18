@@ -54,3 +54,7 @@ nix-store --query --references $(nix-instantiate my-default.nix) | xargs nix-sto
 #+begin_src sh :async t :exports both :results output
 nix-store --query --references $(nix-instantiate default.nix) | \xargs nix-store --realise | xargs nix-store --query --requisites | cachix push $NAME
 #+end_src
+
+* [[https://gist.github.com/dramforever/0ee183e4f036b05711f949b18f8e3360][_info.md]] bachix
+
+Generate nix.conf for Cachix in bash. Because sometimes it's just unnecessary to download cachix the binary.
