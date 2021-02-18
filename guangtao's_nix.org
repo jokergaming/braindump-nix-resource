@@ -216,7 +216,7 @@ Nickel is a lightweight configuration language. Its purpose is to automate the g
 
 ** [[https://github.com/haskell-nix/hnix][haskell-nix/hnix: A Haskell re-implementation of the Nix expression language]]
 
-- [[file:GuangTao-haskell.org][GuangTao's Haskell]]
+- [[file:guangtao's_haskell.org][GuangTao's Haskell]]
 * Nix cross-compiling
 ** [[https://github.com/pololu/nixcrpkgs][pololu/nixcrpkgs: Tools for cross-compiling standalone applications using Nix.]]
 ** [[https://github.com/Mic92/nix-ld][Mic92/nix-ld: Run unpatched dynamic binaries on NixOS]]
@@ -301,7 +301,7 @@ nix develop \
 - [2020-11-23 Mon 20:02] <- [[id:5bad5a83-d6ab-44bd-a40d-ddcefb4928f5][add examples for mach-nix and conda by DavHau · Pull Request #135 · tweag/jupyterWith]]
 
 
-- [[file:../data-science/Jupyter-data-science.org][Jupyter Data Science]]
+- [[file:../data-science/jupyter_data_science.org][Jupyter Data Science]]
 
 
 

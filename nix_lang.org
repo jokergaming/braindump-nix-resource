@@ -9,7 +9,7 @@
 
 
 
-- tags :: [[file:GuangTao-nix.org][GuangTao's Nix]]
+- tags :: [[file:guangtao's_nix.org][GuangTao's Nix]]
 
 
 * ✰ IMPORTANT [[https://nixos.wiki/wiki/Nix_Expression_Language][Nix Expression Language - NixOS Wiki]]

@@ -7,7 +7,7 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 
-- tags :: [[file:../../../../Documents/org-notes/braindump/system/linux.org][Linux]], [[file:GuangTao-nix.org][GuangTao's Nix]], [[file:../../../../Documents/org-notes/braindump/system/system.org][System]], [[file:nix-search.org][Nix Search]]
+- tags :: [[file:../../../../Documents/org-notes/braindump/system/linux.org][Linux]], [[file:guangtao's_nix.org][GuangTao's Nix]], [[file:../../../../Documents/org-notes/braindump/system/system.org][System]], [[file:nix-search.org][Nix Search]]
 
 * Why NixOS
 :PROPERTIES:

@@ -3,40 +3,40 @@
 
 * Nix Users
 
-** [[file:../GuangTao-nix.org][GuangTao's Nix]]
+** [[file:../guangtao's_nix.org][GuangTao's Nix]]
 
 * [[file:../nixos.org][NixOS]]
 
 
 
-* [[file:../nix-configuraiton-collect.org][Nix Configuration Collect]]
+* [[file:../nix_configuraiton-collect.org][Nix Configuration Collect]]
 
-* [[file:../nix-overlays.org][Nix Overlays]]
+* [[file:../nix_overlays.org][Nix Overlays]]
 
-* [[file:../nix-builder.org][Nix Builder]]
+* [[file:../nix_builder.org][Nix Builder]]
 
-* [[file:../nix-shell.org][Nix Shell]]
+* [[file:../nix_shell.org][Nix Shell]]
 
 
 * Nix Feeds
-** [[file:../nixos-weekly.org][NixOS Weekly]]
-** [[file:../nixos-discourse.org][NixOS Discourse]]
+** [[file:../nixos_weekly.org][NixOS Weekly]]
+** [[file:../nixos_discourse.org][NixOS Discourse]]
 
-* [[file:../nix-media.org][Nix Media]]
-** [[file:../nix-con.org][Nix Con]]
+* [[file:../nix_media.org][Nix Media]]
+** [[file:../nix_con.org][Nix Con]]
 
-** [[file:../nix-friday.org][Nix Friday]]
+** [[file:../nix_friday.org][Nix Friday]]
 
-* [[file:../nix-deploy.org][Nix Deploy]]
+* [[file:../nix_deploy.org][Nix Deploy]]
 ** [[file:../disnix.org][disnix]]
 
 
 * Nix Testing
 
-** [[file:../nix-ci.org][Nix CI Test]]
+** [[file:../nix_ci.org][Nix CI Test]]
 
-* [[file:../nix-macos.org][Nix on MacOS]]
+* [[file:../nix_macos.org][Nix on MacOS]]
 
 
 
-* [[file:../README.org][README Briandump-nix]]
+* [[file:../README.org][README Briandump_nix]]
