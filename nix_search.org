@@ -26,3 +26,5 @@
 :END:
 
  - [2021-01-22 Fri 12:11] <- [[id:eb07b93b-30cd-4f1a-9375-1fda83604927][NixOS Weekly #08 - NixOS Weekly]]
+
+* [[https://github.com/fabaff/nix-security-lab][fabaff/nix-security-lab: Tool set for Information security professionals and all others]]

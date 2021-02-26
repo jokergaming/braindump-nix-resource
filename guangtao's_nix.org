@@ -117,6 +117,9 @@ nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
 
 - [2020-11-07 Sat 22:56] -> [[id:2cac43cc-1cbd-4092-a275-83856018a0a8][Nix Friday - C/CPP infrastructure in Nix - with Mic92 - YouTube]]
 
+** Nix Ruby
+
+*** [[https://github.com/nix-community/bundix][nix-community/bundix: Generates a Nix expression for your Bundler-managed application. [maintainer=@manveru]​]]
 
 * Nix Security
 ** [[https://github.com/jollheef/localhost/blob/master/security.nix][localhost/security.nix at master · jollheef/localhost]]

@@ -253,3 +253,5 @@ let
 ** [[file:nixos_discourse.org][NixOS Discourse]]
 
 *** [[https://discourse.nixos.org/t/flake-input-schema-slash-in-branch-name/11396/4][Flake input schema: slash in branch name? - Learn - NixOS Discourse - Brave]]
+
+* Nix Flake utils Example

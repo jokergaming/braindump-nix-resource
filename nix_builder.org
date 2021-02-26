@@ -18,3 +18,5 @@
 * [[https://github.com/ariutta/nix-bundle-macos][ariutta/nix-bundle-macos]]
 
 _ [[file:nix_macos.org][Nix on MacOS]]
+
+* [[https://github.com/oxalica/init-runner][oxalica/init-runner]]

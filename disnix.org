@@ -25,3 +25,5 @@
 * [[https://sandervanderburg.blogspot.com/2020/08/experimenting-with-nix-and-service.html][Sander van der Burg's blog: Experimenting with Nix and the service management properties of Docker]] :docker:
 
 * [[https://github.com/svanderburg/nix-processmgmt][svanderburg/nix-processmgmt: Experimental Nix-based process management framework]]
+
+* [[https://sandervanderburg.blogspot.com/2021/02/developing-s6-rc-backend-for-nix.html][Sander van der Burg's blog: Developing an s6-rc backend for the Nix process management framework]]

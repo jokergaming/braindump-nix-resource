@@ -28,3 +28,7 @@
 ** [[https://github.com/nix-community/aarch64-build-box][nix-community/aarch64-build-box: Config for the Community aarch64 NixOS box [maintainer=@grahamc] - Brave]]
 
 * [[https://github.com/lucernae/nixos-pi][lucernae/nixos-pi: How to install NixOS on raspberry PI]]
+
+* NIx Install Recipes
+
+** [[https://github.com/nix-community/nix-user-chroot][nix-community/nix-user-chroot: Install & Run nix without root permissions (maintainer=@Mic92)]]
