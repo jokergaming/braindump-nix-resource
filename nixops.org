@@ -40,3 +40,9 @@ File -> Virtual Media Manager -> Removed existing images (note, I removed them o
 
 
 - [[https://stackoverflow.com/questions/44114854/virtualbox-cannot-register-the-hard-disk-already-exists][VirtualBox Cannot register the hard disk already exists - Stack Overflow]]
+
+* NixOps VirtualBox
+
+** [[https://github.com/nix-community/nixops-vbox][nix-community/nixops-vbox: NixOps VirtualBox backend [maintainer=@AmineChikhaoui]​]]
+
+** [[https://github.com/nix-community/nixbox][nix-community/nixbox: NixOS Vagrant boxes [maintainer=@zimbatm]​]]

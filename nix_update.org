@@ -12,3 +12,5 @@
 * [[https://github.com/ryantm/nixpkgs-update][ryantm/nixpkgs-update: Updating nixpkgs packages since 2018]]
 
 * [[https://github.com/Mic92/nix-update][Mic92/nix-update: Swiss-knife for updating nix packages.]]
+
+* [[https://github.com/expipiplus1/update-nix-fetchgit][expipiplus1/update-nix-fetchgit: A program to automatically update fetchgit values in Nix expressions - Brave]]

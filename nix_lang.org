@@ -47,7 +47,7 @@
 
 - [2020-11-20 Fri 01:18] <- [[id:33107453-baf3-4e27-871b-833b93f5ad76][Nix Golang]]
 ** [[https://github.com/nprindle/nix-parsec][nprindle/nix-parsec]]
-* Advent of Code with Nix
+* ⚑ WAITING Advent of Code with Nix
 :PROPERTIES:
 :id: 7726d48c-5ff3-45e0-9ba9-53bc9af2f186
 :END:

@@ -7,7 +7,6 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 
-
 * [[https://nixery.dev/][Nixery -]]
 
 * [[https://github.com/nix-community/docker-nixpkgs][nix-community/docker-nixpkgs: docker images from nixpkgs [maintainer=@zimbatm]​]]

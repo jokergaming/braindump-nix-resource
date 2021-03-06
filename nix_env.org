@@ -9,3 +9,7 @@
 
 
 * [[https://github.com/nix-community/nix-environments][nix-community/nix-environments: Repository to maintain out-of-tree shell.nix files (maintainer=@mic92)]]
+
+* Nix Code Project Env
+
+** [[https://github.com/thoughtpolice/bootstrap.nix][thoughtpolice/bootstrap.nix: code to bootstrap my nix projects]]

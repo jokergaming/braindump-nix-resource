@@ -1,0 +1,11 @@
+#+TITLE: Nix Store
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-03-02 Tue 14:19
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
+* [[https://github.com/ebkalderon/merkle-tree-nix-store-thing][ebkalderon/merkle-tree-nix-store-thing: Basic implementation of a Nix-like store abstraction over a Merkle tree]] :rust:

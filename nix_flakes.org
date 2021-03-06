@@ -255,3 +255,5 @@ let
 *** [[https://discourse.nixos.org/t/flake-input-schema-slash-in-branch-name/11396/4][Flake input schema: slash in branch name? - Learn - NixOS Discourse - Brave]]
 
 * Nix Flake utils Example
+
+** [[https://github.com/maciej-bendkowski/boltzmann-brain/blob/master/flake.nix][boltzmann-brain/flake.nix at master · maciej-bendkowski/boltzmann-brain]] :haskell:python:

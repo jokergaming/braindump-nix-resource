@@ -10,3 +10,7 @@
 
 
 * [[https://github.com/dramforever/nix-dram][dramforever/nix-dram: Nix Flakes with a modified frontend, by dramforever]] :flake:
+
+* [[https://github.com/maralorn/nix-output-monitor][maralorn/nix-output-monitor: Pipe your nix-build output through the nix-output-monitor a.k.a nom to get additional information while building. - Brave]]
+
+- [2021-03-01 Mon 18:13] ->  [[https://discourse.nixos.org/t/announcing-the-nix-output-monitor/11672/4][Announcing the nix-output-monitor - Announcements - NixOS Discourse - Brave]]

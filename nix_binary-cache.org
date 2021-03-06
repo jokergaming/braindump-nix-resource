@@ -17,3 +17,5 @@
 :ID:       1f10f872-3a65-4c72-87b7-ef71008c51d1
 :END:
 - [2021-01-20 Wed 15:21] <- [[id:1f041fa3-7154-47a2-8a86-1677eb8dbf1a][Nix Secrets]]
+
+* [[https://github.com/ebkalderon/libnar][ebkalderon/libnar: NAR (Nix Archive) reader/writer implementation written in Rust]]
