@@ -32,3 +32,5 @@
 ** [[https://www.srid.ca/1948201.html][Nix recipes for Haskellers - Sridhar Ratnakumar]]
 ** [[https://github.com/Gabriel439/haskell-nix][Gabriel439/haskell-nix: Nix and Haskell in production]]
 * [[https://github.com/jkachmar/easy-hls-nix][jkachmar/easy-hls-nix: Easy Haskell Language Server tooling with Nix!]]
+* [[https://github.com/Radvendii/hakyll-flake-gen][Radvendii/hakyll-flake-gen: Easy website generation with hakyll + nix flakes]]
+* [[https://github.com/BrianHicks/nix-script][BrianHicks/nix-script: write scripts in compiled languages that run in the nix ecosystem, with no separate build step - Brave]]

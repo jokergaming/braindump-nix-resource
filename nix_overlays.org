@@ -27,6 +27,8 @@
 
 *** [[https://discourse.nixos.org/t/override-src-of-an-haskell-package/10770/3][Override src of an Haskell package - Learn - NixOS Discourse]]
 
+*** [[https://discourse.nixos.org/t/failing-to-override-network-dependency-for-bson/6588][Failing to override network dependency for bson - Learn - NixOS Discourse]]
+
 ** Python Overlay
 :PROPERTIES:
 :id: abf91e96-c75b-4313-8ac7-da713ae86a4f
@@ -61,8 +63,6 @@
 
 
 #+begin_src nix :async t :exports both :results output
-
-
 { config, pkgs, ... }:
 
 let
@@ -79,5 +79,4 @@ in
   programs.home-manager.enable = true;
   programs.skim.enable = true;
 }
-
 #+end_src

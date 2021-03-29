@@ -1,6 +1,5 @@
 #+TITLE: Contents Braindump-nix
 
-
 * Nix Users
 
 ** [[file:../guangtao's_nix.org][GuangTao's Nix]]
@@ -9,7 +8,7 @@
 
 
 
-* [[file:../nix_configuraiton_collect.org][Nix Configuration Collect]]
+* [[file:../nix_configuraiton-collect.org][Nix Configuration Collect]]
 
 * [[file:../nix_overlays.org][Nix Overlays]]
 

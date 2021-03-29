@@ -179,6 +179,10 @@ import nixpkgs {
 :END:
 - [2021-01-20 Wed 14:58] <- [[id:a1d122d7-49df-41d8-96ea-7adf99be5754][Nix Check]]
 ** [[https://discourse.nixos.org/t/my-painpoints-with-flakes/9750/5][My painpoints with flakes - NixOS Discourse]]
+
+* Nix Flake Command
+
+** [[https://discourse.nixos.org/t/flakes-cognitive-overload-gateway-drugs-self-contained-simple-recipes/11614/33][Flakes: cognitive overload, gateway drugs, self-contained simple recipes - Learn - NixOS Discourse]]
 * using git submodules with flake ?
 ** FIXME [[https://discourse.nixos.org/t/is-it-possible-to-use-git-submodules-with-flakes/10257][Is it possible to use git submodules with flakes? - Learn - NixOS Discourse]]
 
@@ -257,3 +261,5 @@ let
 * Nix Flake utils Example
 
 ** [[https://github.com/maciej-bendkowski/boltzmann-brain/blob/master/flake.nix][boltzmann-brain/flake.nix at master · maciej-bendkowski/boltzmann-brain]] :haskell:python:
+
+** [[https://github.com/doronbehar/pistol/blob/working-flake/flake.nix][pistol/flake.nix at working-flake · doronbehar/pistol]] :go:

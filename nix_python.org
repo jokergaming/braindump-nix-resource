@@ -1,0 +1,17 @@
+#+TITLE: Nix To Python
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-03-26 Fri 20:01
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
+* Nix2Py Solutions
+
+** [[https://discourse.nixos.org/t/how-to-set-up-opencv4-with-python-bindings-and-a-gui/11998/3][How to set up opencv4 with python bindings and a GUI - Learn - NixOS Discourse]]
+
+* Python Development Environment
+
+** [[https://github.com/GTrunSec/Coding-Dev-Env-With-NixFlake][GTrunSec/Coding-Dev-Env-With-NixFlake: support direnv]]

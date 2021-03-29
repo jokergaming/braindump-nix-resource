@@ -1,26 +1,18 @@
-
-  {:journal-basis "daily" 
-
-
-:project {
-           ;; Selected public notes can be published to https://logseq.com/your-project-or-your-username.
-           :name ""
-           :alias ""
-           ;; your twitter handle
-           :twitter ""
-           ;; description supports both hiccup and html
-           :description ""}
-
- ;; Currently, we support either "Markdown" or "Org".
+{;; Currently, we support either "Markdown" or "Org".
  ;; This can overwrite your global preference so that
  ;; maybe your personal preferred format is Org but you'd
  ;; need to use Markdown for some projects.
- ;; :preferred-format ""
+ :preferred-format "Org"
+ 
+ ;; Preferred workflow style. 
+ ;; Value is either ":now" for NOW/LATER style,
+ ;; or ":todo" for TODO/DOING style.
+ :preferred-workflow :now
 
  ;; Git settings
  :git-pull-secs 60
  :git-push-secs 10
- :git-auto-push true
+ :git-auto-push false
 
  ;; The app will ignore those directories or files.
  ;; E.g. "/archived" "/test.md"
@@ -80,7 +72,5 @@
  ;; becomes
  ;; Rose is red, violet's blue. Life's ordered: Org assists you.
  :macros {}
-   :ui/show-brackets? false
-   :feature/enable-journals? false
-   :preferred_format :org
-   :feature/enable-timetracking? false}
+ :feature/enable-timetracking? false
+ :feature/enable-journals? false}

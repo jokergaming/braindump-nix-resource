@@ -9,3 +9,5 @@
 
 
 * [[https://serokell.io/blog/what-is-nix][What Is Nix and Why You Should Use It]]
+
+* [[https://discourse.nixos.org/t/comparing-nix-and-conda/11366/7][Comparing Nix and Conda - Learn - NixOS Discourse]]

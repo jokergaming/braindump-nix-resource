@@ -43,6 +43,10 @@ File -> Virtual Media Manager -> Removed existing images (note, I removed them o
 
 * NixOps VirtualBox
 
+
+
 ** [[https://github.com/nix-community/nixops-vbox][nix-community/nixops-vbox: NixOps VirtualBox backend [maintainer=@AmineChikhaoui]​]]
 
 ** [[https://github.com/nix-community/nixbox][nix-community/nixbox: NixOS Vagrant boxes [maintainer=@zimbatm]​]]
+
+** [[https://discourse.nixos.org/t/nixops-how-to-configure-network/11947][Nixops - how to configure network - Learn - NixOS Discourse]]

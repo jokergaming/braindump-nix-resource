@@ -8,7 +8,7 @@
 
 - tags :: [[file:guangtao's_nix.org][GuangTao's Nix]], [[file:nixos.org][NixOS]]
 
-
+* Hydra [[https://hydra.nixos.org/build/138335796/download/1/hydra/installation.html][Installation]]
 * [[https://github.com/nix-community/hydra-check][nix-community/hydra-check: check hydra for the build status of a package maintainer=@makefu]]
 
 * [[https://status.nixos.org/][NixOS Infra Status]]
@@ -28,3 +28,7 @@
 :END:
 
  - [2021-01-20 Wed 14:59] -> [[id:2481d060-8e9f-4798-83f1-f05d64ad9951][Nix Flake Hydra CI Build Packages]]
+
+* Hydra Concepts
+
+** [[https://discourse.nixos.org/t/new-merge-policy-for-an-always-green-hydra/8889][New Merge Policy for an always-green hydra - Development - NixOS Discourse]]
