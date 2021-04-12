@@ -36,9 +36,13 @@
 ** NixOS FilesSystem
 *** [[https://rycwo.xyz/2018/08/22/nixos-series-swapfiles][Diving Into NixeOS (Part 1.5): Swap Files, And Other Tidbits]]
 
-* NixOS desktop
+* NixOS Desktop
 ** XDG
 *** [[https://discourse.nixos.org/t/how-to-set-the-xdg-mime-default/3560/3][How to set the `xdg-mime` default? - Learn - NixOS Discourse]]
+
+* NixOS Option & Example
+
+** [[https://ops.functionalalgebra.com/nixos-by-example/][NixOS By Example · Nix Cookbook]]
 * NixOS Documents
 :PROPERTIES:
 :ID:       d7186c4b-1c7e-4b2f-80d7-c594a201a4ce

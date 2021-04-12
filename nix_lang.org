@@ -54,3 +54,9 @@
 
 - [2020-12-11 Fri 21:29] <- [[id:40cfb238-83d9-4697-a3ab-20c22e392ad4][Advent of Code 2020]]
 - [2020-12-01 Tue 14:57] <- [[id:879e7b4a-dbd1-41c1-a2ec-f826d438379b][Advent of Code 2019]]
+* [#A] Nix Expressions Manual
+
+
+** [[https://github.com/NixOS/nixpkgs/blob/master/lib/attrsets.nix][nixpkgs/attrsets.nix at master · NixOS/nixpkgs]]
+
+** [[https://nixos.org/manual/nix/unstable/expressions/builtins.html][Built-in Functions]]

@@ -184,9 +184,8 @@ Nickel is a lightweight configuration language. Its purpose is to automate the g
 :PROPERTIES:
 :ID:       dc7cc7f9-fb80-46d1-89c7-cb7def5ba1f4
 :END:
-:RELATED:
-[2020-10-30 Fri 02:59] -> [[id:f97dc1ae-97a8-44ca-8f94-1212d8905c12][lopsided98/nix-ros-overlay: ROS overlay for the Nix package manager]]
-:END:
+
+- [2020-10-30 Fri 02:59] -> [[id:f97dc1ae-97a8-44ca-8f94-1212d8905c12][lopsided98/nix-ros-overlay: ROS overlay for the Nix package manager]]
 
 * NixOS container
 ** [[https://github.com/erikarvstedt/extra-container][erikarvstedt/extra-container: Run declarative NixOS containers without full system rebuilds]]
@@ -278,10 +277,6 @@ nix develop \
 :END:
 
 - [2020-11-23 Mon 20:02] <- [[id:5bad5a83-d6ab-44bd-a40d-ddcefb4928f5][add examples for mach-nix and conda by DavHau · Pull Request #135 · tweag/jupyterWith]]
-
-
-_ [[file:../data_science/jupyter_data_science.org][Jupyter Data Science]]
-
 
 
 * Nix Modules

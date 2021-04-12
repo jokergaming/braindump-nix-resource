@@ -13,3 +13,4 @@
 * [[https://docs.hercules-ci.com/hercules-ci/getting-started/repository/][Repository Setup :: Hercules CI Documentation]]
 * Nix Github Action
 ** [[https://discourse.nixos.org/t/nix-github-actions-aarch64/11034][Nix + Github Actions + Aarch64? - Learn - NixOS Discourse]]
+* [[https://github.com/hercules-ci/hercules-ci-agent][hercules-ci/hercules-ci-agent: https://hercules-ci.com build agent]]

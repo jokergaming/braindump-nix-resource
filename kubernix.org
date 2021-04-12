@@ -15,3 +15,7 @@
 * [[https://zimbatm.com/deploying-k8s-apps-with-kubenix/][Deploying Kubernetes apps with KubeNix | $ zimbatm]]
 
 * [[https://github.com/divnix/devos/issues/130][kubenix support · Issue #130 · divnix/devos]]
+
+* [[https://www.tweag.io/blog/2019-03-07-configuring-and-testing-kubernetes-clusters/][Tweag - Configuring and testing Kubernetes clusters with KubeNix and kind]]
+
+* [[https://github.com/DBCDK/kubernixos][DBCDK/kubernixos: Simple kubernetes manifest reconciler configured by NixOS modules]]

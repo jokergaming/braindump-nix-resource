@@ -263,3 +263,6 @@ let
 ** [[https://github.com/maciej-bendkowski/boltzmann-brain/blob/master/flake.nix][boltzmann-brain/flake.nix at master · maciej-bendkowski/boltzmann-brain]] :haskell:python:
 
 ** [[https://github.com/doronbehar/pistol/blob/working-flake/flake.nix][pistol/flake.nix at working-flake · doronbehar/pistol]] :go:
+
+* Nix Flake Extension
+** [[https://github.com/gytis-ivaskevicius/flake-utils-plus][gytis-ivaskevicius/flake-utils-plus: Use Nix flakes without any fluff.]]
