@@ -25,4 +25,4 @@
 * Tracking Quesitons
 ** [[https://discourse.nixos.org/t/virtualgl-server-on-nixos/10212/2][Virtualgl server on NixOS - Development - NixOS Discourse]]
 
-_ [[file:../programming/guangtao's_julia.org][GuangTao's Julia]]
+_ [[file:../programming/guangtao_julia.org][GuangTao's Julia]]

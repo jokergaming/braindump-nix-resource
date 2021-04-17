@@ -2,7 +2,7 @@
 
 * Nix Users
 
-** [[file:../guangtao's_nix.org][GuangTao's Nix]]
+** [[file:../guangtao_nix.org][GuangTao's Nix]]
 
 * [[file:../nixos.org][NixOS]]
 

@@ -6,6 +6,6 @@
 
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[file:guangtao's_nix.org][GuangTao's Nix]]
+- tags :: [[file:guangtao_nix.org][GuangTao's Nix]]
 
 * [[https://github.com/scrive/nix-workshop][scrive/nix-workshop: Nix Workshop Tutorials]]

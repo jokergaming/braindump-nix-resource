@@ -6,7 +6,7 @@
 
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[file:guangtao's_nix.org][GuangTao's Nix]], [[file:nixos.org][NixOS]]
+- tags :: [[file:guangtao_nix.org][GuangTao's Nix]], [[file:nixos.org][NixOS]]
 
 * Hydra [[https://hydra.nixos.org/build/138335796/download/1/hydra/installation.html][Installation]]
 * [[https://github.com/nix-community/hydra-check][nix-community/hydra-check: check hydra for the build status of a package maintainer=@makefu]]
