@@ -2,8 +2,6 @@
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-16 Sat 23:35
-
-
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 
@@ -211,7 +209,7 @@ imports = [
 
 * [[https://github.com/numtide/nix-flakes-installer#github-actions][numtide/nix-flakes-installer: A temporary place to host Nix Flakes releases, until the NixOS project publishes official releases.]]
 
-* flakes 3rdParty
+* flakes 3rdparty
 
 ** [[https://github.com/nix-community/flake-nimble][nix-community/flake-nimble: Nimble packages Nix flake [maintainer=@ehmry] - Brave]] :nim:
 
@@ -264,5 +262,8 @@ let
 
 ** [[https://github.com/doronbehar/pistol/blob/working-flake/flake.nix][pistol/flake.nix at working-flake · doronbehar/pistol]] :go:
 
+** [[https://github.com/utdemir/nix-tree][utdemir/nix-tree: Interactively browse dependency graphs of Nix derivations.]] :: [[file:nix_haskell.org][Nix Haskell]]
+
 * Nix Flake Extension
 ** [[https://github.com/gytis-ivaskevicius/flake-utils-plus][gytis-ivaskevicius/flake-utils-plus: Use Nix flakes without any fluff.]]
+

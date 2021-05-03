@@ -9,3 +9,9 @@
 
 
 * [[https://github.com/MIJOTHY/.dotfiles][MIJOTHY/.dotfiles: Me dotties]] :flake:
+
+* https://github.com/hardselius/dotfiles
+
+* https://github.com/LnL7/nix-darwin
+
+* https://www.mathiaspolligkeit.de/dev/exploring-nix-on-macos/

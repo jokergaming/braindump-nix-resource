@@ -1,0 +1,9 @@
+#+TITLE: NixOS Tests
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-04-24 Sat 22:58
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
+* [[https://discourse.nixos.org/t/improve-a-pkgs-tests-for-nixpkgs-update/9530/17][Improve a pkgs' tests for nixpkgs-update - Learn - NixOS Discourse]]
