@@ -1,0 +1,11 @@
+#+TITLE: Nix Github Action
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-05-22 Sat 23:58
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+* [[https://github.com/cmacrae/deploy-rs-binary-builds/blob/78e2b33d769cbe3922fbaf5d122f3ba417b68503/.github/workflows/build.yaml][deploy-rs-binary-builds/build.yaml at 78e2b33d769cbe3922fbaf5d122f3ba417b68503 · cmacrae/deploy-rs-binary-builds]]
+
+* [[https://github.com/NorfairKing/looper/blob/a31aaa14992f811b3f87a4dfb5fa3be6a1a2e2df/.github/workflows/stack.yaml][looper/stack.yaml at a31aaa14992f811b3f87a4dfb5fa3be6a1a2e2df · NorfairKing/looper]]
+
+* [[https://github.com/search?q=language%3Ayaml+%22actions%2Fcache%22+%22cachix%2Finstall-nix-action%22+%22nix%2Fstore%22&type=Code][Search · language:yaml "actions/cache" "cachix/install-nix-action" "nix/store]]

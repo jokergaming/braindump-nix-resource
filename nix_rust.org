@@ -1,0 +1,17 @@
+#+TITLE: Nix to Rust
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-05-23 Sun 21:36
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+* Nix [[file:~/Dropbox/org-notes/braindump/programming/rust/guangtao_rust.org][GuangTao's Rust]]
+** [[https://discourse.nixos.org/t/comparing-solutions-for-building-rust-on-nix/10707][Comparing solutions for building Rust on Nix - Development - NixOS Discourse]]
+** [[https://github.com/oxalica/rust-overlay][oxalica/rust-overlay]]
+   :PROPERTIES:
+   :ID:       41252713-70ef-4d4f-b6b8-22ad53c69235
+   :END:
+** [[https://github.com/nmattia/naersk][nmattia/naersk: Build rust crates in Nix. No configuration, no code generation, no IFD. Sandbox friendly.]]
+** [[https://github.com/Kloenk/rusty-nix][Kloenk/rusty-nix: Nix written in rust (this will take some time if it will ever finish)]]
+** [[https://github.com/kolloch/crate2nix][kolloch/crate2nix: nix build file generator for rust crates]]

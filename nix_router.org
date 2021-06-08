@@ -1,0 +1,8 @@
+#+TITLE: Nix Router
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-05-12 Wed 15:59
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+* [[https://github.com/telent/nixwrt][telent/nixwrt: Build images for embedded MIPS SoCs using NixPkgs (experimental)]]

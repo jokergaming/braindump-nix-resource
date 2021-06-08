@@ -1,0 +1,10 @@
+#+TITLE: Nix Nur Packages
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-05-05 Wed 10:54
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
+
+* [[https://github.com/kolloch/nur-packages][kolloch/nur-packages: Home of some custom nixpkgs]] :jitsi:

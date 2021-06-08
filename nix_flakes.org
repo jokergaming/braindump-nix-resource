@@ -264,6 +264,8 @@ let
 
 ** [[https://github.com/utdemir/nix-tree][utdemir/nix-tree: Interactively browse dependency graphs of Nix derivations.]] :: [[file:nix_haskell.org][Nix Haskell]]
 
+** [[https://github.com/serokell/templates/blob/master/haskell-cabal2nix/flake.nix][templates/flake.nix at master · serokell/templates]] :haskell:
+
 * Nix Flake Extension
 ** [[https://github.com/gytis-ivaskevicius/flake-utils-plus][gytis-ivaskevicius/flake-utils-plus: Use Nix flakes without any fluff.]]
 

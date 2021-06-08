@@ -21,3 +21,7 @@
 * [[https://nixos.cloud/][https://nixos.cloud - Brave]]
 
 * [[https://github.com/DBCDK/morph][DBCDK/morph: NixOS deployment tool - Brave]]
+
+* [[https://tailscale.com/kb/1096/nixos-minecraft/][Tailscale on NixOS: A New Minecraft Server in Ten Minutes · Tailscale]]
+
+* [[https://jezenthomas.com/deploying-a-haskell-web-service-with-nix/][Deploying A Haskell Web Service With Nix]]

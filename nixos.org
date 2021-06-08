@@ -32,6 +32,7 @@
 ** [[https://github.com/ryantrinkle/nix-build-inplace/blob/master/nix-build-inplace][nix-build-inplace/nix-build-inplace at master · ryantrinkle/nix-build-inplace]]
 ** [[https://github.com/jeaye/nixos-in-place][jeaye/nixos-in-place: Install NixOS on top of any existing Linux distribution without rebooting]]
 ** [[https://github.com/Trundle/NixOS-WSL][Trundle/NixOS-WSL: NixOS on WSL(2)]] :wsl:
+** [[https://timklampe.cool/docs/example/systemd/systemd/][Systemd | Tim's docs]] :zfs:
 
 ** NixOS FilesSystem
 *** [[https://rycwo.xyz/2018/08/22/nixos-series-swapfiles][Diving Into NixeOS (Part 1.5): Swap Files, And Other Tidbits]]
