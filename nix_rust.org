@@ -1,5 +1,5 @@
 #+TITLE: Nix to Rust
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-05-23 Sun 21:36
 #+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup

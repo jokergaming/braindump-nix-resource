@@ -1,5 +1,5 @@
 #+TITLE: Nix Packages
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-02-18 Thu 20:14
 

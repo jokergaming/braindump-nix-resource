@@ -1,5 +1,5 @@
 #+TITLE: Nix Installation
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-18 Mon 17:18
 

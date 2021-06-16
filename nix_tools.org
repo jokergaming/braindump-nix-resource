@@ -1,5 +1,5 @@
 #+TITLE: Nix Tools
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-15 Fri 14:49
 

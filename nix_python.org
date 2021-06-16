@@ -1,5 +1,5 @@
 #+TITLE: Nix To Python
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-03-26 Fri 20:01
 

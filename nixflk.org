@@ -1,5 +1,5 @@
 #+TITLE: nixflk
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-18 Mon 02:17
 

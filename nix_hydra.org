@@ -1,5 +1,5 @@
 #+TITLE: NixOS hydra Channel
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-08 Tue 16:32
 

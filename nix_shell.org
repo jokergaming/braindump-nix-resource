@@ -1,5 +1,5 @@
 #+TITLE: Nix Shell
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-18 Mon 18:01
 

@@ -1,5 +1,5 @@
 #+TITLE: Nix Store
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-03-02 Tue 14:19
 

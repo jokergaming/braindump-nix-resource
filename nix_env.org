@@ -1,5 +1,5 @@
 #+TITLE: Nix Env
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-02-26 Fri 00:09
 

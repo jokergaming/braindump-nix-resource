@@ -1,5 +1,5 @@
 #+TITLE: Julia to Nix
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-20 Wed 22:42
 

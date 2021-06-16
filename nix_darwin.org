@@ -1,5 +1,5 @@
 #+TITLE: Nix on Darwin
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-03-28 Sun 21:16
 

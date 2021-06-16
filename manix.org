@@ -1,5 +1,5 @@
 #+TITLE: Manix
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-27 Wed 11:55
 

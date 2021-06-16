@@ -1,5 +1,5 @@
 #+TITLE: Nix Builder
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-20 Wed 14:52
 

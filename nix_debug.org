@@ -1,5 +1,5 @@
 #+TITLE: Nix Debug
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-03-31 Wed 13:26
 

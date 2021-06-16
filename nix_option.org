@@ -1,5 +1,5 @@
 #+TITLE: Nix Option
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-02-23 Tue 16:39
 

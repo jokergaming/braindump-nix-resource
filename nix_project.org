@@ -1,5 +1,5 @@
 #+TITLE: Nix Project
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-02-12 Fri 22:14
 
