@@ -1,5 +1,5 @@
 #+TITLE: Nix Env
-#+AUTHOR: Guangtao
+#+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-02-26 Fri 00:09
 
@@ -12,3 +12,5 @@
 * Nix Code Project Env
 
 ** [[https://github.com/thoughtpolice/bootstrap.nix][thoughtpolice/bootstrap.nix: code to bootstrap my nix projects]]
+
+* [[https://github.com/guibou/nixGL][guibou/nixGL: A wrapper tool for nix OpenGL application]] :opengl:

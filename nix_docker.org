@@ -1,5 +1,5 @@
 #+TITLE: Nix to Docker
-#+AUTHOR: Guangtao
+#+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-21 Thu 23:54
 

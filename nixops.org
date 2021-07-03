@@ -1,5 +1,5 @@
 #+TITLE: NixOps
-#+AUTHOR: Guangtao
+#+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-11 Fri 00:04
 
@@ -52,3 +52,5 @@ File -> Virtual Media Manager -> Removed existing images (note, I removed them o
 ** [[https://github.com/nix-community/nixbox][nix-community/nixbox: NixOS Vagrant boxes [maintainer=@zimbatm]​]]
 
 ** [[https://discourse.nixos.org/t/nixops-how-to-configure-network/11947][Nixops - how to configure network - Learn - NixOS Discourse]]
+
+* [[https://github.com/nix-community/nixops-gce][nix-community/nixops-gce: NixOps Google Cloud Backend]]

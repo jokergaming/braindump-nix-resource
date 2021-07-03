@@ -1,5 +1,5 @@
 #+TITLE: Nix Search
-#+AUTHOR: Guangtao
+#+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-22 Fri 12:01
 

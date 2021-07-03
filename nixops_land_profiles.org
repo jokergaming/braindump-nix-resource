@@ -1,0 +1,39 @@
+#+TITLE: NixOps Land Profiles
+#+AUTHOR: GuangTao
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-06-22 Tue 21:10
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+* Profiles
+
+** DONE PhotoPrism
+
+** Proxy [2/2]
+
+*** DONE v2ray
+
+*** DONE ShadowSocks Client
+
+** Network Monitoring [3/3]
+
+*** DONE Zeek
+
+*** DONE Threat Bus
+
+*** DONE Vast
+
+** Adgurad [2/2]
+
+*** DONE Adblock Hosts
+
+*** DONE Adgurad Home
+
+* Deploy-rs
+
+** [[https://github.com/serokell/aquarius-infra/blob/master/flake.nix#L66][aquarius-infra/flake.nix at master · serokell/aquarius-infra]]
+
+
+#+begin_src nix :async t :exports both :results output
+"${nixosConfig.config.networking.hostName}.${nixosConfig.config.networking.domain}";
+#+end_src

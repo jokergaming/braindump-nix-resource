@@ -1,5 +1,5 @@
 #+TITLE: Why Nix
-#+AUTHOR: Guangtao
+#+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-02-27 Sat 12:53
 
