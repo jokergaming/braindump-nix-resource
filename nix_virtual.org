@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       9d6545d5-897a-49b0-98f3-f78ce947ed07
+:END:
+#+TITLE:  Nix Virtual
+#+AUTHOR: GuangTao
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-08-01 Sun 10:29
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
+* NixOS On Libvritd
+:PROPERTIES:
+:ID:       366fa7a4-b898-450e-aa4a-6b5376e6b6bc
+:END:
+
+** [[https://technicalsourcery.net/posts/nixos-in-libvirt/][Test-driving a NixOS VM using libvirt · Technichal Sourcery - Brave]]

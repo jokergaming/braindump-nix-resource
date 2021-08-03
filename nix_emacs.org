@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       d6cc29e6-6d46-4e67-8913-2e785540100a
+:END:
 #+TITLE: Nix Emacs
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
@@ -10,4 +13,8 @@
 * [[https://github.com/emacs-ng/emacs-ng][emacs-ng/emacs-ng: A new approach to Emacs - Including TypeScript, Threading, Async I/O, and WebRender.]]
 
 * [[https://github.com/vlaci/nix-doom-emacs][vlaci/nix-doom-emacs: doom-emacs packaged for Nix]] :doom:
-
+* Overlays
+:PROPERTIES:
+:ID:       016ce968-eb49-498e-8b47-6a2f6d49ec5f
+:END:
+*** [[https://github.com/acowley/dotfiles/blob/master/emacs.nix][dotfiles/emacs.nix at master · acowley/dotfiles]]

@@ -14,5 +14,7 @@
 :PROPERTIES:
 :ID:       a8946fdb-d503-43e3-9400-f833f253901a
 :END:
+- [2021-07-08 Thu 13:53] -> [[https://github.com/mayflower/nixexprs][mayflower/nixexprs: Public, Opinionated Mayflower NixOS Modules/Packages and other Expressions]]
+- [2021-07-08 Thu 13:52] -> [[https://github.com/flatironinstitute/nix-modules][flatironinstitute/nix-modules: nixpkgs-based module builds of cluster packages]]
 - [2021-01-24 Sun 16:37] <- [[id:41256eb0-964c-4745-afca-3edb4b3f58ba][nixos_cfg/autoPull.nix at master · evanjs/nixos_cfg]]
   + Timers

@@ -1,3 +1,7 @@
+:PROPERTIES:
+:ID:       631d7ade-cc04-4a8f-bf81-8eea51d8b566
+:public: true
+:END:
 #+TITLE: Cachix
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org

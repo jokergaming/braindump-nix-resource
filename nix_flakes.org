@@ -1,9 +1,12 @@
+:PROPERTIES:
+:ID:       37ba77f0-d5a3-44ea-a625-b2c73faa163a
+:public: true
+:END:
 #+TITLE: Nix Flakes
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-16 Sat 23:35
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
-
 
 - tags :: [[file:guangtao_nix.org][GuangTao's Nix]], [[file:nix_friday.org][Nix Friday]]
 
@@ -34,12 +37,12 @@
 - [[https://gist.github.com/edolstra/40da6e3a4d4ee8fd019395365e0772e7][nix-flakes.md]]
 - option ~/.config/nix/nix.conf
 
-  #+begin_src conf :async t :exports both :results output
+  #+begin_src conf
   experimental-features = nix-command flakes
   #+end_src
 ** Flake Output scheme
 
-  #+begin_src nix :async t :exports both :results output
+  #+begin_src nix
 
 { self, ... }@inputs:
 {
@@ -91,7 +94,7 @@
 - [[https://github.com/numtide/flake-utils/blob/master/examples/each-system/flake.nix][flake-utils/flake.nix at master · numtide/flake-utils]]
   + eachDefaultSystem
 
-    #+begin_src nix :async t :exports both :results output
+    #+begin_src nix
 
   {
     description = "Flake utils demo";
@@ -120,7 +123,7 @@
 
     + nixpkgs lib
 
-#+begin_src sh :async t :exports both :results output
+#+begin_src sh
 
 let
   importJSON = file: builtins.fromJSON (builtins.readFile file);
@@ -147,7 +150,7 @@ import nixpkgs {
 - [2021-01-20 Wed 14:59] <- [[id:0a70ae5f-0dac-4854-bfa8-ba1e2693bee9][Hydra Builder]]
 - [[https://github.com/edolstra/dhdm/blob/master/flake.nix][dhdm/flake.nix at master · edolstra/dhdm]]
 
-#+begin_src nix :async t :exports both :results output
+#+begin_src nix
 {
   inputs.nixpkgs.url = "nixpkgs/nixos-20.03";
 
@@ -185,7 +188,7 @@ import nixpkgs {
 ** FIXME [[https://discourse.nixos.org/t/is-it-possible-to-use-git-submodules-with-flakes/10257][Is it possible to use git submodules with flakes? - Learn - NixOS Discourse]]
 
 - impure mode
-#+begin_src nix :async t :exports both :results output
+#+begin_src nix
 imports = [
 # some stuff
 ] ++ (if builtins.pathExists (builtins.getEnv "PWD" + "/secrets/at_home.nix") then [ (builtins.getEnv "PWD" + "/secrets/at_home.nix") ] else [ ]);
@@ -230,7 +233,7 @@ minimal flake's expression for package
 ** [[https://github.com/NixOS/nixos-search/blob/main/flake.nix][nixos-search/flake.nix at main · NixOS/nixos-search]]
 
 
-#+begin_src nix :async t :exports both :results output
+#+begin_src nix
 let
   systems = [ "x86_64-linux" "i686-linux" "x86_64-darwin" "aarch64-linux" ];
 
@@ -266,6 +269,9 @@ let
 
 ** [[https://github.com/serokell/templates/blob/master/haskell-cabal2nix/flake.nix][templates/flake.nix at master · serokell/templates]] :haskell:
 
+* Nix Flake Digga Example
+
+** [[https://gitlab.com/coffeetablebrothers/lower/-/blob/master/flake.nix][flake.nix · master · Coffee Table Brothers / lower · GitLab]]
+
 * Nix Flake Extension
 ** [[https://github.com/gytis-ivaskevicius/flake-utils-plus][gytis-ivaskevicius/flake-utils-plus: Use Nix flakes without any fluff.]]
-

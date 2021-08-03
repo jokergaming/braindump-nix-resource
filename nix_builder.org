@@ -20,3 +20,5 @@
 - [[file:nix_macos.org][Nix on MacOS]]
 
 * [[https://github.com/oxalica/init-runner][oxalica/init-runner]]
+*  Nix cross-compiling
+* [[https://github.com/pololu/nixcrpkgs][pololu/nixcrpkgs: Tools for cross-compiling standalone applications using Nix.]]

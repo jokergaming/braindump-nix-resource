@@ -25,3 +25,7 @@
 * [[https://tailscale.com/kb/1096/nixos-minecraft/][Tailscale on NixOS: A New Minecraft Server in Ten Minutes · Tailscale]]
 
 * [[https://jezenthomas.com/deploying-a-haskell-web-service-with-nix/][Deploying A Haskell Web Service With Nix]]
+
+* [[https://github.com/flyingcircusio/fc-nixos][flyingcircusio/fc-nixos: FC NixOS platform next generation]]
+
+* [[https://github.com/nixcloud/nixcloud-webservices][nixcloud/nixcloud-webservices: This nixpkgs extension, called nixcloud-webservices, focuses on ease of deployment of web-related technologies.]]

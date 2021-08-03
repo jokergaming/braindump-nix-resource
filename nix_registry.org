@@ -1,0 +1,9 @@
+#+TITLE: Nix Registry
+#+AUTHOR: GuangTao
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-07-08 Thu 13:56
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
+* [[https://github.com/divnix/quick-nix-registry][divnix/quick-nix-registry: Speed up the Nix registry by caching nixpkgs locally]]

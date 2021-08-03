@@ -1,0 +1,9 @@
+#+TITLE: NixOS Make Test
+#+AUTHOR: GuangTao
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-07-14 Wed 23:01
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+* [[https://nixos.org/manual/nixos/stable/index.html#sec-nixos-tests][NixOS - NixOS 21.05 manual]]
+* [[https://github.com/NixOS/nixpkgs/blob/master/nixos/modules/virtualisation/qemu-vm.nix][nixpkgs/qemu-vm.nix at master · NixOS/nixpkgs]]

@@ -2,9 +2,6 @@
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-29 Sun
-
-
-#+SETUPFILE: ~/Dropbox/org-notes/braindump/tags/nix-tags.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 #+OPTIONS: prop:t p:t
 
@@ -74,6 +71,17 @@ nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
 
     - [2020-11-07 Sat 22:56] -> [[id:2cac43cc-1cbd-4092-a275-83856018a0a8][Nix Friday - C/CPP infrastructure in Nix - with Mic92 - YouTube]]
 
+**** Workflows
+#+AUTHOR: GuangTao
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-07-22 Thu 18:02
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+- tags :: [[file:apache_airflow.org][Apache Airflow]]
+
+***** [[https://github.com/tweag/funflow][tweag/funflow: Functional workflows]]
+**** [[https://www.youtube.com/watch?v=prI35GmCon4&list=PLm3J0oaFux3ZYpFLwwrlv_EHH9wtH6pnX][“CS Theory Toolkit: Course Outline || @ CMU || Lecture 1a - YouTube”🔊]]
 ** Nix Ruby
 
 *** [[https://github.com/nix-community/bundix][nix-community/bundix: Generates a Nix expression for your Bundler-managed application. [maintainer=@manveru]​]]
@@ -121,7 +129,7 @@ boot.kernelPatches = [ {
 ** Nix Security option
 *** [[https://discourse.nixos.org/t/default-security-settings/9755/2][Default security settings - Development / Security - NixOS Discourse]]
     #+begin_src nix :async t :exports both :results output
-security.lockKernelModules = false 
+security.lockKernelModules = false
     #+end_src
 
 
@@ -158,9 +166,7 @@ security.lockKernelModules = false
 ** [[https://github.com/tweag/nickel][tweag/nickel: Cheap configuration language]] :parser:query:
 
    Nickel is a lightweight configuration language. Its purpose is to automate the generation of static configuration files - think JSON, YAML, XML, or your favorite data representation language - that are then fed to another system. It is designed to have a simple, well-understood core: at its heart, it is JSON with functions. It adds other features on top of it to improve expressivity and modularity, but you can do just fine without using it.
-* Nix Emacs
-** [[https://github.com/vlaci/nix-doom-emacs][vlaci/nix-doom-emacs: doom-emacs packaged for Nix]]
-** [[https://github.com/nix-community/emacs-overlay][nix-community/emacs-overlay: Bleeding edge emacs overlay [maintainer=@adisbladis]​]]
+
 * ROS to Nix
   :PROPERTIES:
   :ID:       dc7cc7f9-fb80-46d1-89c7-cb7def5ba1f4

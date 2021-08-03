@@ -1,3 +1,7 @@
+:PROPERTIES:
+:ID:       f10fc81e-04bb-4682-bc97-6afb528df435
+:public: true
+:END:
 #+TITLE: Nix Con
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org

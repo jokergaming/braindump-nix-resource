@@ -1,3 +1,7 @@
+:PROPERTIES:
+:ID:       a8ba8e6c-9fd2-4d70-87b4-c2c27287bcb0
+:public: true
+:END:
 #+TITLE: Julia to Nix
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org

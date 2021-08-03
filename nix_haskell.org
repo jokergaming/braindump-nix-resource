@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       2b5a0c6b-d3a7-4958-a070-90ae7cd25ead
+:END:
 #+TITLE: Nix Haskell
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
@@ -5,7 +8,7 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 
-* Nix [[file:../programming/guangtao_haskell.org][GuangTao's Haskell]]
+* Nix [[file:~/Dropbox/org-notes/braindump/programming/haskell/guangtao_haskell.org][GuangTao's Haskell]]
 :PROPERTIES:
 :ID:       fdd307fb-61eb-4b95-a622-2738c75c4d46
 :END:
@@ -36,3 +39,8 @@
 * [[https://github.com/qfpl/applied-fp-course][qfpl/applied-fp-course: Applied Functional Programming Course - Move from exercises to a working app!]]
 * [[https://github.com/jkachmar/haskell-nix-repro/tree/trunk][jkachmar/haskell-nix-repro]]
 * [[https://github.com/Gabriel439/haskell-nix][Gabriel439/haskell-nix: Nix and Haskell in production]]
+* [[https://github.com/well-typed/memory-usage-zurihac-2021][well-typed/memory-usage-zurihac-2021]]
+* Haskell Deploy
+** [[https://jezenthomas.com/deploying-a-haskell-web-service-with-nix/][Deploying A Haskell Web Service With Nix]]
+* Haskell Projects
+** [[https://github.com/nomeata/kaleidogen][nomeata/kaleidogen: Grow procedual art]]
