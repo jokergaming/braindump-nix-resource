@@ -26,14 +26,13 @@
 
   #+begin_src nix :exports both :results output
 deploy.nodes = (digga.lib.mkDeployNodes self.nixosConfigurations {
-  # if config.networking.hostName == <extraConfig.hostname> then <merge extraConfig.hostname.attrs> else {}
-  "hostname-1<NixOS>" = {
-    hostname = "10.220.170.112"; #overrding hostname and without modifing the hosts file
+  host-1 = {
+    hostname = "10.220.170.112";
     sshUser = "root";
     fastConnection = true;
     sshOpts = [ "-p" "25" ];
   };
-  "hostname-<devos-1>" = {
+  host-2 = {
     sshOpts = [ "-p" "17788" ];
     hostname = "10.110.110.1"
   };

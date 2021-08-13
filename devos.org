@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       00bcd8d2-fe30-440e-8b43-107e22690cf9
+:END:
+#+TITLE: DevOS
+#+AUTHOR: GuangTao
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-18 Mon 02:17
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+* [[https://github.com/divnix/digga][divnix/digga: A a flake utility library to craft shell-, home-, and hosts- environments.]]
+
+* [[https://github.com/divnix/bud][divnix/bud: EXPERIMENTAL -- A highly composable system ctl tool]]
+
+* [[https://github.com/divnix/devos][divnix/devos: NixOS Template]]
+
+* DevOS PR
+
+** DONE [[https://github.com/nrdxp/nixflk/pull/93][users: Initial home-manager only configurations(non-nixos systems) by Pacman99 · Pull Request #93 · nrdxp/nixflk]]
+
+* DevOS Users
+
+** [[https://github.com/ArctarusLimited/KuiserOS][ArctarusLimited/KuiserOS: DevOS for the Enterprise.]]

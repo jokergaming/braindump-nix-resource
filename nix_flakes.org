@@ -17,6 +17,7 @@
 - [[https://discourse.nixos.org/t/good-practice-for-nix-flakes/9706/2][Good practice for Nix Flakes - Learn - NixOS Discourse]]
 - [[https://www.tweag.io/blog/2020-05-25-flakes/][Tweag - Nix Flakes, Part 1: An introduction and tutorial]]
 - [[https://www.tweag.io/blog/2020-06-25-eval-cache/][Tweag - Nix Flakes, Part 2: Evaluation caching]]
+- [[https://github.com/tweag/nix-ux][tweag/nix-ux: Nix UX improvements]]
 - [[https://www.tweag.io/blog/2020-07-31-nixos-flakes/][Tweag - Nix Flakes, Part 3: Managing NixOS systems]]
 * Nix Flake related
 :PROPERTIES:
@@ -184,7 +185,7 @@ import nixpkgs {
 * Nix Flake Command
 
 ** [[https://discourse.nixos.org/t/flakes-cognitive-overload-gateway-drugs-self-contained-simple-recipes/11614/33][Flakes: cognitive overload, gateway drugs, self-contained simple recipes - Learn - NixOS Discourse]]
-* using git submodules with flake ?
+* Using git submodules with flake ?
 ** FIXME [[https://discourse.nixos.org/t/is-it-possible-to-use-git-submodules-with-flakes/10257][Is it possible to use git submodules with flakes? - Learn - NixOS Discourse]]
 
 - impure mode
@@ -212,7 +213,7 @@ imports = [
 
 * [[https://github.com/numtide/nix-flakes-installer#github-actions][numtide/nix-flakes-installer: A temporary place to host Nix Flakes releases, until the NixOS project publishes official releases.]]
 
-* flakes 3rdparty
+* Flakes 3rdparty
 
 ** [[https://github.com/nix-community/flake-nimble][nix-community/flake-nimble: Nimble packages Nix flake [maintainer=@ehmry] - Brave]] :nim:
 

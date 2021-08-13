@@ -2,12 +2,10 @@
 :ID:       11d2d2f3-b9a2-4cf8-ac77-9f99684036b1
 :public: true
 :END:
-#+TITLE: disnix
+#+TITLE: Disnix
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-30 Wed 14:58
-
-
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 
@@ -31,3 +29,5 @@
 * [[https://github.com/svanderburg/nix-processmgmt][svanderburg/nix-processmgmt: Experimental Nix-based process management framework]]
 
 * [[https://sandervanderburg.blogspot.com/2021/02/developing-s6-rc-backend-for-nix.html][Sander van der Burg's blog: Developing an s6-rc backend for the Nix process management framework]]
+
+* [[https://sandervanderburg.blogspot.com/2021/02/deploying-mutable-multi-process-docker.html][Sander van der Burg's blog: Deploying mutable multi-process Docker containers with the Nix process management framework (or running Hydra in a Docker container)]]

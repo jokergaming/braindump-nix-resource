@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       19c97041-eefa-4665-b087-eff156ff36aa
+:END:
+#+TITLE: NixOS Configuration
+#+AUTHOR: GuangTao
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-08-08 Sun 21:52
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+- tags :: [[id:15fc92d9-d07d-4790-8035-682cda7d16be][Nix Flakes Configurations]]
+
+* Teamplate NixOS Configurations
+:PROPERTIES:
+:ID:       0dc7fd91-9a9b-43ef-968e-b9eddc540ec4
+:END:
+** [[https://github.com/evanjs/nixos_cfg][evanjs/nixos_cfg]]

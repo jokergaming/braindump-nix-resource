@@ -5,6 +5,15 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 
+* Roadmap
+
+** [[https://github.com/svanderburg/monitoring-playground][svanderburg/monitoring-playground]]
+* Warning
+
+** Creating hosts
+
+ - Do not use */* with hostname
+
 * Profiles
 
 ** DONE PhotoPrism

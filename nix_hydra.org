@@ -32,3 +32,7 @@
 * Hydra Concepts
 
 ** [[https://discourse.nixos.org/t/new-merge-policy-for-an-always-green-hydra/8889][New Merge Policy for an always-green hydra - Development - NixOS Discourse]]
+
+* Hydra Cli
+
+** [[https://github.com/nlewo/hydra-cli][nlewo/hydra-cli: A client for the Hydra Nix CI]]

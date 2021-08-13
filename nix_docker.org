@@ -11,3 +11,7 @@
 
 * [[https://github.com/nix-community/docker-nixpkgs][nix-community/docker-nixpkgs: docker images from nixpkgs [maintainer=@zimbatm]​]]
 * [[https://discourse.nixos.org/t/push-docker-tgz-images-to-registry-directly/189/10][Push docker tgz images to registry directly - Howto - NixOS Discourse - Brave]]
+* [[https://sandervanderburg.blogspot.com/2021/02/deploying-mutable-multi-process-docker.html][Sander van der Burg's blog: Deploying mutable multi-process Docker containers with the Nix process management framework (or running Hydra in a Docker container)]]
+* [[https://discourse.nixos.org/t/dockertools-buildlayeredimage-possible-to-compress-layers/14417/5][dockerTools.buildLayeredImage: Possible to compress layers? - Development - NixOS Discourse]]
+* Docker BuildImage Example
+** [[https://github.com/tubleronchik/kuka-airapkgs/blob/d3bea431b0a092c67256f0c92e362f641182af8b/pkgs/build-support/docker/examples.nix][kuka-airapkgs/examples.nix at d3bea431b0a092c67256f0c92e362f641182af8b · tubleronchik/kuka-airapkgs]]

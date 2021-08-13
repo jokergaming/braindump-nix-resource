@@ -47,16 +47,26 @@
 
 - [2020-11-20 Fri 01:18] <- [[id:33107453-baf3-4e27-871b-833b93f5ad76][Nix Golang]]
 ** [[https://github.com/nprindle/nix-parsec][nprindle/nix-parsec]]
-* ⚑ WAITING Advent of Code with Nix
-:PROPERTIES:
-:id: 7726d48c-5ff3-45e0-9ba9-53bc9af2f186
-:END:
-
-- [2020-12-11 Fri 21:29] <- [[id:40cfb238-83d9-4697-a3ab-20c22e392ad4][Advent of Code 2020]]
-- [2020-12-01 Tue 14:57] <- [[id:879e7b4a-dbd1-41c1-a2ec-f826d438379b][Advent of Code 2019]]
 * [#A] Nix Expressions Manual
 
 
 ** [[https://github.com/NixOS/nixpkgs/blob/master/lib/attrsets.nix][nixpkgs/attrsets.nix at master · NixOS/nixpkgs]]
 
 ** [[https://nixos.org/manual/nix/unstable/expressions/builtins.html][Built-in Functions]]
+* Nix Advent of Code 2020
+:PROPERTIES:
+:id: 7726d48c-5ff3-45e0-9ba9-53bc9af2f186
+:END:
+ - [2021-08-04 Wed 13:33] <- [[id:40cfb238-83d9-4697-a3ab-20c22e392ad4][Advent of Code 2020]]
+*** [[https://github.com/chvp/aoc2020][“chvp/aoc2020: Solutions for Advent of Code 2020 (in Nix)”🔊]]
+
+
+*** [[https://github.com/crazazy/aoc2020][crazazy/aoc2020: Advent of Code done in the nix language]]
+
+* Nix Advent of Code 2019
+:PROPERTIES:
+:ID:       7818a07b-f8ac-42f8-8deb-13e0ee1db15b
+:END:
+
+ - [2021-08-04 Wed 13:35] <- [[id:879e7b4a-dbd1-41c1-a2ec-f826d438379b][Advent of Code 2019]]
+** [[https://github.com/Qu4tro/advent_of_code][Qu4tro/advent_of_code: Advent of Code in Nix]]
