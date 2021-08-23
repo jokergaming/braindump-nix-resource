@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       675c926d-080a-4f5a-a4ad-d895191112ed
+:END:
+#+TITLE: LXC/LXD NixOS with Linux Container
+#+AUTHOR: GuangTao
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-08-18 Wed 13:20
+
+
+
+* [[https://www.thedroneely.com/posts/running-nixos-linux-containers/][Running NixOS in a Linux Container - Thedro Neely]]

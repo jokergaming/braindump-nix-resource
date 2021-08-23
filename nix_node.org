@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       7f4039ef-f0bd-4155-9ecf-b4d6b48900ba
+:END:
+#+TITLE: Nix Node
+#+AUTHOR: GuangTao
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-08-18 Wed 12:59
+
+
+
+* Yarn2nix
+
+** [[https://github.com/nix-community/yarn2nix][nix-community/yarn2nix: Generate nix expressions from a yarn.lock file [maintainer=???]​]]
+
+
+* https://andreas.rammhold.de/posts/ranz2nix/
+
+* [[https://github.com/serokell/nix-npm-buildpackage][serokell/nix-npm-buildpackage: Build nix packages that use npm/yarn]]

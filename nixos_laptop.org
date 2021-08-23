@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       abbc9485-dc0f-4959-93da-f0872b328b4e
+:END:
+#+TITLE: NixOS On Laptop
+#+AUTHOR: GuangTao
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-08-18 Wed 13:32
+
+
+
+* Services
+
+** tlp
+
+** thermald

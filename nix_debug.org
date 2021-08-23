@@ -4,7 +4,7 @@
 #+DATE: 2021-03-31 Wed 13:26
 
 
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
 
 
 * [[https://github.com/NixOS/nixpkgs/blob/master/lib/debug.nix][nixpkgs/debug.nix at master · NixOS/nixpkgs]]

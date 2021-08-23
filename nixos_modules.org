@@ -4,7 +4,7 @@
 #+DATE: 2021-01-24 Sun 16:35
 
 
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
 
 
 - tags :: [[file:nixos.org][NixOS]]

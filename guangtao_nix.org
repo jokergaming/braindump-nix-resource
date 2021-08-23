@@ -2,7 +2,7 @@
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-29 Sun
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
 #+OPTIONS: prop:t p:t
 
 - tags :: [[file:nixos.org][NixOS]], [[file:nixops.org][NixOps]], [[file:../guangtao_learning_programming_languages.org][GuangTao's learning Programming languages]], [[file:nix_wiki.org][Nix Wiki]]
@@ -58,9 +58,6 @@ nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
 *** Go Nix discussing
     - [[https://discourse.nixos.org/t/build-golang-code-provided-not-as-go-module/9543/10][Build GoLang code provided not as Go module - Learn - NixOS Discourse]]
 
-** Nix [[file:../programming/node.org][GuangTao's Node Java]]
-*** https://andreas.rammhold.de/posts/ranz2nix/
-*** [[https://github.com/nix-community/yarn2nix][nix-community/yarn2nix: Generate nix expressions from a yarn.lock file [maintainer=???]​]]
 
 ** Nix [[file:../programming/guangtao_golang.org][GuangTao's Golang]]
 
@@ -75,7 +72,7 @@ nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-07-22 Thu 18:02
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
 
 
 - tags :: [[file:apache_airflow.org][Apache Airflow]]

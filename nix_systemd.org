@@ -5,7 +5,7 @@
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-02-26 Fri 23:02
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
 
 
 * [[https://github.com/obsidiansystems/obelisk-systemd][obsidiansystems/obelisk-systemd: Turn your obelisk app into a systemd service]]

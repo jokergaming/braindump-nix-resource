@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       a0e6b4af-7976-4400-b426-acf512755224
+:END:
+#+TITLE: Nix Copy
+#+AUTHOR: GuangTao
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-08-21 Sat 18:19
+
+
+
+* [[https://github.com/NixOS/nix/blob/master/tests/nix-copy-ssh.sh][nix/nix-copy-ssh.sh at master · NixOS/nix]]

@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       60faf639-e7cd-4523-b03a-a970ae5e6b50
+:END:
+#+TITLE: NixOS with ZFS and LUKS
+#+AUTHOR: GuangTao
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-08-18 Wed 12:49
+
+
+
+
+* NixOS ZFS Profile
+:PROPERTIES:
+:ID:       15441ffc-0a71-433d-a31a-01d59cdc4a6a
+:END:
+
+
+#+begin_src nix :async t :exports both :results output
+programs.zsh.enable = true;
+services.zfs.autoScrub.enable = true;
+#+end_src
+
+** [[https://github.com/a-schaefers/themelios][“a-schaefers/themelios: Bootstrap a zfs-on-root NixOS configuration in one command. Themelios automates the entire installation process using any NixOS livedisk with an internet connection and your git repo. Themelios is flexible with many configuration options and allows for unique, per-machine customization.”🔊]]
+
+** [[https://www.immae.eu/blog/2020/06/06/migrate-from-raid1-disk-to-zfs-on-nixos/][Migrate from RAID1 disk to ZFS on NixOS]]
+
+**
+
+* [[https://github.com/vpsfreecz/vpsadminos/tree/staging][vpsfreecz/vpsadminos: Host for Linux system containers based on NixOS, ZFS and LXC]]

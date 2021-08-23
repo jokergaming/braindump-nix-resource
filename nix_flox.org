@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       b3c9df6e-64f4-4fc1-a2e5-1db7d1aff68d
+:END:
+#+TITLE: Nix Flox
+#+AUTHOR: GuangTao
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-08-23 Mon 12:47
+
+
+
+* [[https://beta.floxdev.com/profiles][Flox Profile Manager]]
+
+* [[https://discourse.floxdev.com/login][Flox Developer Forum]]

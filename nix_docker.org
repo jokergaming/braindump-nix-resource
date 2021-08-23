@@ -1,10 +1,13 @@
-#+TITLE: Nix to Docker
-#+AUTHOR: GuangTao
-#+EMAIL: gtrunsec@hardenedlinux.org
-#+DATE: 2021-01-21 Thu 23:54
+:PROPERTIES:
+:ID:       ac08228e-6215-472e-b3df-88ce3a17078e
+:END:
+#+title: Nix to Docker
+#+author: GuangTao
+#+email: gtrunsec@hardenedlinux.org
+#+date: 2021-01-21 Thu 23:54
+#+options: H:3 num:t toc:t
 
-
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+- tags :: [[id:cea1ca02-26c6-49a1-abb5-cf484a27a1a5][Docker]]
 
 
 * [[https://nixery.dev/][Nixery -]]
@@ -15,3 +18,17 @@
 * [[https://discourse.nixos.org/t/dockertools-buildlayeredimage-possible-to-compress-layers/14417/5][dockerTools.buildLayeredImage: Possible to compress layers? - Development - NixOS Discourse]]
 * Docker BuildImage Example
 ** [[https://github.com/tubleronchik/kuka-airapkgs/blob/d3bea431b0a092c67256f0c92e362f641182af8b/pkgs/build-support/docker/examples.nix][kuka-airapkgs/examples.nix at d3bea431b0a092c67256f0c92e362f641182af8b · tubleronchik/kuka-airapkgs]]
+
+* Docker Composer Deloyment
+:PROPERTIES:
+:ID:       15227fbd-48f9-40ce-8105-a03349ceec7c
+:END:
+- [2021-08-17 Tue 13:02] <- [[id:741e72b2-cd10-4cfc-b4a5-ad6f60b32614][Deploying Nix Services]]
+** [[https://github.com/barrucadu/nixfiles/blob/master/hosts/dreamlands/configuration.nix][nixfiles/configuration.nix at master · barrucadu/nixfiles]]
+
+** [[https://github.com/hercules-ci/arion][hercules-ci/arion: Run docker-compose with help from Nix/NixOS]]
+:PROPERTIES:
+:ID:       5693e2be-36de-4ea0-ab49-a8d0efe8f857
+:END:
+- [2021-08-19 Thu 17:34] <- [[id:f7715fe4-d6bc-422c-b438-ff7d6d273239][hercules-ci/hercules-ci-agent: https://hercules-ci.com build agent]]
+* [[https://docs.hercules-ci.com/arion/][Welcome to Arion documentation :: Hercules CI Documentation]]

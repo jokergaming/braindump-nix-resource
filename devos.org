@@ -5,7 +5,7 @@
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-18 Mon 02:17
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
 
 * [[https://github.com/divnix/digga][divnix/digga: A a flake utility library to craft shell-, home-, and hosts- environments.]]
 
@@ -19,4 +19,6 @@
 
 * DevOS Users
 
+** [[https://github.com/danielphan2003/flk/tree/main][danielphan2003/flk: My uwu dotfiles - flaky flake flk]]
 ** [[https://github.com/ArctarusLimited/KuiserOS][ArctarusLimited/KuiserOS: DevOS for the Enterprise.]]
+** [[https://gitlab.com/pacman99][Parthiv Seetharaman · GitLab]] :devos:

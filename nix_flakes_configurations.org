@@ -5,7 +5,7 @@
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-08-08 Sun 21:30
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
 
 
 * NixOS Flakes
@@ -13,7 +13,7 @@
 :ID:       8a9e45f4-fa22-41b9-9862-d653ea91822c
 :END:
 - [2020-11-09 Mon 15:40] <- [[id:0fbe152b-bad6-4054-a201-c51ab509ed73][flakes]]
-
+- [2021-08-21 Sat 13:13] -> [[id:00bcd8d2-fe30-440e-8b43-107e22690cf9][DevOS]]
 
 ** [[https://gitlab.com/felschr/nixos-config/-/tree/main][Files · main · Felix Tenley / nixos-config · GitLab]]
 ** [[https://github.com/bbigras/nix-config/blob/master/flake.nix][nix-config/flake.nix at master · bbigras/nix-config]]
@@ -32,8 +32,6 @@
 ** [[https://github.com/johnae/tektonix/tree/master][johnae/tektonix: TektonCD pipelines using the NixOS module system.]]
 ** [[https://github.com/nprindle/nixos-configs][nprindle/nixos-configs: My configurations for NixOS]] :haskell:
 
-* [[id:00bcd8d2-fe30-440e-8b43-107e22690cf9][DevOS]]Users
-** [[https://gitlab.com/pacman99][Parthiv Seetharaman · GitLab]] :devos:
 * Hound Code Search
 
 #+begin_src json :tangle "~/.config/nixpkgs/nixos-flk/profiles/search/config-hound.json"

@@ -8,7 +8,7 @@
 #+DATE: 2021-01-20 Wed 15:40
 
 
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
 
 - Keywords :: [[file:nix_binary-cache.org][Nix Binary Cache]]
 

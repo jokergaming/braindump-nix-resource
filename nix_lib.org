@@ -2,7 +2,7 @@
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-04-26 Mon 01:06
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
 
 
 - tags ::  [[file:nix_lang.org][Nix Lang]]
@@ -10,4 +10,3 @@
 
 
 * [[https://github.com/numtide/nix-filter][numtide/nix-filter: a small self-container source filtering lib]]
-

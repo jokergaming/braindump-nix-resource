@@ -4,7 +4,7 @@
 #+DATE: 2021-01-20 Wed 15:13
 
 
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
 
 - tags :: [[file:guangtao_nix.org][GuangTao's Nix]]
 
@@ -13,13 +13,13 @@
 :ID:       63902fbf-3333-4a66-bd7a-85aff74cd739
 :END:
  - [2021-01-22 Fri 00:52] -> [[id:73ffce07-74fb-447e-8472-73d2a96e102a][Nix Use Cases]]
-* Nix Deploy Services
+* Deploying Nix Services
 :PROPERTIES:
 :ID:       741e72b2-cd10-4cfc-b4a5-ad6f60b32614
 :END:
- - [2021-01-20 Wed 15:14] -> [[id:c773e0e9-27ef-470a-8038-87633989e2da][Deploy Nix Binary Server]]
-* Nix Docker Deployment
-** [[https://github.com/barrucadu/nixfiles/blob/master/hosts/dreamlands/configuration.nix][nixfiles/configuration.nix at master · barrucadu/nixfiles]]
+- [2021-08-17 Tue 13:02] <- [[id:15227fbd-48f9-40ce-8105-a03349ceec7c][Docker Composer Deloyment]]
+- [2021-01-20 Wed 15:14] -> [[id:c773e0e9-27ef-470a-8038-87633989e2da][Deploying Nix Binary Server]]
+
 * [[https://github.com/datakurre/nomad-with-nix][datakurre/nomad-with-nix: Example of developing and deploying services with Nix and Nomad]]
 
 

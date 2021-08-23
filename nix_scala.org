@@ -4,7 +4,7 @@
 #+DATE: 2021-03-25 Thu 16:00
 
 
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
 
 
 * [[https://github.com/gvolpe/sbt-nix.g8][gvolpe/sbt-nix.g8: Get started with Nix in Scala]]

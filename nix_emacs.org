@@ -5,7 +5,7 @@
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-05-08 Sat 13:08
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
 
 
 * [[https://github.com/nix-community/emacs-overlay][nix-community/emacs-overlay: Bleeding edge emacs overlay [maintainer=@adisbladis]​]]

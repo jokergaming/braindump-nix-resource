@@ -1,11 +1,17 @@
+:PROPERTIES:
+:ID:       f47507c9-d65a-4e11-9a2d-6cb08395f4a3
+:END:
 #+TITLE: Nix Project
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-02-12 Fri 22:14
+#+OPTIONS: H:3 num:t toc:t
 
 
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+* [[https://github.com/flatironinstitute/nixpack][flatironinstitute/nixpack: nix+spack = nixpack (spanix?)]]
 
 
 
 * [[https://discourse.nixos.org/t/introducing-flox-nix-for-simplicity-and-scale/11275][Introducing flox - Nix for simplicity and scale - Announcements - NixOS Discourse - Brave]]
+
+- [2021-08-23 Mon 13:51] -> [[id:b3c9df6e-64f4-4fc1-a2e5-1db7d1aff68d][Nix Flox]]

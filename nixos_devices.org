@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       06e4f801-6077-4482-852f-4cb976f9e01b
+:END:
+#+TITLE: NixOS Devices
+#+AUTHOR: GuangTao
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-08-18 Wed 13:35
+
+
+
+
+* SSD
+
+** services
+- fstrim
+#+begin_src nix :async t :exports both :results output
+services.fstrim.enable = pkgs.lib.mkDefault true;
+#+end_src

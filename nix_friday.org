@@ -4,7 +4,7 @@
 #+DATE: 2020-12-08 Tue 16:35
 
 
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
 
 
 - tags :: [[file:guangtao_nix.org][GuangTao's Nix]]
@@ -57,4 +57,3 @@
 :src "https://www.youtube.com/embed/h2I1FHpbaIg"
 :height "367"
 :width "653"}]]
-

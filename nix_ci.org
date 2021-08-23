@@ -4,7 +4,7 @@
 #+DATE: 2021-01-19 Tue 11:44
 
 
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
 
 
 
@@ -14,3 +14,7 @@
 * Nix Github Action
 ** [[https://discourse.nixos.org/t/nix-github-actions-aarch64/11034][Nix + Github Actions + Aarch64? - Learn - NixOS Discourse]]
 * [[https://github.com/hercules-ci/hercules-ci-agent][hercules-ci/hercules-ci-agent: https://hercules-ci.com build agent]]
+:PROPERTIES:
+:ID:       f7715fe4-d6bc-422c-b438-ff7d6d273239
+:END:
+ - [2021-08-19 Thu 17:34] -> [[id:5693e2be-36de-4ea0-ab49-a8d0efe8f857][hercules-ci/arion: Run docker-compose with help from Nix/NixOS]]

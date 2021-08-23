@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       27d34d11-b8bd-410e-906e-3ab295c1c79d
+:END:
+#+TITLE: NixOps Land FileSystem
+#+AUTHOR: GuangTao
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-08-18 Wed 13:04
+
+
+
+* [[id:60faf639-e7cd-4523-b03a-a970ae5e6b50][Nix with ZFS and LUKS]]

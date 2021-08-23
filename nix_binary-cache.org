@@ -4,10 +4,10 @@
 #+DATE: 2021-01-20 Wed 15:12
 
 
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 
-* Deploy Nix Binary Server
+
+* Deploying Nix Binary Server
 :PROPERTIES:
 :ID:       c773e0e9-27ef-470a-8038-87633989e2da
 :END:

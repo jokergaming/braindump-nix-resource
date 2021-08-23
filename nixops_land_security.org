@@ -1,0 +1,48 @@
+:PROPERTIES:
+:ID:       242ba72d-7167-41ff-a81f-4493194f172b
+:END:
+#+TITLE: NixOps Land Security
+#+AUTHOR: GuangTao
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-08-18 Wed 12:53
+
+
+
+
+* Porfiles [0/1]
+
+** TODO [[id:3fc12f04-6c31-4312-b3ab-eff95dd1de06][firejail]] :sandbox:
+
+#+begin_src nix :async t :exports both :results output
+programs.firejail.enable = true;
+#+end_src
+
+** IDS
+
+*** zeek
+
+**** Debugging
+
+Magic rollback issue:
+
+commented this ~ids.zeek-cluster~ then deploying the zeek-sensor mode only.
+
+* security.wrappers
+
+
+- search [[https://search.nix.gsc.io/?q=security.wrapper&i=fosho&files=&repos=][Hound]]
+
+
+
+** LUKS
+
+
+#+begin_src nix :async t :exports both :results output
+security.wrappers = {
+  gllock.source = "${gllock}/bin/gllock";
+  cryptsetup = {
+    source = "${pkgs.cryptsetup}/bin/cryptsetup";
+    capabilities = "cap_sys_admin+ep";
+  };
+};
+#+end_src

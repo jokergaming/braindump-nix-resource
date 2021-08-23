@@ -4,7 +4,7 @@
 #+DATE: 2021-02-23 Tue 16:39
 
 
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:
+
 
 
 

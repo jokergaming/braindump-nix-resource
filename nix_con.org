@@ -8,7 +8,7 @@
 #+DATE: 2021-01-20 Wed 13:50
 
 
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
 
 
 - tags :: [[file:guangtao_nix.org][GuangTao's Nix]], [[file:nixos.org][NixOS]]
