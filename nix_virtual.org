@@ -7,11 +7,11 @@
 #+DATE: 2021-08-01 Sun 10:29
 
 
-
-
 * NixOS On Libvritd
 :PROPERTIES:
 :ID:       366fa7a4-b898-450e-aa4a-6b5376e6b6bc
 :END:
 
 ** [[https://technicalsourcery.net/posts/nixos-in-libvirt/][Test-driving a NixOS VM using libvirt · Technichal Sourcery - Brave]]
+
+* [[https://github.com/astro/microvm.nix][astro/microvm.nix: NixOS MicroVMs]]

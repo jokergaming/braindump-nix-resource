@@ -36,3 +36,7 @@
 * Hydra Cli
 
 ** [[https://github.com/nlewo/hydra-cli][nlewo/hydra-cli: A client for the Hydra Nix CI]]
+
+* Hydra Eval Jobs
+
+** [[https://github.com/Mic92/hydra-eval-jobs][Mic92/hydra-eval-jobs: Eval nix expressions from flakes (extracted from hydra)]]

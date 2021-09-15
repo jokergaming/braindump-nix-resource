@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       56084a1b-be0e-4e62-8b0f-a4e50e237852
+:END:
 #+TITLE: Nix Lib
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
@@ -7,6 +10,9 @@
 
 - tags ::  [[file:nix_lang.org][Nix Lang]]
 
-
-
 * [[https://github.com/numtide/nix-filter][numtide/nix-filter: a small self-container source filtering lib]]
+
+
+* Pkg
+
+- ~pkgs.extend~

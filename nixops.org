@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       2a821230-1020-46c5-a05c-57c7fb793b29
+:END:
 #+TITLE: NixOps
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
@@ -52,5 +55,17 @@ File -> Virtual Media Manager -> Removed existing images (note, I removed them o
 ** [[https://github.com/nix-community/nixbox][nix-community/nixbox: NixOS Vagrant boxes [maintainer=@zimbatm]​]]
 
 ** [[https://discourse.nixos.org/t/nixops-how-to-configure-network/11947][Nixops - how to configure network - Learn - NixOS Discourse]]
+
+* Nix DevSecOps
+:PROPERTIES:
+:ID:       0642e38f-243e-4cfa-99f3-9068b5b95fca
+:END:
+
+** [[https://github.com/fluidattacks/makes][fluidattacks/makes: A DevSecOps framework powered by Nix.]] :: [[id:da6bd237-2703-4e78-8d40-6a3ebf6aa02b][CI/CD Deployment]]
+:PROPERTIES:
+:ID:       8ec9d3fd-eba0-4d74-8955-ffe4861763bc
+:END:
+
+- [2021-09-06 Mon 15:29] -> [[https://gitlab.com/fluidattacks/product/-/tree/master/][Fluid Attacks / product · GitLab]]
 
 * [[https://github.com/nix-community/nixops-gce][nix-community/nixops-gce: NixOps Google Cloud Backend]]

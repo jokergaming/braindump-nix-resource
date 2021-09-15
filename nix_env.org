@@ -1,9 +1,10 @@
+:PROPERTIES:
+:ID:       7f74a098-4ef7-49c4-9c22-c09607f017fa
+:END:
 #+TITLE: Nix Env
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-02-26 Fri 00:09
-
-
 
 
 
