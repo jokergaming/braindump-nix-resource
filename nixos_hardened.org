@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       fedd15e3-8b44-4136-90cb-be5642b556d0
+:public: true
+:END:
+#+TITLE: Hardened NixOS
+#+AUTHOR: GuangTao
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-09-23 Thu 13:36

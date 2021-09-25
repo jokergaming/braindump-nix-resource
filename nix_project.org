@@ -1,5 +1,6 @@
 :PROPERTIES:
-:ID:       f47507c9-d65a-4e11-9a2d-6cb08395f4a3
+:ID:       7313dc74-f2de-49f9-8f73-87aac798cb00
+:public: true
 :END:
 #+TITLE: Nix Project
 #+AUTHOR: GuangTao
@@ -7,13 +8,21 @@
 #+DATE: 2021-02-12 Fri 22:14
 
 
+
 * [[https://github.com/flatironinstitute/nixpack][flatironinstitute/nixpack: nix+spack = nixpack (spanix?)]]
 :PROPERTIES:
 :ID:       4a8e8da8-8178-44a0-b68d-8aaddcde0b29
 :END:
-
  - [2021-08-23 Mon 15:50] -> [[id:d1406b60-3482-4227-9bde-0ad79e2de990][spack/spack: A flexible package manager that supports multiple versions, configurations, platforms, and compilers.]]
 
 * [[https://discourse.nixos.org/t/introducing-flox-nix-for-simplicity-and-scale/11275][Introducing flox - Nix for simplicity and scale - Announcements - NixOS Discourse - Brave]]
 
 - [2021-08-23 Mon 13:51] -> [[id:b3c9df6e-64f4-4fc1-a2e5-1db7d1aff68d][Nix Flox]]
+
+
+* [[https://github.com/tweag/jupyterWith][tweag/jupyterWith: declarative and reproducible Jupyter environments - powered by Nix]]
+   :PROPERTIES:
+   :ID:       d2d3ecc6-4e75-483f-88b3-7a5d3bfbbd81
+   :END:
+
+   - [2020-11-23 Mon 20:02] <- [[id:5bad5a83-d6ab-44bd-a40d-ddcefb4928f5][add examples for mach-nix and conda by DavHau · Pull Request #135 · tweag/jupyterWith]]

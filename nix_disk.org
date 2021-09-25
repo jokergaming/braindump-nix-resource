@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       fc311b5a-259b-4d37-be55-97b9bd5f30d7
+:END:
 #+TITLE: Nix Disk
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
@@ -5,10 +8,10 @@
 
 
 
-
-
-
 * ZFS for NixOS
+:PROPERTIES:
+:ID:       49dea5fa-3196-42d8-97b7-0ad6c4bb350e
+:END:
 
 
 ** [[https://gist.github.com/mbbx6spp/637acfd52369fc80f948466aba1a6941][Encrypted ZFS for NixOS]]

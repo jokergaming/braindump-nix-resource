@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       78ca1623-fc5f-404e-8f84-ca8b4a2d7ac0
+:END:
+#+TITLE: Nix Modules
+#+AUTHOR: GuangTao
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-09-24 Fri 21:22
+
+
+* Nix Modules
+  :PROPERTIES:
+  :ID:       a931ebeb-015b-49fd-875b-682986cef960
+  :END:
+  - [2020-12-20 Sun 19:59] <- [[id:8ce6b2f8-5342-4d49-8518-5ffb551d1ec5][obsidiansystems/obelisk-systemd: Turn your obelisk app into a systemd service]]
+
+** [[https://github.com/nix-community/impermanence][nix-community/impermanence: Modules to help you handle persistent state on systems with ephemeral root storage [maintainer=@talyz]​]] :storage:

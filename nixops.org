@@ -24,6 +24,11 @@
 ** [[https://github.com/alasconnect][Ampersand / AlasConnect]]
 * [[https://github.com/tweag/terraform-nixos][tweag/terraform-nixos: A set of Terraform modules that are designed to deploy NixOS]]
 * [[https://github.com/serokell/deploy-rs/][serokell/deploy-rs: A simple multi-profile Nix-flake deploy tool.]]
+:PROPERTIES:
+:ID:       9dacfbd0-0c9e-4143-88c9-bc68c4f1191b
+:END:
+- [2021-09-24 Fri 21:38] -> [[id:7313dc74-f2de-49f9-8f73-87aac798cb00][Nix Project]]
+
 * [[https://christine.website/blog/nixops-services-2020-11-09][Nixops Services on Your Home Network - Christine Dodrill]]
 * NixOps Configuration
 :PROPERTIES:
@@ -35,8 +40,9 @@
 ** [[https://elvishjerricco.github.io/2018/06/24/secure-declarative-key-management.html][Secure, Declarative Key Management with NixOps, Pass, and nix-plugins]]
 
 * NixOps Related Problems
-
-
+:PROPERTIES:
+:ID:       85e652f6-4df6-435c-b748-0dddf0427233
+:END:
 
 ** [[https://github.com/NixOS/nixops/issues/1173][NixOps VDIs have the same UUIDs · Issue #1173 · NixOS/nixops]]
 
@@ -47,8 +53,9 @@ File -> Virtual Media Manager -> Removed existing images (note, I removed them o
 - [[https://stackoverflow.com/questions/44114854/virtualbox-cannot-register-the-hard-disk-already-exists][VirtualBox Cannot register the hard disk already exists - Stack Overflow]]
 
 * NixOps VirtualBox
-
-
+:PROPERTIES:
+:ID:       00afe0e5-fec8-465f-af8e-c379e8a5e620
+:END:
 
 ** [[https://github.com/nix-community/nixops-vbox][nix-community/nixops-vbox: NixOps VirtualBox backend [maintainer=@AmineChikhaoui]​]]
 
@@ -61,11 +68,11 @@ File -> Virtual Media Manager -> Removed existing images (note, I removed them o
 :ID:       0642e38f-243e-4cfa-99f3-9068b5b95fca
 :END:
 
-** [[https://github.com/fluidattacks/makes][fluidattacks/makes: A DevSecOps framework powered by Nix.]] :: [[id:da6bd237-2703-4e78-8d40-6a3ebf6aa02b][CI/CD Deployment]]
+** [[https://github.com/fluidattacks/makes][fluidattacks/makes: A DevSecOps framework powered by Nix.]]
 :PROPERTIES:
-:ID:       8ec9d3fd-eba0-4d74-8955-ffe4861763bc
+:ID:       b1ed36fc-b3a2-4b07-96b5-c00f9b59f2c1
 :END:
-
+- [2021-09-24 Fri 21:35] <- [[id:7313dc74-f2de-49f9-8f73-87aac798cb00][Nix Project]]
 - [2021-09-06 Mon 15:29] -> [[https://gitlab.com/fluidattacks/product/-/tree/master/][Fluid Attacks / product · GitLab]]
-
+- [2021-09-24 Fri 21:35] -> [[id:da6bd237-2703-4e78-8d40-6a3ebf6aa02b][CI/CD Deployment]]
 * [[https://github.com/nix-community/nixops-gce][nix-community/nixops-gce: NixOps Google Cloud Backend]]

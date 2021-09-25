@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       6fe42d9f-1e20-4b8a-9ce4-59cd262a0cec
+:END:
+#+TITLE: Nix2robot
+#+AUTHOR: GuangTao
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-09-24 Fri 21:15
+
+* ROS2Nix
+:PROPERTIES:
+:ID:       dc7cc7f9-fb80-46d1-89c7-cb7def5ba1f4
+:END:
+
+- [2020-10-30 Fri 02:59] -> [[id:f97dc1ae-97a8-44ca-8f94-1212d8905c12][lopsided98/nix-ros-overlay: ROS overlay for the Nix package manager]]

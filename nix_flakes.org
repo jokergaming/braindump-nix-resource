@@ -11,6 +11,9 @@
 - tags :: [[file:guangtao_nix.org][GuangTao's Nix]], [[file:nix_friday.org][Nix Friday]]
 
 * Learning Flakes
+:PROPERTIES:
+:ID:       82282e7b-2614-45e4-abf4-42993bec1726
+:END:
 
 - [[https://www.youtube.com/watch?v=98EwejpIJzE][Flakes in nix 3.0 - YouTube]]
 - [2021-02-17 Wed 15:53] -> [[https://yuanwang.ca/posts/getting-started-with-flakes.html][Getting started with Nix Flakes and devshell]]
@@ -229,10 +232,9 @@ imports = [
 
 minimal flake's expression for package
 
-** [[https://github.com/nexB/vulnerablecode/blob/main/etc/nix/flake.nix][vulnerablecode/flake.nix at main · nexB/vulnerablecode]]c :python:machix:
+** [[https://github.com/nexB/vulnerablecode/blob/main/etc/nix/flake.nix][vulnerablecode/flake.nix at main · nexB/vulnerablecode]] :python:machix:
 
 ** [[https://github.com/NixOS/nixos-search/blob/main/flake.nix][nixos-search/flake.nix at main · NixOS/nixos-search]]
-
 
 #+begin_src nix
 let
@@ -256,9 +258,11 @@ let
 
 ** [[https://github.com/dguibert/nur-packages][dguibert/nur-packages]]
 
-** [[file:nixos_discourse.org][NixOS Discourse]]
+** [[id:70eb4d89-e5fe-47f3-add6-bac2cafe952e][NixOS Discourse]]
 
 *** [[https://discourse.nixos.org/t/flake-input-schema-slash-in-branch-name/11396/4][Flake input schema: slash in branch name? - Learn - NixOS Discourse - Brave]]
+
+
 
 * Nix Flake utils Example
 

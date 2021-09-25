@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       70eb4d89-e5fe-47f3-add6-bac2cafe952e
+:END:
 #+TITLE: NixOS Discourse
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
@@ -22,4 +25,4 @@
 ** [[https://discourse.nixos.org/t/how-to-get-cuda-working-in-blender/5918/2][How to get Cuda working in Blender? - Learn - NixOS Discourse]] :cuda:
 
 * Tracking Quesitons
-** [[https://discourse.nixos.org/t/virtualgl-server-on-nixos/10212/2][Virtualgl server on NixOS - Development - NixOS Discourse]] :: [[file:~/Dropbox/org-notes/braindump/programming/julia/guangtao_julia.org][GuangTao's Julia]]
+** [[https://discourse.nixos.org/t/virtualgl-server-on-nixos/10212/2][Virtualgl server on NixOS - Development - NixOS Discourse]] ::

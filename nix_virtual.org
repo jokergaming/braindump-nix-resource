@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       9d6545d5-897a-49b0-98f3-f78ce947ed07
+:public: true
 :END:
 #+TITLE:  Nix Virtual
 #+AUTHOR: GuangTao

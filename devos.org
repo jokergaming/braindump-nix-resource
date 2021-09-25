@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       00bcd8d2-fe30-440e-8b43-107e22690cf9
+:public: true
 :END:
 #+TITLE: DevOS
 #+AUTHOR: GuangTao
@@ -13,11 +14,17 @@
 
 * [[https://github.com/divnix/devos][divnix/devos: NixOS Template]]
 
-* DevOS PR
+* DevOS PRs
+:PROPERTIES:
+:ID:       0edd329d-e6c1-400e-93fa-bf696b0ffe0f
+:END:
 
 ** DONE [[https://github.com/nrdxp/nixflk/pull/93][users: Initial home-manager only configurations(non-nixos systems) by Pacman99 · Pull Request #93 · nrdxp/nixflk]]
 
 * DevOS Users
+:PROPERTIES:
+:ID:       df18c8d2-fc2a-40a2-8715-820ff7fa9694
+:END:
 
 ** [[https://github.com/danielphan2003/flk/tree/main][danielphan2003/flk: My uwu dotfiles - flaky flake flk]]
 ** [[https://github.com/ArctarusLimited/KuiserOS][ArctarusLimited/KuiserOS: DevOS for the Enterprise.]]

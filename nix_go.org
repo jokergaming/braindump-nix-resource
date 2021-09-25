@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       1fb78671-78d7-4386-82f2-bbf9af30ea4e
+:END:
+#+TITLE: nix2go
+#+AUTHOR: GuangTao
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-09-15 Wed 15:11
+
+* [[https://github.com/tweag/gomod2nix/blob/master/builder/default.nix][gomod2nix/default.nix at master · tweag/gomod2nix]]
+:PROPERTIES:
+:ID:       04194bbe-92c2-4bd3-8e3b-632ce1160ad1
+:END:

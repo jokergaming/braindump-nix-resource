@@ -70,3 +70,9 @@
 
  - [2021-08-04 Wed 13:35] <- [[id:879e7b4a-dbd1-41c1-a2ec-f826d438379b][Advent of Code 2019]]
 ** [[https://github.com/Qu4tro/advent_of_code][Qu4tro/advent_of_code: Advent of Code in Nix]]
+* Other language implementation Nix
+:PROPERTIES:
+:ID:       7d4975a6-7f99-4008-9443-17792d97ee6b
+:END:
+
+** [[https://github.com/haskell-nix/hnix][haskell-nix/hnix: A Haskell re-implementation of the Nix expression language]] :: [[id:0710dc4f-755b-449f-9fff-6ae4067b6e38][Haskell]]

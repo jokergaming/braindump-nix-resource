@@ -1,14 +1,19 @@
+:PROPERTIES:
+:ID:       caef5532-c213-4ae9-b741-0f4f482e3a7f
+:public: true
+:END:
 #+TITLE: Nix Appimage
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-05 Tue 13:41
 
 
-
-
 - tags :: [[file:guangtao_nix.org][GuangTao's Nix]]
 
 * Appimage issues
+:PROPERTIES:
+:ID:       491d4c02-985b-4339-bbfa-02923e0e1fb2
+:END:
 
 ** [[https://discourse.nixos.org/t/failure-appimage-run-with-gsetting/4403][Failure: appimage-run with gsetting - Learn - NixOS Discourse]]
 

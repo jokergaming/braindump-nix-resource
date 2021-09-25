@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       b3c9df6e-64f4-4fc1-a2e5-1db7d1aff68d
+:public: true
 :END:
 #+TITLE: Nix Flox
 #+AUTHOR: GuangTao
