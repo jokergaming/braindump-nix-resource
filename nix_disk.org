@@ -2,7 +2,7 @@
 :ID:       fc311b5a-259b-4d37-be55-97b9bd5f30d7
 :END:
 #+TITLE: Nix Disk
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-04-11 Sun 17:35
 

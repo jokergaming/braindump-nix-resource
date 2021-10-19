@@ -2,7 +2,7 @@
 :ID:       242ba72d-7167-41ff-a81f-4493194f172b
 :END:
 #+TITLE: NixOps Land Security
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-08-18 Wed 12:53
 

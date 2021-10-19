@@ -1,15 +1,14 @@
 :PROPERTIES:
 :ID:       2a821230-1020-46c5-a05c-57c7fb793b29
+:public: true
 :END:
 #+TITLE: NixOps
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-11 Fri 00:04
 
 
-
-
-- tags :: [[file:guangtao_nix.org][GuangTao's Nix]]
+- tags :: [[id:5d8d38d8-d4a5-4174-859a-4d56893c57bb][NixOS]]
 
 * Kubernete to nixos
 ** [[https://github.com/DBCDK/kubernixos][DBCDK/kubernixos: Simple kubernetes manifest reconciler configured by NixOS modules]]
@@ -34,7 +33,7 @@
 :PROPERTIES:
 :ID:       29627e20-4e1e-4747-a96b-90ee0feb9c8e
 :END:
-- [2021-01-24 Sun 16:30] <- [[id:f23dfef4-8e6e-493c-879b-0ec301eb5755][Xe/nixos-configs: My NixOS configs]]
+ - [2021-09-24 Fri 21:46] -> [[id:77955486-fe30-4c2b-a5c0-c44db7b4c4cb][Xe/nixos-configs: My NixOS configs]]
 * NixOps Use Cases
 ** [[https://tailscale.com/blog/nixos-minecraft/][Tailscale on NixOS: A New Minecraft Server in Ten Minutes · Tailscale Blog]]
 ** [[https://elvishjerricco.github.io/2018/06/24/secure-declarative-key-management.html][Secure, Declarative Key Management with NixOps, Pass, and nix-plugins]]

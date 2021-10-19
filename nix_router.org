@@ -1,8 +1,19 @@
+:PROPERTIES:
+:ID:       b2240db9-0a54-41a9-ae3b-46f1ca593d37
+:public: true
+:END:
 #+TITLE: Nix Router
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-05-12 Wed 15:59
 
 
 
 * [[https://github.com/telent/nixwrt][telent/nixwrt: Build images for embedded MIPS SoCs using NixPkgs (experimental)]]
+:PROPERTIES:
+:ID:       08ea993c-cf25-4da2-be16-39e52691e580
+:END:
+
+* [[https://labs.quansight.org/blog/2020/07/nixos-rpi-wifi-router/][Learn NixOS by turning a Raspberry Pi into a Wireless Router | Quansight Labs]]
+
+* [[https://francis.begyn.be/blog/nixos-home-router][Using Nixos as a router]]

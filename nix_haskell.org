@@ -2,7 +2,7 @@
 :ID:       2b5a0c6b-d3a7-4958-a070-90ae7cd25ead
 :END:
 #+TITLE: Nix Haskell
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-03-06 Sat 14:41
 

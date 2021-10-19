@@ -2,7 +2,7 @@
 :ID:       8eea4b30-c7ff-4856-9e8e-7585034146f5
 :END:
 #+TITLE: Nix Daemon
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-08-28 Sat 11:05
 

@@ -2,18 +2,17 @@
 :ID:       0e51bb2b-90e4-450e-ab5b-3526e0e494e0
 :END:
 #+TITLE: kubernix
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-02-06 Sat 18:18
 
 
-
-
-
-
 * TODO [#A] [[https://github.com/saschagrunert/kubernix][saschagrunert/kubernix: Single dependency Kubernetes clusters for local testing, experimenting and development - Brave]]
 
-* TODO [#A] [[https://discourse.nixos.org/t/kubernetes-the-nixos-module-of-the-future/3922/7][Kubernetes: The NixOS-module of the future - Development - NixOS Discourse]]
+* ✘ CANCELED [#A] [[https://discourse.nixos.org/t/kubernetes-the-nixos-module-of-the-future/3922/7][Kubernetes: The NixOS-module of the future - Development - NixOS Discourse]]
+:LOGBOOK:
+- State "✘ CANCELED" from "TODO"       [2021-09-25 Sat 15:29]
+:END:
 
 * [[https://zimbatm.com/deploying-k8s-apps-with-kubenix/][Deploying Kubernetes apps with KubeNix | $ zimbatm]]
 

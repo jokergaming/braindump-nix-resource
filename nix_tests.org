@@ -1,5 +1,5 @@
 #+TITLE: NixOS Tests
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-04-24 Sat 22:58
 

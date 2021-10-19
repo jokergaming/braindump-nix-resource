@@ -1,5 +1,9 @@
+:PROPERTIES:
+:ID:       4316a4dd-2288-4bc1-a7ab-e5e1a6ae10c8
+:public: true
+:END:
 #+TITLE: Nix Registry
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-07-08 Thu 13:56
 

@@ -3,13 +3,10 @@
 :public: true
 :END:
 #+TITLE: Julia to Nix
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-20 Wed 22:42
 
-
-
-
-- tags :: [[file:../programming/guangtao_julia.org][GuangTao's Julia]]
+- tags :: [[id:00f79688-0587-4630-88bf-8bb2e23c04f0][Julia]]
 
 * [[https://github.com/thomasjm/julia2nix][thomasjm/julia2nix: Generate Nix expressions for building a Julia depot with a set of packages]]

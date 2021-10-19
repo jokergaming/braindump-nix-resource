@@ -3,6 +3,15 @@
 :public: true
 :END:
 #+TITLE: Hardened NixOS
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-09-23 Thu 13:36
+
+* Hardened Profiles
+:PROPERTIES:
+:ID:       6657fe8f-5a1b-41d3-b006-b7983d2dcd40
+:END:
+
+- [2021-09-24 Fri 22:31] -> [[id:b9195500-625a-4fa8-979e-b7f8c7b59d67][Apparmor Profiles]]
+- [2021-09-24 Fri 22:31] -> [[id:3fc12f04-6c31-4312-b3ab-eff95dd1de06][firejail]]
+* Systemd

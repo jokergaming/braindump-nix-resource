@@ -3,7 +3,7 @@
 :public: true
 :END:
 #+TITLE: Cachix
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-20 Wed 15:40
 
@@ -27,24 +27,22 @@ nix-store --query --references $(nix-instantiate my-default.nix) | xargs nix-sto
 
 - [[id:09df2341-7aa3-4f56-a823-04b4e591988d][Nix Flakes edition | $ zimbatm]]
 
-  #+begin_src sh :async t :exports both :results output
-  nix flake archive --json \
-      | jq -r '.path,(.inputs|to_entries[].value.path)' \
-      | cachix push $cache_name
-  #+end_src
+- [2021-10-04 Mon 21:09] -> [[https://docs.cachix.org/pushing#flakes][Pushing to Cachix — documentation]]
 
-- nix build -> soultion
+      - nix build -> soultion
 
-  #+begin_src sh :async t :exports both :results output
-  nix path-info --json | jq -r '.[].path' | cachix push $cache_name
-  #+end_src
+        #+begin_src sh :async t :exports both :results output
+nix build --json \
+    | jq -r '.[].outputs | to_entries[].value' \
+    | cachix push mycache
+        #+end_src
 
 
-- nix develop
+  - nix develop
 
-  #+begin_src sh :async t :exports both :results output
-  nix develop --profile dev-profiile && cachix push mycache dev-profile
-  #+end_src
+    #+begin_src sh :async t :exports both :results output
+    nix develop --profile dev-profiile && cachix push mycache dev-profile
+    #+end_src
 
 
 

@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       8dd95c55-bf66-4373-822a-a5b2e9abae29
+:public: true
+:END:
+#+TITLE: NixOS Systemd
+#+AUTHOR: GuangTao Zhang
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-10-07 Thu 21:29
+
+
+
+
+* Options
+
+** LoadCredential
+- [2021-10-07 Thu 21:30] -> [[https://github.com/NixOS/nixpkgs/issues/101389#issuecomment-841704851][nixos/acme: 20.03 -> 20.09 regression with opensmtpd · Issue #101389 · NixOS/nixpkgs]]
+
+
+
+
+#+begin_src nix :async t :exports both :results output
+systemd.services.opensmtpd.serviceConfig.LoadCredential = [
+"cert.pem:${certDir}/cert.pem"
+"key.pem:${certDir}/key.pem"
+];
+#+end_src

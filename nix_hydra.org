@@ -1,12 +1,12 @@
 #+TITLE: NixOS hydra Channel
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-08 Tue 16:32
 
 
 
 
-- tags :: [[file:guangtao_nix.org][GuangTao's Nix]], [[file:nixos.org][NixOS]]
+- tags :: [[file:guangtao_nix.org][GuangTao Zhang's Nix]], [[file:nixos.org][NixOS]]
 
 * Hydra [[https://hydra.nixos.org/build/138335796/download/1/hydra/installation.html][Installation]]
 * [[https://github.com/nix-community/hydra-check][nix-community/hydra-check: check hydra for the build status of a package maintainer=@makefu]]

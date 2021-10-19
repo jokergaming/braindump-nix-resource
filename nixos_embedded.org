@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       85478c71-8a74-49c2-b8d5-e380102e6f71
+:END:
+#+TITLE: NixOS Embedded
+#+AUTHOR: GuangTao Zhang
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-09-25 Sat 13:18
+
+
+
+* [[https://github.com/cleverca22/not-os][cleverca22/not-os: An operating system generator, based on NixOS, that, given a config, outputs a small (47 MB), read-only squashfs for a runit-based operating system, with support for iPXE and signed boot.]]

@@ -3,7 +3,7 @@
 :public: true
 :END:
 #+TITLE: Nix Project
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-02-12 Fri 22:14
 

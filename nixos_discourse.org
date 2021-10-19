@@ -2,7 +2,7 @@
 :ID:       70eb4d89-e5fe-47f3-add6-bac2cafe952e
 :END:
 #+TITLE: NixOS Discourse
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-20 Wed 15:35
 #+PUBLIC: true

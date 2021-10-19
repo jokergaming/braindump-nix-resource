@@ -1,12 +1,12 @@
 #+TITLE: Nix Deploy
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-20 Wed 15:13
 
 
 
 
-- tags :: [[file:guangtao_nix.org][GuangTao's Nix]]
+- tags :: [[file:guangtao_nix.org][GuangTao Zhang's Nix]]
 
 * Nix Deployments
 :PROPERTIES:

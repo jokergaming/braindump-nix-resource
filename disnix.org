@@ -3,13 +3,13 @@
 :public: true
 :END:
 #+TITLE: Disnix
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-30 Wed 14:58
 
 
 
-- tags :: [[file:guangtao_nix.org][GuangTao's Nix]], [[file:../deployment/devops.org][DevOps]]
+- tags :: [[file:guangtao_nix.org][GuangTao Zhang's Nix]], [[file:../deployment/devops.org][DevOps]]
 
 * Learning Disnix
 :PROPERTIES:

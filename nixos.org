@@ -1,13 +1,12 @@
+:PROPERTIES:
+:ID:       5d8d38d8-d4a5-4174-859a-4d56893c57bb
+:END:
 #+TITLE: NixOS
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-28 Sat
 
-
-
-
-
-- tags :: [[file:~/Documents/org-notes/braindump/system/linux.org][Linux]], [[file:guangtao_nix.org][GuangTao's Nix]], [[file:~/Documents/org-notes/braindump/system/system.org][System]], [[file:nix_search.org][Nix Search]]
+- tags :: [[id:7a7a5fa6-9d65-4623-a296-c35a38e1ce69][System]]
 
 * Why NixOS
 :PROPERTIES:
@@ -54,13 +53,16 @@
 ** [[https://nixos.wiki/wiki/Module][Module - NixOS Wiki]]
 ** [[https://github.com/NixOS/hydra][NixOS/hydra: Hydra, the Nix-based continuous build system]]
 ** [[https://planet.nixos.org/][NixOS Planet]]
-* NixOS Image
-** [[https://github.com/nix-community/nixos-generators][nix-community/nixos-generators: Collection of image builders [maintainer=@Lassulus]​]]
+
 * Users's config
 ** [[https://github.com/leotaku/nixos-config][leotaku/nixos-config: A git repository to store my nix configurations in]]
 ** [[https://github.com/babariviere/dotfiles][babariviere/dotfiles: Personal dotfiles]] :flakes:
 ** [[https://github.com/kmein/niveum/tree/master/modules][niveum/modules at master · kmein/niveum]]
 ** [[https://github.com/Xe/nixos-configs][Xe/nixos-configs: My NixOS configs]] :nixops:
+:PROPERTIES:
+:ID:       77955486-fe30-4c2b-a5c0-c44db7b4c4cb
+:END:
+- [2021-09-24 Fri 21:46] <- [[id:29627e20-4e1e-4747-a96b-90ee0feb9c8e][NixOps Configuration]]
 * NixOS Flakes
 ** [[https://nrdxp.dev/nixos/2020/12/19/NixOS-Flakes-and-KISS.html][NixOS, Flakes and KISS | nrdxp]]
 * NixOS Network

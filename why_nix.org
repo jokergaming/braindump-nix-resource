@@ -1,11 +1,10 @@
+:PROPERTIES:
+:ID:       971d8d20-21e6-47db-ac3f-54f3210a76a9
+:END:
 #+TITLE: Why Nix
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-02-27 Sat 12:53
-
-
-
-
 
 
 * [[https://serokell.io/blog/what-is-nix][What Is Nix and Why You Should Use It]]

@@ -1,12 +1,12 @@
 #+TITLE: NixOS Weekly
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-20 Wed 13:54
 
 
 
 
-- tags :: [[file:guangtao_nix.org][GuangTao's Nix]]
+- tags :: [[file:guangtao_nix.org][GuangTao Zhang's Nix]]
 
 * [[https://weekly.nixos.org/][NixOS Weekly]]
 ** INPROCESS [#B] [[https://weekly.nixos.org/2021/01-nixos-weekly-2021-01.html][NixOS Weekly]] #01 - NixOS Weekly

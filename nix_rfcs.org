@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       c60ad950-8f22-42b6-967b-60345f278393
+:public: true
+:END:
+#+TITLE: Nix Rfcs
+#+AUTHOR: GuangTao Zhang
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-10-08 Fri 21:00
+
+
+
+
+* [[https://github.com/Ericson2314/nix-rfcs/blob/plan-dynamism/rfcs/0000-plan-dynanism.md][nix-rfcs/0000-plan-dynanism.md at plan-dynamism · Ericson2314/nix-rfcs]]

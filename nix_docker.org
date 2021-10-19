@@ -2,7 +2,7 @@
 :ID:       ac08228e-6215-472e-b3df-88ce3a17078e
 :END:
 #+title: Nix to Docker
-#+author: GuangTao
+#+author: GuangTao Zhang
 #+email: gtrunsec@hardenedlinux.org
 #+date: 2021-01-21 Thu 23:54
 

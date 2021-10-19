@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       874305b8-611b-49f8-8607-ffb8a5b8578c
+:public: true
+:END:
+#+TITLE: 2nix
+#+AUTHOR: GuangTao Zhang
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-10-09 Sat 14:26
+
+
+* [[https://github.com/DavHau/dream2nix][DavHau/dream2nix: A generic framework for 2nix tools]]

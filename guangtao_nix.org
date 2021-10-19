@@ -1,11 +1,11 @@
-#+TITLE: GuangTao's Nix
-#+AUTHOR: GuangTao
+#+TITLE: GuangTao Zhang's Nix
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-29 Sun
 
 #+OPTIONS: prop:t p:t
 
-- tags :: [[file:nixos.org][NixOS]], [[file:nirg][NixOps]], [[file:../guangtao_learning_programming_languages.org][GuangTao's learning Programming languages]], [[file:nix_wiki.org][Nix Wiki]]
+- tags :: [[file:nixos.org][NixOS]], [[file:nirg][NixOps]], [[file:../guangtao_learning_programming_languages.org][GuangTao Zhang's learning Programming languages]], [[file:nix_wiki.org][Nix Wiki]]
 
 * Nix Documents
   :PROPERTIES:
@@ -37,7 +37,7 @@
 ** wiki
    - https://nixos.wiki/wiki/Language-specific_package_helpers
 
-** Nix [[file:../programming/guangtao_python.org][GuangTao's Python]]
+** Nix [[file:../programming/guangtao_python.org][GuangTao Zhang's Python]]
    :PROPERTIES:
    :ID:       f08fdb79-58f8-4186-b890-06e1486702e9
    :END:
@@ -47,7 +47,7 @@
 nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
     #+end_src
 
-** Nix [[file:../programming/guangtao_golang.org][GuangTao's Golang]]
+** Nix [[file:../programming/guangtao_golang.org][GuangTao Zhang's Golang]]
    :PROPERTIES:
    :id:       33107453-baf3-4e27-871b-833b93f5ad76
    :END:
@@ -59,7 +59,7 @@ nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
     - [[https://discourse.nixos.org/t/build-golang-code-provided-not-as-go-module/9543/10][Build GoLang code provided not as Go module - Learn - NixOS Discourse]]
 
 
-** Nix [[file:../programming/guangtao_golang.org][GuangTao's Golang]]
+** Nix [[file:../programming/guangtao_golang.org][GuangTao Zhang's Golang]]
 
 *** C/C++ Nix infrastructure
     :PROPERTIES:
@@ -69,7 +69,7 @@ nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
     - [2020-11-07 Sat 22:56] -> [[id:2cac43cc-1cbd-4092-a275-83856018a0a8][Nix Friday - C/CPP infrastructure in Nix - with Mic92 - YouTube]]
 
 **** Workflows
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-07-22 Thu 18:02
 
@@ -230,5 +230,3 @@ nix develop \
 *** [[https://discourse.nixos.org/t/tweag-nix-dev-update-2/6808][Tweag + Nix Dev Update #2 - Development - NixOS Discourse]]
 
 *** [[https://discourse.nixos.org/t/tweag-nix-dev-update/6525][Tweag + Nix Dev Update - Development - NixOS Discourse]]
-
-

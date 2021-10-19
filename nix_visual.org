@@ -2,7 +2,7 @@
 :ID:       cdbd2bd8-b041-42d7-a534-ad30da4f0b8d
 :END:
 #+TITLE: Nix2Visual
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-09-24 Fri 21:20
 

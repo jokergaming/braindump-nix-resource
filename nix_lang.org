@@ -1,5 +1,5 @@
 #+TITLE: Nix Lang
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-20 Wed 15:17
 
@@ -9,7 +9,7 @@
 
 
 
-- tags :: [[file:guangtao_nix.org][GuangTao's Nix]]
+- tags :: [[file:guangtao_nix.org][GuangTao Zhang's Nix]]
 
 
 * ✰ IMPORTANT [[https://nixos.wiki/wiki/Nix_Expression_Language][Nix Expression Language - NixOS Wiki]]

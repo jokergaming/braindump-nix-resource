@@ -1,5 +1,9 @@
+:PROPERTIES:
+:ID:       ede96c51-9e0e-413f-9ddf-a8969cfe1293
+:public: true
+:END:
 #+TITLE: Nix Android
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-02-25 Thu 17:36
 
@@ -8,3 +12,5 @@
 
 
 * [[https://github.com/tadfisher/android-nixpkgs][tadfisher/android-nixpkgs: Nix-packaged Android SDK]]
+
+* [[https://github.com/danielfullmer/robotnix][danielfullmer/robotnix: Build Android (AOSP) using Nix]]

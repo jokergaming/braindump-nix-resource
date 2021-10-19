@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       1dff2222-737f-434f-bbd4-9e3ad4aa6324
+:END:
+#+TITLE: NixOS Images
+#+AUTHOR: GuangTao Zhang
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-09-24 Fri 21:53
+
+
+* [[https://github.com/nix-community/nixos-generators][nix-community/nixos-generators: Collection of image builders [maintainer=@Lassulus]​]]
+:PROPERTIES:
+:ID:       8c4ab945-8e1f-405d-8c75-f9ea7c2b52ba
+:END:

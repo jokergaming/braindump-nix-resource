@@ -2,7 +2,7 @@
 :ID:       60faf639-e7cd-4523-b03a-a970ae5e6b50
 :END:
 #+TITLE: NixOS with ZFS and LUKS
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-08-18 Wed 12:49
 

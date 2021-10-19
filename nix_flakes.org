@@ -3,12 +3,12 @@
 :public: true
 :END:
 #+TITLE: Nix Flakes
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-16 Sat 23:35
 
 
-- tags :: [[file:guangtao_nix.org][GuangTao's Nix]], [[file:nix_friday.org][Nix Friday]]
+- tags :: [[file:guangtao_nix.org][GuangTao Zhang's Nix]], [[file:nix_friday.org][Nix Friday]]
 
 * Learning Flakes
 :PROPERTIES:
@@ -26,6 +26,8 @@
 :PROPERTIES:
 :ID:       0fbe152b-bad6-4054-a201-c51ab509ed73
 :END:
+- [2021-09-27 Mon 01:54] -> [[https://blog.ysndr.de/posts/internals/2021-01-01-flake-ification/][y|sndr - Building with Nix Flakes for, eh .. reasons!]]
+
 - [2020-11-20 Fri 02:31] <- [[id:0ba37b42-f3e7-453a-b021-3f817b9264e8][Pushing Flake inputs to Cachix]]
 - [2020-11-20 Fri 02:28] <- [[id:2e37c4e9-b74d-490c-9b12-fc5aade3de68][Nix Friday - Flakes! - YouTube]]
 - [2020-11-09 Mon 22:30] -> [[id:fdf6b3e7-b611-449e-889b-bd8398b252e1][Nix flake issue]]

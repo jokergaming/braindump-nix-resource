@@ -1,5 +1,5 @@
 #+TITLE: Nix Nur Packages
-#+AUTHOR: GuangTao
+#+AUTHOR: GuangTao Zhang
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-05-05 Wed 10:54
 
